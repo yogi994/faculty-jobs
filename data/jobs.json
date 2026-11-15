@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T14:40:19.336Z",
+  "updatedAt": "2026-11-15T19:41:59.390Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -17,9 +17,13 @@
       "ok": true,
       "count": 220
     },
+    "linkedin": {
+      "ok": true,
+      "count": 18
+    },
     "googleNews": {
       "ok": true,
-      "count": 226
+      "count": 230
     }
   },
   "jobs": [
@@ -34,7 +38,139 @@
       "summary": "Pandit Deendayal Upadhyaya National Institute for Persons with Physical Disabilities (Divyangjan) in New Delhi has invited qualified professionals to work as Visiting Guest Faculty for its Master of Physiotherapy (MPT) course, Semester II. This Visiting Guest Faculty Recruitment is for the subject o",
       "subjectMatch": false,
       "preferred": false,
+      "matchScore": 57,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Visiting post: a step down from her permanent job"
+        }
+      ],
       "id": "1139f1a0d059",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "GL Bajaj Institute of Technology and Management",
+      "url": "https://www.linkedin.com/jobs/view/4489531698",
+      "region": "UP-NCR",
+      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "postedAt": "2026-11-13",
+      "lastDate": null,
+      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "details": "GL Bajaj (Institute of Technology & Mgmt.) – A Glimpse!Passionate education provider in multi disciplines at undergraduate and postgraduate level (B.Tech, MBA, MCA)Vibrant Learning Ecosystem on the campus, has inspired and brilliant students.GL Bajaj Group was incepted in year 1997, carrying a winning legacy of 12 institutions running diverse higher education programs.GL Bajaj Group, has +14,000 students, +800 faculty members, 12 institutions, and 6 campuses with +300 acres of land.NAAC A+ accredited, 4 stars from Ministry of Education, NIRF rank holder, Research & Incubation centre, Entrepreneurship development and top quality placement for studentsVision to give globally competent & socially sensitive professionals to the society.Highly inquisitive students who take risks, experiment, and put novel ideas into action.Sharpens the Technical as well as Life Skills of students – Developing young leaders.Have world class collaborative LEARNING infrastructure for teaching & learning practices.Hiring Distinguished faculty members from the Institutes of repute. We nurture versatile INTRAPRENEURs.Our core belief is in nurturing Diverse, inclusive, equity knowledge gemsHi – Tech Campus has a beautiful, serene environment & students enjoy learning.Believes in relentless change and desire to improve.We are looking for passionate researchers/out of box thinkers/academicians who have a go-getter attitude, have fire to innovate, works with technology driven progressive mindset and execute the concept of sustainability in each task (paperless) in learning process delivery. We are offering to the right candidate an excellent compensation package along with the tools and the environment to foster intellect and new ideas. If you want to CONTRIBUTE meaningful to the society at large,join us & Find your SPARK!ABOUT JOBDesignation: Assistant Professor in CSE and Allied BranchesJob Purpose & Role: To teach, research and serve the Institution for academic, institutional & student’s growth & development.WORK Responsibilities:LEARNING & TEACHINGTo develop and teach undergraduate and graduate courses in CORE Computer Science & Allied courses. Command on Subjects like: Programming Fundamentals via language C/C++, JAVA, Python Data Structures & Algorithms Operating Systems Computer Architecture & Organisation Object Oriented Programming (OOP)Software Engineering Design & Analysis of Algorithms Computer Networks, Compiler Designs, DevOps Artificial Intelligence, Machine Learning Deep",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (mca)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "1f2a6a2bd966",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor - Quantitative Techniques & Business Analytics",
+      "org": "UDIT - University of Design, Innovation and Technology",
+      "url": "https://www.linkedin.com/jobs/view/4487879639",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-11",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "Every management student at UDIT will write code, question data and build models before they graduate. We are looking for the person who makes that possible.UDIT is India's foremost university built from first principles for those who want to create, where design, technology and management converge. Our School of Management treats business as a creative discipline. Where business gets built.This role sits at the centre of the management school. You will build the quantitative spine of our BBA common core: statistics for business decisions, Python taught from first principles to students who have never coded, and data science foundations including regression, forecasting and experimentation. You will lead the analytical side of our AI Fluency Lab, and work with colleagues in finance, marketing and technology so that every BBA student can build an analysis and defend it.You will not deliver lectures followed by exams. At UDIT, courses run as two-to-six-week projects co-taught by faculty teams, and students defend their work before a jury. You will help build a data lab, a library of real datasets and analytics projects with companies across Gurugram.You bring:A PhD in Statistics, Econometrics, Operations Research, Data Science, Business Analytics or a related field.A Master's degree with at least 55% marks, as per UGC norms.A research record and evidence of effective teaching.Fluency in Python for data analysis and modelling.Industry experience as a data scientist, analyst or quantitative researcher is strongly preferred.To apply, send your CV and a two-page project brief to hr@udit.edu.in. Tell us about a project you would run with first-year students who have never coded: what they would make, and how you would judge it. (Not case studies. Real work.)",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 80,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (business analytics): partly her field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: her first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        },
+        {
+          "ok": true,
+          "text": "Wants research-methods skills she has (SPSS / PLS-SEM / NVivo)"
+        }
+      ],
+      "id": "bc9fcafd318c",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "O.P. Jindal Global University (JGU)",
+      "url": "https://www.linkedin.com/jobs/view/4488301221",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-10",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "Job DescriptionSchool: Jindal School of Journalism and Communication (JSJC)Position: Assistant ProfessorLocation: O.P. Jindal Global University, Sonipat, HaryanaAbout the SchoolJindal School of Journalism and Communication (JSJC) at O.P. Jindal Global University is a leading institution dedicated to media, journalism, communication, and related interdisciplinary studies.The school offers three undergraduate programs:• BA in Journalism and Media Studies• BA in Film and New Media• BA in Corporate Communication and Public AffairsIt also offers two postgraduate programmes, including the MA in Political Communication.Position Overview.JSJC invites applications from dynamic, motivated, and experienced professionals for a full-time faculty position at the level of Assistant Professor.The selected candidate will be expected to teach courses across the BA in Corporate Communication and Public Affairs and the MA in Political Communication programmes.Areas of SpecialisationCandidates with academic and professional expertise in one or more of the following areas are encouraged to apply:• Advertising and Strategic Communication• Digital Strategy and Audience Engagement• Political Communication and Digital BrandingEssential Qualifications and Experience• PhD or Master's degree in Journalism, Mass Communication, Film Studies, Media Production, or a related discipline.• 8 to 10 years of relevant professional or academic experience.• Teaching experience is desirable but not mandatory.Application RequirementsInterested candidates are requested to submit the following:Updated Curriculum Vitae.Cover LetterContact details of two professional or academic references.Portfolio of relevant work, wherever applicable.Work Location: O.P. Jindal Global University, Sonipat, Haryana.Join us and contribute to shaping the next generation of media and communication professionals.",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 42,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (journalism)"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 8+ years' experience; she has under 3"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        }
+      ],
+      "id": "f2021cebdeac",
       "firstSeen": "2026-11-15"
     },
     {
@@ -48,6 +184,29 @@
       "query": "\"assistant professor\" management recruitment Delhi",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
       "id": "cb89c71d9f2d",
       "firstSeen": "2026-11-15"
     },
@@ -64,6 +223,29 @@
       "advtNo": "SVSU/2026/Estt./Cont./058",
       "subjectMatch": false,
       "preferred": false,
+      "matchScore": 40,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        },
+        {
+          "ok": false,
+          "text": "Skill assistant post: a step down from her permanent job"
+        }
+      ],
       "id": "91199ae0b4df",
       "firstSeen": "2026-11-15"
     },
@@ -78,7 +260,100 @@
       "summary": "National Institute of Technology Kurukshetra in Haryana has invited Indian nationals with excellent academic and professional records to apply for engagement as Adjunct Faculty in 13 departments, under Advertisement No. 35/2026. This Adjunct Faculty Recruitment is a rolling advertisement with no fix",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 49,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Adjunct post: a step down from her permanent job"
+        }
+      ],
       "id": "e9303617cf0e",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant/Associate Professor- General Management & Strategy/ Finance & Accounting/ Business Analytics",
+      "org": "Jaipuria Institute of Management",
+      "url": "https://www.linkedin.com/jobs/view/4484349807",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-02",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "Faculty Vacancy in the area of General Management & Strategy/ Finance & Accounting/ Business Analytics at Jaipuria Institute of Management, Jaipur Campus.About the CompanyJaipuria Institute of Management, a part of the renowned Jaipuria Group of Institutions, is dedicated to excellence in management education. With a legacy spanning over two decades, the Institute is recognized for its innovative pedagogy, industry-focused curriculum, and robust research ecosystem. Consistently ranked among India’s top business schools, Jaipuria is committed to nurturing leadership and fostering holistic development.All four campuses (Lucknow, Noida, Jaipur, and Indore) of Jaipuria Institute of Management are accredited with the AACSB and is recognized as BEST WORKPLACE IN EDUCATION AND TRAINING. Faculty DisciplinesWe are inviting applications for faculty positions in the discipline of General Management & Strategy/ Finance & Accounting/ Business Analytics for Jaipuria Institute of Management, Jaipur Campus:Specialization subjects: Finance/ Accounting/ Corporate Finance/Accounting for leases/Buyback of shares and bonus shares and its accounting treatment/Strategic Management /Design Thinking /Entrepreneurship/Business Analytics/ Programming for Business Analytics/ Machine learning / Algorithmic Trading/ Artificial Intelligence/ Python ProgrammingQualification: PhD with area specialization in Finance & Accounting/ Management / Business Analytics (PhD from Top 100 NIRF ranked Universities / Institutions or top 200 QS Global ranked Universities are preferred) .Eligibility CriteriaProfessorApplicants for the Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills.Minimum of 10 years of teaching/research experience with a top ranked Universities/Institution.Ph.D. degree from a top 100 NIRF-rated institute/ universities or a top 200 QS university.Associate ProfessorApplicants for the Associate Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills.Minimum of 8 years of teaching/research experience with a top ranked Universities/Institution.Ph.D. degree from a top 100 NIRF-rated universities/ institution or a top 200 QS university.Flexi Track for FacultyAt Jaipuria Institute of Management, we understand the diverse aspirations of academicians. OurFlexible Faculty Tracks allow individuals to focus",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 66,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Commerce / finance / accounting: her teaching area"
+        },
+        {
+          "ok": true,
+          "text": "Assistant or Associate: she fits the Assistant level"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: she wants to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "181cbe4033c3",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "JK Lakshmipat University, Jaipur",
+      "url": "https://www.linkedin.com/jobs/view/4484337858",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-02",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "About Organisation:Founded in 2011 by the 141-year-old J.K. Organisation (JKO), JK Lakshmipat University (JKLU) continues JKO's legacy of excellence and commitment to nation-building. Accredited with an 'A' grade by NAAC, JKLU is at the forefront of innovation, blending academia with industry through its interdisciplinary programs in engineering, management, and design. For more information, please visit www.jklu.edu.inJob Overview:The Institute of Engineering & Technology (IET) at JKLU is seeking dynamic and committed Faculty members at the Assistant Professor level, particularly in the domains of Machine Learning/ Artificial Intellegence and Cloud Computing. These positions are critical to strengthening IET’s growing focus on advanced computing, AI-driven innovation, and future-ready engineering education.The selected faculty members will contribute to the institute’s mission of delivering high-quality engineering education, advancing research, and nurturing an innovation-centric academic culture. They will play a pivotal role in undergraduate and postgraduate teaching, developing cutting-edge research agendas, mentoring industry-oriented projects, and supporting key institutional initiatives aligned with emerging technologies.These faculty opportunities are ideal for academicians who demonstrate deep expertise in statistics and its subfields, a commitment to continuous professional development, and a passion for fostering high-impact learning environments.The ideal candidates will showcase strong research orientation, experience with contemporary pedagogical approaches, and the ability to collaborate with industry, research bodies, and internal stakeholders to enhance the institute’s academic standing and societal impact. The roles offer substantial scope for academic leadership, interdisciplinary collaboration, and professional growth while contributing meaningfully to student success and IET’s long-term vision.QualificationsEducational Background: A PhD from a recognised institution in Computer Science onlyA strong record of scholarly research, including publications in peer-reviewed journals and contributions to the field.Why JKLUIndustry-Leading Compensation: We benchmark faculty salaries with the Pay Commission of the Government of India.Inclusivity: We foster an inclusive environment that celebrates diversity and ensures equal opportunities for all faculty and staff.State-of-the-Art Facilities: JKLU ensures faculty members have access to the lates",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 30,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (engineering)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: she wants to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "89b9e0768e78",
       "firstSeen": "2026-11-15"
     },
     {
@@ -92,7 +367,65 @@
       "summary": "Bhagini Nivedita College (University of Delhi), Kair, New Delhi has announced a walk-in interview for two Assistant Professor posts on guest basis in the Department of Home Science. The subjects are Human Development and Childhood Studies (HDCS) and Human Development and Family Empowerment (HDFE), a",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 57,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Guest post: a step down from her permanent job"
+        }
+      ],
       "id": "17e1389133dd",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor – Marketing",
+      "org": "School of Inspired Leadership",
+      "url": "https://www.linkedin.com/jobs/view/4484169634",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-10-29",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "Role ObjectiveSOIL School of Business Design is seeking an academically accomplished and industry-relevant faculty member in Marketing with expertise in both foundational marketing disciplines and emerging areas of digital and technology-driven marketing.The incumbent will be responsible for delivering high-quality teaching, developing contemporary curricula, mentoring students, and contributing to impactful research. The ideal candidate should be capable of teaching core marketing courses while bringing specialized expertise in areas such as Growth Marketing, Digital Analytics, Marketing Technology (MarTech), Generative AI, Agentic Automation, Revenue Management, Digital Commerce, and AI-enabled customer experiences.The role requires a forward-looking educator who can bridge marketing theory, data-driven decision-making, emerging technologies, and real-world industry applications through experiential learning, live projects, case studies, and industry engagement.Key Responsibilities1. Teaching Excellence & Curriculum DevelopmentDesign, develop, and deliver engaging courses across foundational marketing disciplines, including Marketing Management, Consumer Behaviour, Brand Management, Market Research, and Strategic Marketing.Teach specialized, new-age marketing courses aligned with evolving industry practices and technological advancements. These may include:Growth Marketing & Digital Analytics: Growth strategy, performance marketing, marketing funnels, customer acquisition, conversion optimization, attribution, and data-driven campaign measurement.MarTech & AI-Driven Creator Economy: Marketing technology ecosystems, marketing automation, creator and influencer marketing, AI-enabled content strategies, and creator-led business models.AI-Driven Marketing: Generative AI & Agentic Automation: Applications of Generative AI in marketing, AI-powered campaign development, personalization, marketing workflows, and agentic automation in marketing operations.Pricing Strategies & Revenue Management: Pricing frameworks, customer willingness to pay, price optimization, revenue management, and data-driven pricing decisions.Digital Commerce Strategy: Retail Media & Lifecycle Marketing: Digital commerce strategy, retail media networks, customer lifecycle management, retention, loyalty, and customer lifetime value.Immersive Retail & AI: AI-enabled retail experiences, immersive commerce, virtual shopping experiences, personalization, and emerging applications of AI in retai",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 77,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (marketing): partly her field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: her first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "b34302ec130b",
       "firstSeen": "2026-11-15"
     },
     {
@@ -106,6 +439,25 @@
       "summary": "Delhi Technological University, Delhi has released Advertisement No. 04/2026 for Assistant Professor Recruitment, including backlog vacancies with a special drive for the PwBD category. A total of 219 vacancies are open across 24 disciplines, including Computer Science and Engineering, Civil Enginee",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 56,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (computer)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
       "id": "cd832eb55c63",
       "firstSeen": "2026-11-15"
     },
@@ -120,7 +472,61 @@
       "summary": "Jaipur National University in Jaipur, Rajasthan, has invited applications for a wide range of teaching, non-teaching and medical positions. The openings include Directors, Heads of Departments, Professors, Associate Professors and Assistant Professors, along with posts such as Deputy Registrar, Plac",
       "subjectMatch": false,
       "preferred": false,
+      "matchScore": 46,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: she wants to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
       "id": "518601b62768",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "GL Bajaj Institute of Management",
+      "url": "https://www.linkedin.com/jobs/view/4483861317",
+      "region": "UP-NCR",
+      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "postedAt": "2026-10-28",
+      "lastDate": null,
+      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "details": "TEACHING STAFF/ NON TEACHING STAFFDepartment of Computer Application (BCA)Department of Management (BBA)Teaching StaffHead-BBA, Head-BCAProfessor / Associate Professor / Assistant ProfessorNon Teaching StaffHead-T&P, Executive-T&PAsst. Librarian | Library Asst. | Administrative OfficerSystem Administrator | Accountant | Asst. Accountant | Lab AssistantOffice Assistant, PA to Principal, Ministerial Staff, Front Desk ExecutiveQualification, Experience & Salary as per UGC/University Norms.Experience:Professor: Minimum 10–15 years (PhD mandatory preferred)Associate Professor: Minimum 8–10 years (PhD preferred)Assistant Professor: Minimum 0–5 years (NET/SET/PhD preferred)PhD candidates will be given preference.Interested Candidate may send their applications by email to:recruitmentglbim@gmail.com",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 75,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "a74e69fde40e",
       "firstSeen": "2026-11-15"
     },
     {
@@ -134,6 +540,29 @@
       "summary": "Date Posted: October 27, 2026 Institution Name: National Institute of Food Technology Entrepreneurship and Management (NIFTEM), Kundli Advertisement No.: AES-17011/8/2026-Conf_hall, dated 23.10.2026 NIFTEM has released the NIFTEM Kundli Recruitment 2026 notification inviting applications from Indian",
       "subjectMatch": true,
       "preferred": false,
+      "matchScore": 59,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (entrepreneurship): partly her field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Contract post: a step down from her permanent job"
+        }
+      ],
       "id": "ac015db2b9cc",
       "firstSeen": "2026-11-15"
     },
@@ -150,6 +579,25 @@
       "advtNo": "IIITS/Estt./Rect./2026/04",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
       "id": "18683ae54f79",
       "firstSeen": "2026-11-15"
     },
@@ -164,6 +612,25 @@
       "summary": "National Institute of Technology (NIT) Delhi, Delhi, has announced this Assistant Professor Recruitment through a walk-in interview in the discipline of Mathematics, Department of Applied Sciences, Humanities and Management. One vacancy is available on a purely temporary basis for the Autumn Semeste",
       "subjectMatch": true,
       "preferred": false,
+      "matchScore": 84,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
       "id": "69723984f988",
       "firstSeen": "2026-11-15"
     },
@@ -178,6 +645,29 @@
       "query": "\"assistant professor\" management recruitment Delhi",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 70,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
       "id": "60fb305dc60e",
       "firstSeen": "2026-11-15"
     },
@@ -192,7 +682,61 @@
       "summary": "Prabhudhan Degree College in Churu District, Rajasthan has announced a Faculty Vacancy in Computer Science, Management (MBA), and English. The college is also hiring for non-teaching posts in Sports, Marketing, Library, and Admission Counselling. Candidates with a postgraduate degree in the relevant",
       "subjectMatch": true,
       "preferred": false,
+      "matchScore": 58,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: she wants to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
       "id": "a192e7540c06",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "Faculty Of Computer Science And Applications VGU Jaipur",
+      "url": "https://www.linkedin.com/jobs/view/4480865133",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-10-17",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "DepartmentDepartment of Development StudiesLocationJaipurExperience3-5 YearsTypeFull TimeJob DescriptionRequirement Profile Qualification: Ph.D, Net (Mandatory) Specialization: History Experience: 3-5 Years Skills: Curriculum Design and outcome-Based Education (OBEC), ict-Enabled Teaching and learning, Digital Humanities, Heritage an Cultural Resource Studies Brief Job Description The Assistant Professor of History is responsible for delivering high-quality teaching, conducting scholarly research, and contributing to the academic development of the department. The role includes preparing and delivering lectures, assessing student performance, mentoring students, developing curriculum, engaging in research and publications, participating in departmental committees, and supporting institutional activities. The incumbent is expected to uphold academic integrity, foster critical thinking, and contribute to a collaborative and inclusive learning environment.. The appointment will enhance research productivity, strengthen archival and heritage studies, improve student mentoring, and support accreditation and quality assurance initiatives.Apply NowAssistant ProfessorDepartment of Development StudiesApply for This Position → 🔍 Check Application Status📍 Jaipur, Rajasthan✉ careers@vgu.ac.in📞 1800 3131 415← All Openings",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 30,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (design)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: she wants to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats her current salary"
+        }
+      ],
+      "id": "4c2e8234436d",
       "firstSeen": "2026-11-15"
     },
     {
@@ -206,6 +750,25 @@
       "summary": "Faculty Recruitment 2026 notification announced by Gautam Buddha University, Greater Noida, Uttar Pradesh - Assistant Professor , Associate Professor and Professor Jobs. Eligible candidates may apply by Postal Date Posted: 15th October 2026 Hiring Organization: Gautam Buddha University Organization ",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
       "id": "851de597867c",
       "firstSeen": "2026-11-15"
     },
@@ -220,6 +783,29 @@
       "summary": "Teaching Faculty recruitment notification 2026 announced by the Central University of Haryana - Guest Faculty Jobs. Eligible candidates may Walk-In Date Posted: 9th October 2026 Hiring Organization Name: Central University of Haryana Organization Profile: Central University of Haryana is one of the ",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 49,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Guest post: a step down from her permanent job"
+        }
+      ],
       "id": "e39cd44f6910",
       "firstSeen": "2026-11-15"
     },
@@ -234,6 +820,29 @@
       "summary": "A Walk-in Interview for Visiting Faculty in the Department of Chemistry, Gurugram University, on a purely temporary basis, in accordance with the norms and guidelines of Gurugram University is scheduled as under: Date Posted: 6th October 2026 Hiring Organization: Gurugram University, Haryana Organiz",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 45,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (chemistry)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: her first choice"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Visiting post: a step down from her permanent job"
+        }
+      ],
       "id": "68ef992c57cd",
       "firstSeen": "2026-11-15"
     },
@@ -248,6 +857,29 @@
       "summary": "Aditi Mahavidyalaya, Delhi has announced vacancies for the post of Guest Faculty for the academic year 2026-2027 . Interested candidates may apply through Online Date Posted: 5th October 2026 Hiring Organization: Aditi Mahavidyalaya, Delhi Organization Profile: Aditi Mahavidyalaya was established in",
       "subjectMatch": false,
       "preferred": true,
+      "matchScore": 57,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Guest post: a step down from her permanent job"
+        }
+      ],
       "id": "1db79043eed2",
       "firstSeen": "2026-11-15"
     },
@@ -260,10 +892,37 @@
       "postedAt": null,
       "lastDate": null,
       "official": true,
-      "subjectMatch": true,
+      "subjectMatch": false,
       "preferred": true,
       "id": "4570ea702e26",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-15",
+      "matchScore": 61,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches her level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: her first choice"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Contract post: a step down from her permanent job"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ]
     }
   ]
 }

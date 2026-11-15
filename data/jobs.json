@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-15T14:22:13.529Z",
+  "updatedAt": "2026-11-15T14:37:32.610Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
-      "count": 152
+      "count": 2
     },
     "freeJobAlert": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 225
+      "count": 229
     }
   },
   "jobs": [

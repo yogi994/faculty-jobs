@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { FlatList, Linking, Pressable, RefreshControl, StyleSheet, Text, TextInput, View } from 'react-native';
+import { FlatList, Linking, Platform, Pressable, RefreshControl, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { Job, REGIONS, Region } from './src/config';
+import { markSeen, setUpNotifications } from './src/notify';
 import { JobStatus, loadJobs, loadStatuses, markOpened, saveStatuses } from './src/storage';
 
 type Tab = 'all' | 'saved' | 'applied';
@@ -84,6 +85,7 @@ function Main() {
   const [commerceOnly, setCommerceOnly] = useState(false);
   const [topOnly, setTopOnly] = useState(false);
   const [query, setQuery] = useState('');
+  const [notifOff, setNotifOff] = useState(false);
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -92,6 +94,7 @@ function Main() {
     if (data) {
       setJobs(data.jobs);
       setUpdatedAt(data.updatedAt);
+      if (!offline) markSeen(data.jobs).catch(() => {});
     }
     setLoading(false);
   }, []);
@@ -101,6 +104,7 @@ function Main() {
       setStatuses(await loadStatuses());
       setLastOpened(await markOpened());
       await refresh();
+      setNotifOff(!(await setUpNotifications()));
     })();
   }, [refresh]);
 
@@ -143,6 +147,11 @@ function Main() {
           {offline ? ' · offline copy' : ''}
         </Text>
         {newCount > 0 && <Text style={s.banner}>{newCount} new since your last visit</Text>}
+        {notifOff && Platform.OS === 'android' && (
+          <Pressable onPress={() => Linking.openSettings()}>
+            <Text style={s.notifOff}>Notifications are off, so new openings won't alert you. Tap to turn them on.</Text>
+          </Pressable>
+        )}
       </View>
 
       <View style={s.tabs}>
@@ -214,6 +223,7 @@ const s = StyleSheet.create({
   h1: { fontSize: 26, fontWeight: '700', color: C.text },
   sub: { fontSize: 13, color: C.muted, marginTop: 2, lineHeight: 18 },
   banner: { marginTop: 8, backgroundColor: C.amberSoft, color: C.text, padding: 8, borderRadius: 8, fontWeight: '600', overflow: 'hidden' },
+  notifOff: { marginTop: 8, backgroundColor: C.accentSoft, color: C.accent, padding: 8, borderRadius: 8, overflow: 'hidden' },
   tabs: { flexDirection: 'row', marginHorizontal: 16, marginTop: 8, backgroundColor: C.line, borderRadius: 10, padding: 3 },
   tab: { flex: 1, paddingVertical: 7, borderRadius: 8, alignItems: 'center' },
   tabActive: { backgroundColor: C.card },

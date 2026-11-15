@@ -39,8 +39,31 @@ function JobCard({
   job, status, isNew, onStatus,
 }: { job: Job; status?: JobStatus; isNew: boolean; onStatus: (st: JobStatus | null) => void }) {
   const left = job.lastDate ? daysLeft(job.lastDate) : null;
+  const [why, setWhy] = useState(false);
+  const score = job.matchScore;
+  const tone = score === undefined ? null : score >= 75 ? 'good' : score >= 55 ? 'ok' : 'low';
   return (
     <Pressable style={s.card} onPress={() => Linking.openURL(job.url)} accessibilityHint="Opens the job notice">
+      {score !== undefined && (
+        <View style={s.scoreRow}>
+          <Text style={[s.score, tone === 'good' ? s.scoreGood : tone === 'ok' ? s.scoreOk : s.scoreLow]}>{score}% match</Text>
+          <Pressable onPress={() => setWhy((v) => !v)} hitSlop={8} accessibilityRole="button">
+            <Text style={s.why}>{why ? 'Hide reasons' : 'Why this score?'}</Text>
+          </Pressable>
+        </View>
+      )}
+      {why && (
+        <View style={s.reasons}>
+          {job.matchReasons?.map((r, i) => (
+            <Text key={i} style={s.reason}>
+              <Text style={{ color: r.ok === true ? C.green : r.ok === false ? C.red : C.muted, fontWeight: '700' }}>
+                {r.ok === true ? '✓ ' : r.ok === false ? '✗ ' : '• '}
+              </Text>
+              {r.text}
+            </Text>
+          ))}
+        </View>
+      )}
       <View style={s.tagRow}>
         {isNew && <Text style={[s.tag, s.tagNew]}>NEW</Text>}
         {job.subjectMatch && <Text style={[s.tag, s.tagGreen]}>Commerce / Mgmt</Text>}
@@ -49,6 +72,7 @@ function JobCard({
       </View>
       <Text style={s.title}>{job.title}</Text>
       {!!job.org && job.org !== job.title.split(':')[0] && <Text style={s.org}>{job.org}</Text>}
+      {!!job.location && <Text style={s.meta}>{job.location}</Text>}
       {!!job.qualification && <Text style={s.meta}>Qualification: {job.qualification}</Text>}
       <View style={s.footer}>
         <Text style={[s.meta, left !== null && left <= 5 && { color: C.red, fontWeight: '600' }]}>
@@ -86,6 +110,7 @@ function Main() {
   const [topOnly, setTopOnly] = useState(false);
   const [query, setQuery] = useState('');
   const [notifOff, setNotifOff] = useState(false);
+  const [sort, setSort] = useState<'match' | 'newest'>('match');
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -120,7 +145,7 @@ function Main() {
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return jobs.filter((j) => {
+    const list = jobs.filter((j) => {
       const st = statuses[j.id];
       if (tab === 'all' && st === 'hidden') return false;
       if (tab === 'saved' && st !== 'saved') return false;
@@ -131,7 +156,8 @@ function Main() {
       if (q && !`${j.title} ${j.org} ${j.qualification ?? ''}`.toLowerCase().includes(q)) return false;
       return true;
     });
-  }, [jobs, statuses, tab, regions, commerceOnly, topOnly, query]);
+    return sort === 'match' ? [...list].sort((a, b) => (b.matchScore ?? 0) - (a.matchScore ?? 0)) : list;
+  }, [jobs, statuses, tab, regions, commerceOnly, topOnly, query, sort]);
 
   const newCount = lastOpened ? jobs.filter((j) => j.firstSeen > lastOpened && statuses[j.id] !== 'hidden').length : 0;
   const toggleRegion = (r: Region) => setRegions((p) => (p.includes(r) ? p.filter((x) => x !== r) : [...p, r]));
@@ -178,6 +204,11 @@ function Main() {
         ))}
         <Chip label="Commerce / Mgmt" active={commerceOnly} onPress={() => setCommerceOnly((v) => !v)} />
         <Chip label="Top institutions" active={topOnly} onPress={() => setTopOnly((v) => !v)} />
+        <Chip
+          label={sort === 'match' ? 'Sorted: best match' : 'Sorted: newest'}
+          active={false}
+          onPress={() => setSort((v) => (v === 'match' ? 'newest' : 'match'))}
+        />
       </View>
 
       <FlatList
@@ -223,6 +254,14 @@ const s = StyleSheet.create({
   h1: { fontSize: 26, fontWeight: '700', color: C.text },
   sub: { fontSize: 13, color: C.muted, marginTop: 2, lineHeight: 18 },
   banner: { marginTop: 8, backgroundColor: C.amberSoft, color: C.text, padding: 8, borderRadius: 8, fontWeight: '600', overflow: 'hidden' },
+  scoreRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 },
+  score: { fontSize: 13, fontWeight: '700', paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6, overflow: 'hidden' },
+  scoreGood: { backgroundColor: C.greenSoft, color: C.green },
+  scoreOk: { backgroundColor: C.amberSoft, color: '#8A5A00' },
+  scoreLow: { backgroundColor: C.line, color: C.muted },
+  why: { fontSize: 13, color: C.accent, fontWeight: '600' },
+  reasons: { backgroundColor: C.bg, borderRadius: 8, padding: 8, marginBottom: 8, gap: 4 },
+  reason: { fontSize: 13, color: C.text, lineHeight: 18 },
   notifOff: { marginTop: 8, backgroundColor: C.accentSoft, color: C.accent, padding: 8, borderRadius: 8, overflow: 'hidden' },
   tabs: { flexDirection: 'row', marginHorizontal: 16, marginTop: 8, backgroundColor: C.line, borderRadius: 10, padding: 3 },
   tab: { flex: 1, paddingVertical: 7, borderRadius: 8, alignItems: 'center' },

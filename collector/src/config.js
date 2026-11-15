@@ -9,18 +9,18 @@ export const REGION_KEYWORDS = {
   Delhi: ['delhi', 'new delhi', 'dwarka', 'du ', 'university of delhi', 'ggsipu', 'ip university', 'dtu', 'nsut', 'iit delhi', 'iift', 'aud ', 'ambedkar university'],
   Haryana: ['haryana', 'gurugram', 'gurgaon', 'faridabad', 'rohtak', 'sonipat', 'hisar', 'kurukshetra', 'panipat', 'karnal', 'rewari', 'meerpur', 'mahendergarh', 'bhiwani', 'murthal', 'hpsc', 'mdi ', 'ashoka', 'jindal'],
   Rajasthan: ['rajasthan', 'jaipur', 'udaipur', 'jodhpur', 'ajmer', 'kota', 'bikaner', 'tonk', 'alwar', 'rpsc', 'banasthali', 'mnit', 'lnmiit', 'iihmr', 'kishangarh'],
-  'UP-NCR': ['noida', 'greater noida', 'ghaziabad', 'meerut', 'gautam buddh', 'bulandshahr', 'baghpat', 'upessc', 'uppsc', 'imt ', 'jaipuria', 'shiv nadar'],
+  'UP-NCR': ['noida', 'greater noida', 'ghaziabad', 'meerut', 'gautam buddh', 'gautam buddha nagar', 'bulandshahr', 'baghpat', 'upessc', 'uppsc', 'imt ', 'jaipuria', 'shiv nadar'],
 };
 
 // The post must be an entry-level faculty post (she is not yet eligible for
 // Associate Professor or Professor, so ads for only those are dropped).
-export const ROLE_PATTERN = /assistant\s*prof|asst\.?\s*prof|faculty|teaching\s*(post|position|staff|recruit|vacanc)/i;
+export const ROLE_PATTERN = /assistant\s*(\/\s*associate\s*)?prof|asst\.?\s*prof|faculty|teaching\s*(post|position|staff|recruit|vacanc)/i;
 
 // News headlines must read like an opening, not just mention the word.
 export const OPENING_PATTERN = /recruit|vacanc|walk.?in|apply|notification|hiring|opening|posts|positions|invites|advert|advt/i;
 
 // Subject match: Commerce, Management, Finance, Accounting, Business.
-export const SUBJECT_PATTERN = /commerce|management|finance|accounting|accountancy|business|m\.?com\b|mba\b|bba\b|economics|banking/i;
+export const SUBJECT_PATTERN = /commerce|management|(?<!self[- ])finance|accounting|accountancy|business|m\.?com\b|mba\b|bba\b|economics|banking/i;
 
 // Posts that are never a fit (medical, school, engineering-only, law, etc.).
 export const EXCLUDE_PATTERN = new RegExp(
@@ -44,7 +44,7 @@ export const EXCLUDE_PATTERN = new RegExp(
 );
 
 // Posts that name another subject (and not Commerce/Management) are dropped.
-export const OTHER_SUBJECT_PATTERN = /engineering|civil|mechanical|electrical|electronics|computer|\bcse\b|\bece\b|architecture|planning|mathematics|maths|physics|chemistry|biochem|biotech|biology|botany|zoology|microbio|science|hindi|english|sanskrit|urdu|punjabi|history|geography|political|sociology|psychology|philosophy|music|vocal|fine arts|painting|yoga|physical education|horticulture|agricultur|food tech|\blaw\b|legal|pharma|b\.?ed\b|b\.?el\.?ed|journalism|mass comm|home science|textile|fashion|design|hotel|tourism|library|statistics/i;
+export const OTHER_SUBJECT_PATTERN = /engineering|\bbca\b|\bmca\b|computer application|actuarial|cyber|block ?chain|communication|film|media|civil|mechanical|electrical|electronics|computer|\bcse\b|\bece\b|architecture|planning|mathematics|maths|physics|chemistry|biochem|biotech|biology|botany|zoology|microbio|science|hindi|english|sanskrit|urdu|punjabi|history|geography|political|sociology|psychology|philosophy|music|vocal|fine arts|painting|yoga|physical education|horticulture|agricultur|food tech|\blaw\b|legal|pharma|b\.?ed\b|b\.?el\.?ed|journalism|mass comm|home science|textile|fashion|design|hotel|tourism|library|statistics/i;
 
 // Places outside the target regions; feeds sometimes file these under a nearby state.
 export const OTHER_PLACES_PATTERN = /lucknow|kanpur|prayagraj|allahabad|varanasi|gorakhpur|agra|aligarh|bareilly|jhansi|punjab|chandigarh|mohali|ludhiana|amritsar|himachal|shimla|uttarakhand|dehradun|bihar|patna|jharkhand|bhopal|indore|madhya pradesh|mumbai|pune|maharashtra|gujarat|kolkata|bengal|odisha|bangalore|bengaluru|karnataka|chennai|tamil|hyderabad|telangana|andhra|kerala|assam|jammu|kashmir/i;
@@ -57,7 +57,7 @@ export const BLOCKED_ORGS = /jamia|jnu|jawaharlal nehru university|aligarh|\bamu
 
 // Preferred institutions (NAAC A/A+, central, or top private). Jobs matching these
 // are flagged so the app can show them first.
-export const PREFERRED_ORGS = /university of delhi|delhi university|\bdu\b|college.*\(du\)|srcc|shri ram college|sggscc|hansraj|kirori mal|ramjas|hindu college|miranda|venkateswara|deshbandhu|ambedkar university|\baud\b|ggsipu|ip university|iit|iim|mdi|management development institute|imt|imi|fore school|iift|lbsim|great lakes|ashoka|jindal|shiv nadar|amity|central university|mnit|lnmiit|manipal|iihmr|university of rajasthan|uniraj|curaj|cuh|maharshi dayanand|mdu|kurukshetra|guru jambheshwar|gjust|gurugram university|indira gandhi university|hpsc|rpsc|upessc|uppsc|south asian university|gautam buddha|nsut|dtu|delhi technological|mohanlal sukhadia/i;
+export const PREFERRED_ORGS = /university of delhi|delhi university|\bdu\b|college.*\(du\)|srcc|shri ram college|sggscc|hansraj|kirori mal|ramjas|hindu college|miranda|venkateswara|deshbandhu|ambedkar university|\baud\b|ggsipu|ip university|iit|iim|mdi|management development institute|imt|imi|fore school|iift|lbsim|great lakes|ashoka|jindal|shiv nadar|amity|central university|mnit|lnmiit|manipal|iihmr|university of rajasthan|uniraj|curaj|cuh|maharshi dayanand|mdu|kurukshetra|guru jambheshwar|gjust|gurugram university|indira gandhi university|hpsc|rpsc|upessc|uppsc|south asian university|gautam buddha university|nsut|dtu|delhi technological|mohanlal sukhadia/i;
 
 // Drop jobs whose last date passed more than this many days ago,
 // and undated jobs first seen more than this many days ago.

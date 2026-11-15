@@ -43,7 +43,8 @@ export async function markSeen(jobs: Job[]) {
 }
 
 function describe(fresh: Job[]) {
-  const name = (j: Job) => (j.org && j.org !== j.title ? `${j.org}: ${j.title}` : j.title);
+  const name = (j: Job) =>
+    `${j.matchScore !== undefined ? `${j.matchScore}% · ` : ''}${j.org && j.org !== j.title ? `${j.org}: ${j.title}` : j.title}`;
   if (fresh.length === 1) {
     const j = fresh[0];
     return {
@@ -67,10 +68,10 @@ export async function checkForNewJobs(): Promise<number> {
     return 0;
   }
   const statuses = await loadStatuses();
-  // Prefer Commerce/Management matches first in the message.
+  // Best matches first in the message.
   const fresh = data.jobs
     .filter((j) => !seen.has(j.id) && statuses[j.id] !== 'hidden')
-    .sort((a, b) => Number(b.subjectMatch) - Number(a.subjectMatch));
+    .sort((a, b) => (b.matchScore ?? 0) - (a.matchScore ?? 0));
   if (fresh.length) {
     await Notifications.scheduleNotificationAsync({
       content: { ...describe(fresh), ...(Platform.OS === 'android' ? { channelId: CHANNEL } : {}) },

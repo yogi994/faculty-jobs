@@ -9,14 +9,18 @@ import { googleNews } from './sources/googlenews.js';
 import { delhiUniversity } from './sources/delhiuniversity.js';
 import { watchlist } from './sources/watchlist.js';
 import { facultyFeeds } from './sources/facultyfeeds.js';
+import { linkedin } from './sources/linkedin.js';
+import { scoreJob } from './match.js';
 
 const DATA_FILE = new URL('../../data/jobs.json', import.meta.url);
-const SOURCES = { delhiUniversity, watchlist, freeJobAlert, facultyFeeds, googleNews };
+const SOURCES = { delhiUniversity, watchlist, freeJobAlert, facultyFeeds, linkedin, googleNews };
 const today = new Date().toISOString().slice(0, 10);
 const thisYear = new Date().getFullYear();
 
 const daysBetween = (a, b) => (new Date(b) - new Date(a)) / 86400000;
 const titleKey = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
+// Generic titles ("Assistant Professor") need the institution to tell posts apart.
+const jobKey = (j) => titleKey(j.org && !j.title.includes(j.org) && !j.org.includes(j.title) ? `${j.org} ${j.title}` : j.title);
 
 // Several news sites report the same ad with different headlines. Compare the
 // distinctive words (org names, post counts) to treat them as one job.
@@ -60,13 +64,14 @@ function qualify(job) {
   if (!region) region = detectRegion(text);
   if (!region) return null;
 
-  return {
+  const enriched = {
     ...job,
     region,
     subjectMatch: SUBJECT_PATTERN.test(text),
     // Delhi colleges in these listings are almost always DU colleges.
     preferred: PREFERRED_ORGS.test(text) || (region === 'Delhi' && /college|mahavidyalaya/i.test(job.title)),
   };
+  return { ...enriched, ...scoreJob(enriched) };
 }
 
 function isExpired(job) {
@@ -77,15 +82,15 @@ function isExpired(job) {
 async function notify(newJobs) {
   const topic = process.env.NTFY_TOPIC;
   if (!topic || !newJobs.length) return;
-  const top = [...newJobs].sort((a, b) => b.subjectMatch - a.subjectMatch || b.preferred - a.preferred);
-  const lines = top.slice(0, 8).map((j) => `• ${j.title}${j.lastDate ? ` (last date ${j.lastDate})` : ''}`);
+  const top = [...newJobs].sort((a, b) => b.matchScore - a.matchScore);
+  const lines = top.slice(0, 8).map((j) => `• ${j.matchScore}% · ${j.title}${j.org && j.org !== j.title ? `, ${j.org}` : ''}${j.lastDate ? ` (last date ${j.lastDate})` : ''}`);
   if (top.length > 8) lines.push(`…and ${top.length - 8} more`);
   const res = await fetch(`https://ntfy.sh/${topic}`, {
     method: 'POST',
     headers: {
       Title: `${newJobs.length} new Assistant Professor opening${newJobs.length > 1 ? 's' : ''}`,
       Tags: 'mortar_board',
-      ...(top[0].subjectMatch ? { Priority: 'high' } : {}),
+      ...(top[0].matchScore >= 70 ? { Priority: 'high' } : {}),
     },
     body: lines.join('\n'),
   });
@@ -98,7 +103,7 @@ async function main() {
     existing = JSON.parse(await readFile(DATA_FILE, 'utf8')).jobs ?? [];
   } catch {}
   const known = new Map(existing.map((j) => [j.id, j]));
-  const knownTitles = new Set(existing.map((j) => titleKey(j.title)));
+  const knownTitles = new Set(existing.map((j) => jobKey(j)));
   const firstRun = existing.length === 0;
 
   const results = await Promise.allSettled(Object.values(SOURCES).map((fn) => fn()));
@@ -121,7 +126,7 @@ async function main() {
     const job = qualify(r);
     if (!job) continue;
     const id = createHash('sha1').update(job.url).digest('hex').slice(0, 12);
-    const tk = titleKey(job.title);
+    const tk = jobKey(job);
     if (fresh.has(id) || seenTitles.has(tk)) continue;
     // Prefer structured listings over news: sources run in that order, so a
     // news item similar to anything already kept is a repeat.
@@ -147,7 +152,7 @@ async function main() {
     .filter((j) => !isExpired(j))
     .sort((a, b) => (b.firstSeen + (b.postedAt ?? '')).localeCompare(a.firstSeen + (a.postedAt ?? '')));
 
-  const newJobs = jobs.filter((j) => !known.has(j.id) && !knownTitles.has(titleKey(j.title)));
+  const newJobs = jobs.filter((j) => !known.has(j.id) && !knownTitles.has(jobKey(j)));
   await writeFile(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), sourceStatus, jobs }, null, 2) + '\n');
   console.log(`Raw ${raw.length} -> kept ${jobs.length} jobs, ${newJobs.length} new.`);
   console.table(sourceStatus);

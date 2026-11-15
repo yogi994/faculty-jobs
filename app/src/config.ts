@@ -20,6 +20,10 @@ export type Job = {
   subjectMatch: boolean;
   preferred: boolean;
   official?: boolean;
+  location?: string;
+  // Fit with her CV, 0-100, with the reasons behind it.
+  matchScore?: number;
+  matchReasons?: { ok: boolean | null; text: string }[];
 };
 
 export type JobsFile = { updatedAt: string; jobs: Job[] };

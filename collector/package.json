@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "collect": "node src/index.js"
+    "collect": "NODE_EXTRA_CA_CERTS=certs/intermediates.pem node src/index.js"
   },
   "keywords": [],
   "author": "",

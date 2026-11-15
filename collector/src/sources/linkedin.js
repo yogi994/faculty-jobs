@@ -47,9 +47,30 @@ async function search(keywords, location) {
     .filter(Boolean);
 }
 
-async function description(id) {
-  const $ = cheerio.load(await fetchText(`${BASE}/jobPosting/${id}`));
-  return clean($('.show-more-less-html__markup').text());
+// Pulls the ad text plus every way to apply that the public page reveals.
+async function posting(id) {
+  const html = await fetchText(`${BASE}/jobPosting/${id}`);
+  const $ = cheerio.load(html);
+  // Put a space at every tag boundary so words in separate lines don't run together.
+  const markup = ($('.show-more-less-html__markup').html() ?? '').replace(/<[^>]+>/g, ' $& ');
+  const text = clean(cheerio.load(`<div>${markup}</div>`)('div').text());
+
+  // Off-site applications carry the employer's link in a hidden <code id="applyUrl"> comment.
+  let applyUrl = null;
+  const raw = html.match(/id="applyUrl"[^>]*>\s*<!--\s*"([^"]+)"/)?.[1];
+  if (raw) {
+    try {
+      const u = new URL(raw.replace(/&amp;/g, '&'));
+      applyUrl = u.searchParams.get('url') ?? u.toString();
+    } catch {}
+  }
+  // Otherwise the ad text often names an email address or the institution's careers page.
+  const email = text.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/)?.[0]?.replace(/\.$/, '') ?? null;
+  if (!applyUrl) {
+    const site = text.match(/https?:\/\/[^\s,)]+|www\.[^\s,)]+/)?.[0]?.replace(/[.;:]$/, '');
+    if (site) applyUrl = site.startsWith('http') ? site : `https://${site}`;
+  }
+  return { text, applyUrl, applyEmail: email };
 }
 
 export async function linkedin() {
@@ -70,8 +91,10 @@ export async function linkedin() {
   const jobs = [];
   for (const c of relevant) {
     let text = '';
+    let applyUrl = null;
+    let applyEmail = null;
     try {
-      text = await description(c.linkedinId);
+      ({ text, applyUrl, applyEmail } = await posting(c.linkedinId));
     } catch (err) {
       console.warn(`LinkedIn job ${c.linkedinId} description failed: ${err.message}`);
     }
@@ -87,6 +110,9 @@ export async function linkedin() {
       summary: c.location,
       // Full ad text, used for the resume match score (not for filtering).
       details: text.slice(0, 2500),
+      // Without these, applying means LinkedIn Easy Apply (needs her login).
+      applyUrl,
+      applyEmail,
     });
     await sleep(1000);
   }

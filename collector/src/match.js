@@ -28,9 +28,9 @@ const word = (re, t) => t.match(re)?.[0].toLowerCase();
 
 function subject(title, text) {
   // When the title names a subject, the title decides.
-  if (has(CORE, title)) return [40, true, 'Commerce / finance / accounting: her teaching area'];
-  if (has(ADJACENT, title)) return [26, true, `Management area (${word(ADJACENT, title)}): partly her field`];
-  if (has(MGMT, title)) return [32, true, 'Management / business: close to her field'];
+  if (has(CORE, title)) return [40, true, 'Commerce / finance / accounting: your teaching area'];
+  if (has(ADJACENT, title)) return [26, true, `Management area (${word(ADJACENT, title)}): partly your field`];
+  if (has(MGMT, title)) return [32, true, 'Management / business: close to your field'];
   if (has(OTHER_SUBJECT, title)) return [0, false, `Subject (${word(OTHER_SUBJECT, title)}) is outside commerce/management`];
   // Otherwise judge from the ad text: whichever field it talks about most.
   const t = text.slice(0, 2500);
@@ -45,27 +45,27 @@ function subject(title, text) {
 }
 
 function level(title, text) {
-  if (has(SENIOR_ONLY, title)) return [0, false, 'Senior post: needs more experience than she has'];
-  if (has(GRADE_I, text)) return [6, false, 'Asks for 3+ years post-PhD; she has about 1.5 (Grade II only)'];
+  if (has(SENIOR_ONLY, title)) return [0, false, 'Senior post: needs more experience than you have'];
+  if (has(GRADE_I, text)) return [6, false, 'Asks for 3+ years post-PhD; you have about 1.5 (Grade II only)'];
   const yrs = Number(text.match(MANY_YEARS)?.[1] ?? 0);
-  if (yrs >= 5) return [8, false, `Asks for ${yrs}+ years' experience; she has under 3`];
-  if (has(BOTH_LEVELS, title)) return [16, true, 'Assistant or Associate: she fits the Assistant level'];
-  return [20, true, 'Assistant Professor: matches her level (PhD + NET-JRF)'];
+  if (yrs >= 5) return [8, false, `Asks for ${yrs}+ years' experience; you have under 3`];
+  if (has(BOTH_LEVELS, title)) return [16, true, 'Assistant or Associate: you fit the Assistant level'];
+  return [20, true, 'Assistant Professor: matches your level (PhD + NET-JRF)'];
 }
 
 function place(job) {
   const t = `${job.title} ${job.org} ${job.location ?? ''}`;
-  if (has(GURUGRAM, t)) return [25, true, 'Gurugram: her first choice'];
+  if (has(GURUGRAM, t)) return [25, true, 'Gurugram: your first choice'];
   if (has(CORE_NCR, t) || job.region === 'Delhi') return [21, true, 'Delhi NCR'];
   if (job.region === 'Haryana' || job.region === 'UP-NCR') return [13, null, `${job.region}, outside core NCR`];
-  return [4, false, 'Rajasthan: she wants to move to NCR'];
+  return [4, false, 'Rajasthan: you want to move to NCR'];
 }
 
 function institution(job, text) {
   const t = `${job.title} ${job.org} ${text}`;
   if (has(PERMANENT_GOVT, t)) return [15, true, 'Government institution: UGC pay scale'];
   if (job.preferred) return [13, true, 'Well-regarded institution'];
-  return [6, null, 'Private institution: check the pay beats her current salary'];
+  return [6, null, 'Private institution: check the pay beats your current salary'];
 }
 
 export function scoreJob(job) {
@@ -76,17 +76,17 @@ export function scoreJob(job) {
   const temp = job.title.match(NOT_PERMANENT)?.[0];
   if (temp) {
     score -= 15;
-    reasons.push({ ok: false, text: `${temp[0].toUpperCase()}${temp.slice(1).toLowerCase()} post: a step down from her permanent job` });
+    reasons.push({ ok: false, text: `${temp[0].toUpperCase()}${temp.slice(1).toLowerCase()} post: a step down from your permanent job` });
   }
   // Small bonuses from the full ad text, when there is one.
   const subjectFits = parts[0][0] > 0;
   if (subjectFits && job.details && has(RESEARCH, job.details)) {
     score += 5;
-    reasons.push({ ok: true, text: 'Ad mentions governance / leadership / ESG: her research area' });
+    reasons.push({ ok: true, text: 'Ad mentions governance / leadership / ESG: your research area' });
   }
   if (subjectFits && job.details && has(METHODS, job.details)) {
     score += 3;
-    reasons.push({ ok: true, text: 'Wants research-methods skills she has (SPSS / PLS-SEM / NVivo)' });
+    reasons.push({ ok: true, text: 'Wants research-methods skills you have (SPSS / PLS-SEM / NVivo)' });
   }
   if (!job.details && !job.qualification && (job.summary ?? '').length < 80) reasons.push({ ok: null, text: 'Scored from the title only' });
   return { matchScore: Math.max(0, Math.min(100, score)), matchReasons: reasons };

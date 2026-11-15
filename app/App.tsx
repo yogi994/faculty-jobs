@@ -82,6 +82,40 @@ function JobCard({
         </Text>
         <Text style={s.source}>{job.source}</Text>
       </View>
+      <View style={s.applyRow}>
+        <Pressable
+          onPress={() => Linking.openURL(job.applyUrl || job.url)}
+          style={[s.applyBtn, s.applyPrimary]}
+          accessibilityRole="link"
+        >
+          <Text style={s.applyPrimaryText}>
+            {job.applyUrl ? 'Apply ↗' : job.source === 'LinkedIn' ? 'Easy Apply on LinkedIn ↗' : 'Notice & apply ↗'}
+          </Text>
+        </Pressable>
+        {!!job.applyUrl && job.source === 'LinkedIn' && (
+          <Pressable onPress={() => Linking.openURL(job.url)} style={s.applyBtn} accessibilityRole="link">
+            <Text style={s.applyText}>LinkedIn post ↗</Text>
+          </Pressable>
+        )}
+        {!!job.applyEmail && (
+          <Pressable
+            onPress={() =>
+              Linking.openURL(
+                `mailto:${job.applyEmail}?subject=${encodeURIComponent(`Application for ${job.title}${job.org && !job.title.includes(job.org) ? ` - ${job.org}` : ''}`)}`,
+              )
+            }
+            style={s.applyBtn}
+            accessibilityRole="link"
+          >
+            <Text style={s.applyText}>Email CV ✉</Text>
+          </Pressable>
+        )}
+      </View>
+      {job.source === 'LinkedIn' && !job.applyUrl && (
+        <Text style={s.applyNote}>
+          {job.applyEmail ? `Easy Apply needs your LinkedIn login, or email ${job.applyEmail}` : 'Easy Apply needs your LinkedIn login'}
+        </Text>
+      )}
       <View style={s.actions}>
         <Pressable onPress={() => onStatus(status === 'saved' ? null : 'saved')} style={s.action} hitSlop={6}>
           <Text style={[s.actionText, status === 'saved' && s.actionOn]}>{status === 'saved' ? '★ Saved' : '☆ Save'}</Text>
@@ -254,6 +288,12 @@ const s = StyleSheet.create({
   h1: { fontSize: 26, fontWeight: '700', color: C.text },
   sub: { fontSize: 13, color: C.muted, marginTop: 2, lineHeight: 18 },
   banner: { marginTop: 8, backgroundColor: C.amberSoft, color: C.text, padding: 8, borderRadius: 8, fontWeight: '600', overflow: 'hidden' },
+  applyRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 },
+  applyBtn: { borderWidth: 1, borderColor: C.accent, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 8 },
+  applyPrimary: { backgroundColor: C.accent },
+  applyPrimaryText: { color: '#FFFFFF', fontWeight: '700', fontSize: 14 },
+  applyText: { color: C.accent, fontWeight: '600', fontSize: 14 },
+  applyNote: { fontSize: 12, color: C.muted, marginTop: 6 },
   scoreRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 },
   score: { fontSize: 13, fontWeight: '700', paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6, overflow: 'hidden' },
   scoreGood: { backgroundColor: C.greenSoft, color: C.green },

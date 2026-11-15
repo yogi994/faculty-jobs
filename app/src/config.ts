@@ -21,6 +21,9 @@ export type Job = {
   preferred: boolean;
   official?: boolean;
   location?: string;
+  // Direct ways to apply, when the ad gives them (LinkedIn posts).
+  applyUrl?: string | null;
+  applyEmail?: string | null;
   // Fit with her CV, 0-100, with the reasons behind it.
   matchScore?: number;
   matchReasons?: { ok: boolean | null; text: string }[];

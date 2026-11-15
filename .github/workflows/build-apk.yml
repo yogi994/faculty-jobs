@@ -1,0 +1,75 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - ".github/workflows/build-apk.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate native Android project
+        run: npx expo prebuild --platform android --no-install
+        env:
+          CI: "1"
+
+      # A fixed signing key lets new APKs install over old ones.
+      # The release build is signed with app/debug.keystore (alias androiddebugkey / password android).
+      - name: Use fixed signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > android/app/debug.keystore
+            echo "Using fixed signing key"
+          else
+            echo "::warning::ANDROID_KEYSTORE_B64 not set; APK signed with a one-off key"
+          fi
+
+      - name: Build release APK
+        working-directory: app/android
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Publish APK release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk faculty-jobs.apk
+          gh release delete app-latest --yes --cleanup-tag || true
+          gh release create app-latest faculty-jobs.apk \
+            --title "Faculty Jobs app (Android)" \
+            --notes "Latest Android build from ${GITHUB_SHA::7}. Download faculty-jobs.apk on the phone and open it to install." \
+            --latest

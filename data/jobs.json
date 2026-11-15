@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T14:37:32.610Z",
+  "updatedAt": "2026-11-15T14:40:19.336Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,7 +7,7 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 2
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 229
+      "count": 226
     }
   },
   "jobs": [

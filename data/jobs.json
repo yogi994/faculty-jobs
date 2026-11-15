@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T20:06:41.527Z",
+  "updatedAt": "2026-11-15T20:43:39.449Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -15,55 +15,18 @@
     },
     "facultyFeeds": {
       "ok": true,
-      "count": 20
+      "count": 220
     },
     "linkedin": {
       "ok": true,
-      "count": 16
+      "count": 18
     },
     "googleNews": {
       "ok": true,
-      "count": 233
+      "count": 231
     }
   },
   "jobs": [
-    {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "GL Bajaj Institute of Technology and Management",
-      "url": "https://www.linkedin.com/jobs/view/4489531698",
-      "region": "UP-NCR",
-      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "postedAt": "2026-11-13",
-      "lastDate": null,
-      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "details": "GL Bajaj (Institute of Technology & Mgmt.) – A Glimpse! Passionate education provider in multi disciplines at undergraduate and postgraduate level (B.Tech, MBA, MCA) Vibrant Learning Ecosystem on the campus, has inspired and brilliant students. GL Bajaj Group was incepted in year 1997 , carrying a winning legacy of 12 institutions running diverse higher education programs. GL Bajaj Group, has +14,000 students, +800 faculty members , 12 institutions, and 6 campuses with +300 acres of land. NAAC A+ accredited, 4 stars from Ministry of Education, NIRF rank holder, Research & Incubation centre, Entrepreneurship development and top quality placement for students Vision to give globally competent & socially sensitive professionals to the society. Highly inquisitive students who take risks, experiment, and put novel ideas into action. Sharpens the Technical as well as Life Skills of students – Developing young leaders. Have world class collaborative LEARNING infrastructure for teaching & learning practices. Hiring Distinguished faculty members from the Institutes of repute . We nurture versatile INTRAPRENEURs . Our core belief is in nurturing Diverse, inclusive, equity knowledge gems Hi – Tech Campus has a beautiful , serene environment & students enjoy learning. Believes in relentless change and desire to improve . We are looking for passionate researchers/out of box thinkers/academician s who have a go-gette r attitude, have fire to innovat e, works with technology drive n progressive mindse t and execute the concept of sustainabilit y in each task (paperles s) in learning proces s delivery. We are offering to the right candidate an excellent compensation packag e along with the tools and the environment to foster intellect and new ideas . If you want to CONTRIBUTE meaningful to the society at large, join us & Find your SPARK! ABOUT JOB Designat i on: Assistant Professor in CSE and Allied Branches Job Purpose & Role : To teach, research and s erve the Institution for academic, institutional & student’s growth & developm ent. WORK Responsibilities: LEARNING & TEACHING To develop and teach undergraduate and graduate courses in CORE Computer Science & Allied courses. Command on Subjects like: Programming Fundamentals via language C/C++, JAVA, Python Data Structures & Algorithms Operating Systems Computer Architecture & Organisation Object Oriented Programming (OOP)Software Engineering Design & Analysis of Algorithms Computer Networks, Compiler Designs, DevOps Arti",
-      "applyUrl": null,
-      "applyEmail": "hrm@glbitm.ac.in",
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 47,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (mca)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "1f2a6a2bd966",
-      "firstSeen": "2026-11-15"
-    },
     {
       "source": "FacultyPlus",
       "title": "Visiting Guest Faculty Recruitment Pandit Deendayal Upadhyaya National Institute for Persons with Physical Disabilities (Divyangjan) (PDUNIPPD), New Delhi",
@@ -99,6 +62,43 @@
         }
       ],
       "id": "1139f1a0d059",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "GL Bajaj Institute of Technology and Management",
+      "url": "https://www.linkedin.com/jobs/view/4489531698",
+      "region": "UP-NCR",
+      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "postedAt": "2026-11-13",
+      "lastDate": null,
+      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "details": "GL Bajaj (Institute of Technology & Mgmt.) – A Glimpse! Passionate education provider in multi disciplines at undergraduate and postgraduate level (B.Tech, MBA, MCA) Vibrant Learning Ecosystem on the campus, has inspired and brilliant students. GL Bajaj Group was incepted in year 1997 , carrying a winning legacy of 12 institutions running diverse higher education programs. GL Bajaj Group, has +14,000 students, +800 faculty members , 12 institutions, and 6 campuses with +300 acres of land. NAAC A+ accredited, 4 stars from Ministry of Education, NIRF rank holder, Research & Incubation centre, Entrepreneurship development and top quality placement for students Vision to give globally competent & socially sensitive professionals to the society. Highly inquisitive students who take risks, experiment, and put novel ideas into action. Sharpens the Technical as well as Life Skills of students – Developing young leaders. Have world class collaborative LEARNING infrastructure for teaching & learning practices. Hiring Distinguished faculty members from the Institutes of repute . We nurture versatile INTRAPRENEURs . Our core belief is in nurturing Diverse, inclusive, equity knowledge gems Hi – Tech Campus has a beautiful , serene environment & students enjoy learning. Believes in relentless change and desire to improve . We are looking for passionate researchers/out of box thinkers/academician s who have a go-gette r attitude, have fire to innovat e, works with technology drive n progressive mindse t and execute the concept of sustainabilit y in each task (paperles s) in learning proces s delivery. We are offering to the right candidate an excellent compensation packag e along with the tools and the environment to foster intellect and new ideas . If you want to CONTRIBUTE meaningful to the society at large, join us & Find your SPARK! ABOUT JOB Designat i on: Assistant Professor in CSE and Allied Branches Job Purpose & Role : To teach, research and s erve the Institution for academic, institutional & student’s growth & developm ent. WORK Responsibilities: LEARNING & TEACHING To develop and teach undergraduate and graduate courses in CORE Computer Science & Allied courses. Command on Subjects like: Programming Fundamentals via language C/C++, JAVA, Python Data Structures & Algorithms Operating Systems Computer Architecture & Organisation Object Oriented Programming (OOP)Software Engineering Design & Analysis of Algorithms Computer Networks, Compiler Designs, DevOps Arti",
+      "applyUrl": null,
+      "applyEmail": "hrm@glbitm.ac.in",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (mca)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "1f2a6a2bd966",
       "firstSeen": "2026-11-15"
     },
     {
@@ -441,43 +441,6 @@
       "firstSeen": "2026-11-15"
     },
     {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "GL Bajaj Institute of Management",
-      "url": "https://www.linkedin.com/jobs/view/4483861317",
-      "region": "UP-NCR",
-      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "postedAt": "2026-10-28",
-      "lastDate": null,
-      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "details": "TEACHING STAFF/ NON TEACHING STAFF Department of Computer Application (BCA) Department of Management (BBA) Teaching Staff Head-BBA, Head-BCA Professor / Associate Professor / Assistant Professor Non Teaching Staff Head-T&P, Executive-T&P Asst. Librarian | Library Asst. | Administrative Officer System Administrator | Accountant | Asst. Accountant | Lab Assistant Office Assistant, PA to Principal, Ministerial Staff, Front Desk Executive Qualification, Experience & Salary as per UGC/University Norms. Experience: Professor: Minimum 10–15 years (PhD mandatory preferred) Associate Professor: Minimum 8–10 years (PhD preferred) Assistant Professor: Minimum 0–5 years (NET/SET/PhD preferred) PhD candidates will be given preference. Interested Candidate may send their applications by email to: recruitmentglbim@gmail.com",
-      "applyUrl": null,
-      "applyEmail": "recruitmentglbim@gmail.com",
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 75,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Ad asks for management / business"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "a74e69fde40e",
-      "firstSeen": "2026-11-15"
-    },
-    {
       "source": "FacultyPlus",
       "title": "Assistant Professor Recruitment 2026- Delhi Technological University, Delhi",
       "org": "Assistant Professor Recruitment 2026- Delhi Technological University, Delhi",
@@ -541,6 +504,43 @@
         }
       ],
       "id": "518601b62768",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "GL Bajaj Institute of Management",
+      "url": "https://www.linkedin.com/jobs/view/4483861317",
+      "region": "UP-NCR",
+      "location": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "postedAt": "2026-10-28",
+      "lastDate": null,
+      "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
+      "details": "TEACHING STAFF/ NON TEACHING STAFF Department of Computer Application (BCA) Department of Management (BBA) Teaching Staff Head-BBA, Head-BCA Professor / Associate Professor / Assistant Professor Non Teaching Staff Head-T&P, Executive-T&P Asst. Librarian | Library Asst. | Administrative Officer System Administrator | Accountant | Asst. Accountant | Lab Assistant Office Assistant, PA to Principal, Ministerial Staff, Front Desk Executive Qualification, Experience & Salary as per UGC/University Norms. Experience: Professor: Minimum 10–15 years (PhD mandatory preferred) Associate Professor: Minimum 8–10 years (PhD preferred) Assistant Professor: Minimum 0–5 years (NET/SET/PhD preferred) PhD candidates will be given preference. Interested Candidate may send their applications by email to: recruitmentglbim@gmail.com",
+      "applyUrl": null,
+      "applyEmail": "recruitmentglbim@gmail.com",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 75,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "a74e69fde40e",
       "firstSeen": "2026-11-15"
     },
     {
@@ -616,6 +616,39 @@
       "firstSeen": "2026-11-15"
     },
     {
+      "source": "FacultyPlus",
+      "title": "Assistant Professor Recruitment NIT Delhi, Delhi",
+      "org": "Assistant Professor Recruitment NIT Delhi, Delhi",
+      "url": "https://www.facultyplus.com/assistant-professor-recruitment-nit-delhi-delhi/",
+      "region": "Delhi",
+      "postedAt": "2026-10-22",
+      "lastDate": null,
+      "summary": "National Institute of Technology (NIT) Delhi, Delhi, has announced this Assistant Professor Recruitment through a walk-in interview in the discipline of Mathematics, Department of Applied Sciences, Humanities and Management. One vacancy is available on a purely temporary basis for the Autumn Semeste",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 84,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "69723984f988",
+      "firstSeen": "2026-11-15"
+    },
+    {
       "source": "Google News",
       "title": "Daulat Ram College Delhi Assistant Professor Recruitment 2026: Walk-in",
       "org": "FreeJobAlert.Com",
@@ -654,16 +687,16 @@
     },
     {
       "source": "FacultyPlus",
-      "title": "Assistant Professor Recruitment NIT Delhi, Delhi",
-      "org": "Assistant Professor Recruitment NIT Delhi, Delhi",
-      "url": "https://www.facultyplus.com/assistant-professor-recruitment-nit-delhi-delhi/",
-      "region": "Delhi",
-      "postedAt": "2026-10-22",
+      "title": "Faculty Vacancy at Prabhudhan Degree College, Churu",
+      "org": "Faculty Vacancy at Prabhudhan Degree College, Churu",
+      "url": "https://www.facultyplus.com/faculty-recruitment-at-prabhudhan-degree-college-churu/",
+      "region": "Rajasthan",
+      "postedAt": "2026-10-17",
       "lastDate": null,
-      "summary": "National Institute of Technology (NIT) Delhi, Delhi, has announced this Assistant Professor Recruitment through a walk-in interview in the discipline of Mathematics, Department of Applied Sciences, Humanities and Management. One vacancy is available on a purely temporary basis for the Autumn Semeste",
+      "summary": "Prabhudhan Degree College in Churu District, Rajasthan has announced a Faculty Vacancy in Computer Science, Management (MBA), and English. The college is also hiring for non-teaching posts in Sports, Marketing, Library, and Admission Counselling. Candidates with a postgraduate degree in the relevant",
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 84,
+      "matchScore": 58,
       "matchReasons": [
         {
           "ok": true,
@@ -674,15 +707,15 @@
           "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
         },
         {
-          "ok": true,
-          "text": "Delhi NCR"
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
         },
         {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
         }
       ],
-      "id": "69723984f988",
+      "id": "a192e7540c06",
       "firstSeen": "2026-11-15"
     },
     {
@@ -720,39 +753,6 @@
         }
       ],
       "id": "4c2e8234436d",
-      "firstSeen": "2026-11-15"
-    },
-    {
-      "source": "FacultyPlus",
-      "title": "Faculty Vacancy at Prabhudhan Degree College, Churu",
-      "org": "Faculty Vacancy at Prabhudhan Degree College, Churu",
-      "url": "https://www.facultyplus.com/faculty-recruitment-at-prabhudhan-degree-college-churu/",
-      "region": "Rajasthan",
-      "postedAt": "2026-10-17",
-      "lastDate": null,
-      "summary": "Prabhudhan Degree College in Churu District, Rajasthan has announced a Faculty Vacancy in Computer Science, Management (MBA), and English. The college is also hiring for non-teaching posts in Sports, Marketing, Library, and Admission Counselling. Candidates with a postgraduate degree in the relevant",
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 58,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Ad asks for management / business"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": false,
-          "text": "Rajasthan: you want to move to NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "a192e7540c06",
       "firstSeen": "2026-11-15"
     },
     {

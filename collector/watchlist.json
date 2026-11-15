@@ -1,0 +1,224 @@
+[
+  {
+    "name": "HPSC (Haryana PSC)",
+    "region": "Haryana",
+    "url": "https://hpsc.gov.in/en-us/Instructions",
+    "status": "ok"
+  },
+  {
+    "name": "RPSC (Rajasthan PSC)",
+    "region": "Rajasthan",
+    "url": "https://rpsc.rajasthan.gov.in/news",
+    "status": "ok"
+  },
+  {
+    "name": "UPPSC",
+    "region": "UP-NCR",
+    "url": "https://uppsc.up.nic.in/FooterPages/Latest-News",
+    "status": "ok"
+  },
+  {
+    "name": "Ambedkar University Delhi",
+    "region": "Delhi",
+    "url": "https://aud.delhi.gov.in/careers",
+    "status": "ok"
+  },
+  {
+    "name": "GGSIPU",
+    "region": "Delhi",
+    "url": "https://www.ipu.ac.in/careers.php",
+    "status": "ok"
+  },
+  {
+    "name": "Delhi Technological University",
+    "region": "Delhi",
+    "url": "http://dtu.ac.in/",
+    "status": "ok"
+  },
+  {
+    "name": "NSUT",
+    "region": "Delhi",
+    "url": "https://nsut.ac.in/teaching-post/105",
+    "status": "ok"
+  },
+  {
+    "name": "IIT Delhi",
+    "region": "Delhi",
+    "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
+    "status": "ok"
+  },
+  {
+    "name": "IIFT",
+    "region": "Delhi",
+    "url": "https://www.iift.ac.in/career",
+    "status": "ok"
+  },
+  {
+    "name": "FORE School of Management",
+    "region": "Delhi",
+    "url": "https://www.fsm.ac.in/work-with-fore",
+    "status": "ok"
+  },
+  {
+    "name": "IMI New Delhi",
+    "region": "Delhi",
+    "url": "https://www.imi.edu/delhi/careers-imi",
+    "status": "ok"
+  },
+  {
+    "name": "LBSIM",
+    "region": "Delhi",
+    "url": "https://www.lbsim.ac.in/careers/faculty-positions",
+    "status": "ok"
+  },
+  {
+    "name": "South Asian University",
+    "region": "Delhi",
+    "url": "https://www.sau.int/recruitment",
+    "status": "ok"
+  },
+  {
+    "name": "SRCC",
+    "region": "Delhi",
+    "url": "https://www.srcc.edu/recruitement-2026",
+    "status": "ok"
+  },
+  {
+    "name": "SGGSCC",
+    "region": "Delhi",
+    "url": "https://www.sggscc.ac.in/recruitment-notices",
+    "status": "ok"
+  },
+  {
+    "name": "MDI Gurgaon",
+    "region": "Haryana",
+    "url": "https://mdi.ac.in/jobs-mdi",
+    "status": "ok"
+  },
+  {
+    "name": "IIM Rohtak",
+    "region": "Haryana",
+    "url": "https://www.iimrohtak.ac.in/job.php",
+    "status": "ok"
+  },
+  {
+    "name": "Central University of Haryana",
+    "region": "Haryana",
+    "url": "https://www.cuh.ac.in/cuh-jobs.aspx",
+    "status": "ok"
+  },
+  {
+    "name": "MDU Rohtak",
+    "region": "Haryana",
+    "url": "https://mdu.ac.in/Admin/EventPage.aspx?id=1081",
+    "status": "ok"
+  },
+  {
+    "name": "GJUST Hisar",
+    "region": "Haryana",
+    "url": "https://gjust.ac.in/Page/Index_Recruitment_Posts/Teaching/6671",
+    "status": "ok"
+  },
+  {
+    "name": "Gurugram University",
+    "region": "Haryana",
+    "url": "https://gurugramuniversity.ac.in/allNotifications/recruitmentNotice/index.php",
+    "status": "ok"
+  },
+  {
+    "name": "Ashoka University",
+    "region": "Haryana",
+    "url": "https://careers.ashoka.edu.in/",
+    "status": "ok"
+  },
+  {
+    "name": "O.P. Jindal Global University",
+    "region": "Haryana",
+    "url": "https://jgu.edu.in/careers/",
+    "status": "ok"
+  },
+  {
+    "name": "Great Lakes Gurgaon",
+    "region": "Haryana",
+    "url": "https://www.greatlakes.edu.in/gurgaon/careers",
+    "status": "ok"
+  },
+  {
+    "name": "IMT Ghaziabad",
+    "region": "UP-NCR",
+    "url": "https://www.imt.edu/facultyrecruitment/",
+    "status": "ok"
+  },
+  {
+    "name": "Jaipuria Noida",
+    "region": "UP-NCR",
+    "url": "https://www.jaipuria.ac.in/current-openings/",
+    "status": "ok"
+  },
+  {
+    "name": "Shiv Nadar University",
+    "region": "UP-NCR",
+    "url": "https://snu.edu.in/careers-app/faculty",
+    "status": "ok"
+  },
+  {
+    "name": "Gautam Buddha University",
+    "region": "UP-NCR",
+    "url": "https://www.gbu.ac.in/page/recruitment",
+    "status": "ok"
+  },
+  {
+    "name": "Amity University Noida",
+    "region": "UP-NCR",
+    "url": "https://www.amity.edu/careers/",
+    "status": "ok"
+  },
+  {
+    "name": "University of Rajasthan",
+    "region": "Rajasthan",
+    "url": "http://www.uniraj.ac.in/index.php?mid=194",
+    "status": "ok"
+  },
+  {
+    "name": "Central University of Rajasthan",
+    "region": "Rajasthan",
+    "url": "https://www.curaj.ac.in/acts/recruitments",
+    "status": "ok"
+  },
+  {
+    "name": "MNIT Jaipur",
+    "region": "Rajasthan",
+    "url": "https://mnit.ac.in/quick_links/recruitment",
+    "status": "ok"
+  },
+  {
+    "name": "IIM Udaipur",
+    "region": "Rajasthan",
+    "url": "https://faculty.iimu.ac.in/faculty-recruitment/",
+    "status": "ok"
+  },
+  {
+    "name": "Manipal University Jaipur",
+    "region": "Rajasthan",
+    "url": "https://jaipur.manipal.edu/career-community.php",
+    "status": "ok"
+  },
+  {
+    "name": "LNMIIT Jaipur",
+    "region": "Rajasthan",
+    "url": "https://www.lnmiit.ac.in/careers/faculty-positions/",
+    "status": "ok"
+  },
+  {
+    "name": "IIHMR University Jaipur",
+    "region": "Rajasthan",
+    "url": "https://iihmr.edu.in/career",
+    "status": "ok"
+  },
+  {
+    "name": "Mohanlal Sukhadia University",
+    "region": "Rajasthan",
+    "url": "https://mlsu.ac.in/Recruitment",
+    "status": "ok"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T20:43:39.449Z",
+  "updatedAt": "2026-11-16T04:20:29.704Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -23,10 +23,43 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 231
+      "count": 232
     }
   },
   "jobs": [
+    {
+      "source": "FacultyTick",
+      "title": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
+      "org": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
+      "url": "https://facultytick.com/2026/11/16/gautam-buddha-university-online-applications-are-invited-from-eligible-candidate-for-the-assistant-professor-teaching-faculty-recruitment-job-opportunity-2026/",
+      "region": "UP-NCR",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Explore a career-defining opportunity at Gautam Buddha University as an Assistant Professor in the Department of Education of Training. With a competitive salary and a focus on academic excellence, this role is perfect for candidates with NET or Ph.D. qualifications. Find out how to apply and prepar",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "UP-NCR, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "996bfc44df49",
+      "firstSeen": "2026-11-16"
+    },
     {
       "source": "FacultyPlus",
       "title": "Visiting Guest Faculty Recruitment Pandit Deendayal Upadhyaya National Institute for Persons with Physical Disabilities (Divyangjan) (PDUNIPPD), New Delhi",

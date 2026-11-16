@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-16T04:20:29.704Z",
+  "updatedAt": "2026-11-16T17:48:34.904Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": false,
-      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
+      "ok": true,
+      "count": 3
     },
     "watchlist": {
       "ok": true,
-      "count": 0
+      "count": 2
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 55
+      "count": 56
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 17
     },
     "googleNews": {
       "ok": true,
-      "count": 232
+      "count": 248
     }
   },
   "jobs": [
@@ -58,6 +58,191 @@
         }
       ],
       "id": "996bfc44df49",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor- Management",
+      "org": "Amity University",
+      "url": "https://www.linkedin.com/jobs/view/4489741173",
+      "region": "UP-NCR",
+      "location": "Noida, Uttar Pradesh, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Noida, Uttar Pradesh, India",
+      "details": "🌟 Amity Business School – Faculty Opportunities 🌟 Amity University Noida invites applications for the position of Assistant Professor in the areas of: Digital Marketing IT/ Analytics Economics Entrepreneurship Finance & Accounting Strategic Management About the Role You will be responsible for teaching, research, and contributing to curriculum design and program development. Qualifications Ph.D. from a Tier‑1 Institute/University 3–6 years of teaching/industry experience from premier Institutes/Universities Noteworthy publications in Scopus‑indexed journals Strong linkages with industry and academia at national and international levels Prior university‑level teaching experience will be an added advantage Required Skills Excellent communication skills Effective classroom management Ability to integrate management concepts with technology applications 📩 Interested applicants may forward their resume to: Ms. Chhaya Chandraker (AGM – HR) 📧 cchandraker@amity.edu",
+      "applyUrl": null,
+      "applyEmail": "cchandraker@amity.edu",
+      "subjectMatch": true,
+      "preferred": true,
+      "matchScore": 74,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 6+ years' experience; you have under 3"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        }
+      ],
+      "id": "687bbfdd8947",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor – Human Resources",
+      "org": "School of Inspired Leadership",
+      "url": "https://www.linkedin.com/jobs/view/4490250970",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "Role Objective To contribute to the academic excellence of SOIL through effective teaching, research, and industry engagement in the field of Human Resource Management. The role involves delivering high-quality learning experiences to postgraduate students, developing relevant academic content, pursuing impactful research, and contributing to the overall academic and institutional development of the department. Key Responsibilities 1. Teaching & Learning Deliver lectures, tutorials, seminars, and interactive learning sessions in various areas of Human Resource Management at the postgraduate level. Develop, review, and update course curriculum, teaching plans, and academic materials in line with industry developments and academic requirements. Adopt innovative teaching methodologies, case-based learning, experiential learning, and technology-enabled instructional approaches. Evaluate student performance through examinations, assignments, projects, presentations, and other assessment methods. Provide academic guidance, mentoring, and support to students to facilitate their overall development. 2. Research & Publications Conduct independent and collaborative research in Human Resource Management and related areas. Contribute to scholarly publications in reputed academic journals, including ABDC, Scopus, and Web of Science-indexed journals. Identify and pursue research funding opportunities and collaborate with researchers and academic institutions. Participate in academic conferences, seminars, and research forums, and present research findings. Contribute to the development of the institution's research culture and academic reputation. 3. Academic & Administrative Responsibilities Participate in departmental meetings, academic reviews, and institutional planning activities. Contribute to curriculum development, academic quality enhancement, and departmental initiatives. Participate in student recruitment, admissions-related activities, and student mentoring. Assist in organising academic workshops, conferences, seminars, faculty development programmes, and guest lectures. Undertake other academic and administrative responsibilities as assigned by the department. 4. Industry & Professional Engagement Build and strengthen relationships with industry professionals and corporate partners to enhance practical learning opportunities for students. Facilitate industry interactions, guest lectures, live projects, and other experiential learning initiatives. Contribut",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 77,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (human resource): partly your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "13ac385808d6",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4491292512",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Teaching Posts | Department of Computer Science & Engineering, SOET, The NorthCap University Open Positions: Assistant Professor Specialization Areas: AI and ML, Data Science, Cybersecurity and Quantum Computing Minimum Eligibility, Qualifications and Experience Assistant Professor Bachelors and Masters OR integrated M. Tech. in relevant branch with first class or equivalent OR B. Tech. and PhD in relevant Branch. NET / SET (Exempted for PhD Candidates) Preference will be given to candidates with minimum five years of relevant experience - Teaching, Research, and/or Industry PhD candidates will be preferred. How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – CSE Last date to apply: November 22, 2026 Guest Faculty Opportunities Experienced industry practitioners (minimum 6 years experience) and academic professionals with strong academic credentials who are interested in contributing as Guest Faculty are encouraged to apply. Interested candidates may submit their updated CV to career@ncuindia.edu with the subject line: Application for Guest Faculty – CSE . About Us The NorthCap University (NCU), Gurugram, established under the Haryana Private University Act and recognized by the University Grants Commission and accorded 12 (B) status, is a self-reliant, multi-disciplinary, digital-first university committed to academic excellence and innovation. It is recognised by the Bar Council of India (BCI) and is a Member of the Association of Indian Universities (AIU), and the American Society for Quality (ASQ). Graded ‘A’ by NAAC and conferred the prestigious QS 5-Star Rating (2025), NCU offers undergraduate, postgraduate, and doctoral programmes across Engineering, Management, Applied Sciences, Law, and Liberal Studies. Located in Gurugram, the University supports a vibrant academic ecosystem, strong industry linkages, and a culture that values research, entrepreneurship, and learner-centric education.",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 39,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (computer)"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 6+ years' experience; you have under 3"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "fb827325d8f2",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "Google News",
+      "title": "IIT Delhi Faculty Recruitment 2026 – Apply Online for 2 Associate Professor, Professor Posts",
+      "org": "FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTnlpM2pqV1RHNWNPZkhYT21JY0NJUzFINEJzSTFRRXRMWE9GbkhZeHZOT1BISTZwYnBIWEdkTWV2Zi1uYmJEMG9WTFVWM2NRUXR2R3h5Y1Bid0s5T18tLWdGVlJRQTZGLUxuY2l5ek9xdDlSUjFtQ2hEcVd3Z2QyV3cxeUNJb1IzZVZjM2hkSUc0SDlBcm5Wb2h4TWp0YWZFQkhXag?oc=5",
+      "region": "Delhi",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "query": "\"assistant professor\" management recruitment Delhi",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 52,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": false,
+          "text": "Senior post: needs more experience than you have"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "ed70b0753b4d",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "Google News",
+      "title": "Gautam Buddha University Recruitment 2026: Apply for 53 faculty posts by November 13; check eligibility, salary",
+      "org": "EdexLive",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaXdCdnFuSFUyd05wWUE1cnRVVGdiRlhOZk83UjVLUGZwc1FLRm4zei03Ym1ERGRXU2tUN1V5SmI3amNMeFJaakY0cTJfalRaOUd1c1hhenpZa3I0UTZMendZYjNRaDFrdEZsWkRLOF9MeE93SWZkVEJLb1NxTkhHcUxSVVNhSHdUeXM4S0RZSXRwZnfSAaABQVVfeXFMT3pKV0d6Uk9kdThYclU2ckdFSGhKVXBGbmhQbjZHS19rc1FhY1E3Rzd5UFp5XzlqWDdCZUdoNGdDeEJwSDhOa2x6NE9aelB4RHh6ZXlFWnJZMEhmbXZPMEVEaUlqU3NTLTJKTTZSSl9fNXpNbGp0bXJzVUo2MG1jRVhxRW9iWE1hcXNneWNfT2xGMTc0MTVoR3ZUQmplRm1mVQ?oc=5",
+      "region": "UP-NCR",
+      "postedAt": "2026-10-31",
+      "lastDate": null,
+      "query": "\"assistant professor\" recruitment Noida OR Ghaziabad OR Meerut",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "UP-NCR, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "2519dd9d2cf6",
       "firstSeen": "2026-11-16"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:44:26.855Z",
+  "updatedAt": "2026-11-17T12:42:56.746Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 53
+      "count": 57
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,236 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 21
     },
     "googleNews": {
       "ok": true,
-      "count": 227
+      "count": 256
     }
   },
   "jobs": [
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4490994775",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 25, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 87,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for commerce / finance / accounting"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "13789a99a98e",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor (SOMC) - Finance & Advance Excel",
+      "org": "K.R. Mangalam University",
+      "url": "https://www.linkedin.com/jobs/view/4490401499",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "Desired Candidate Profile: Job Title: Assistant Professor - Analytics & Marketing Department: Management Position Overview: The Assistant Professor will be integral in teaching, research, and service within the department. The role encompasses delivering educational content, conducting pertinent research, and providing service to the department. Specialization: Finance Advance Excel Key Responsibilities: Teaching: Instruct in the areas of Management at various academic levels. Create and maintain course materials and curricula. Evaluate students’ assignments and performance. Research: Perform research in Management, targeting publication in acclaimed journals. Seek external funding to facilitate research activities. Mentorship: Provide academic and career mentorship to students. Oversee student projects and research efforts. Service: Engage in departmental and university service, including committee participation. Community and Industry Engagement. Partner with industry and community stakeholders to foster collaborative initiatives. Minimum Qualifications: Ph.D. in Management or a related field. Demonstrable ability or potential for research and teaching excellence. Effective communication and interpersonal skills. Preferred Qualifications: A track record of publications in academic journals. Experience in securing research funding. Relevant industry experience. Interested Candidates can visit our website and they can send the resume on this mail id: Website - K. R. Mangalam University Email ID - krmujobs@krmangalam.edu.in",
+      "applyUrl": null,
+      "applyEmail": "krmujobs@krmangalam.edu.in",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 91,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Commerce / finance / accounting: your teaching area"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "00ef4f990bd8",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
+      "org": "Rishihood University",
+      "url": "https://www.linkedin.com/jobs/view/4491541828",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (data science)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "730a6b152bea",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor of Political Science, Assistant Professor of Economics",
+      "org": "DEAN School of Humanities and Social Sciences & Jaipur School of Economics, JECRC University",
+      "url": "https://www.linkedin.com/jobs/view/4491159493",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "Company Description: The School of Humanities and Social Sciences and the Jaipur School of Economics at JECRC University are academic units dedicated to high-quality teaching and research in the social sciences. Located in Jaipur, the schools offer interdisciplinary programs that emphasize critical thinking, empirical analysis, and engagement with contemporary societal issues. Faculty members work in a collaborative environment that supports innovation in curriculum design and pedagogy. The schools encourage research output, student mentorship, and participation in academic events and outreach activities. Role Description: This is a full-time, on-site role based in Jaipur for an Assistant Professor of Political Science and an Assistant Professor of Economics. The role includes designing and delivering undergraduate and postgraduate courses, preparing lectures and instructional materials, and evaluating student performance through assignments, exams, and projects. The faculty member will develop curriculum, contribute to departmental academic planning, and participate in seminars, workshops, and conferences. Responsibilities also include advising and mentoring students, conducting and publishing research, collaborating on academic initiatives, and contributing to institutional committees and community outreach as needed. Qualifications Strong foundation in Political Science and related areas for AP Political Science, and in economics and related fields for AP Economics, with the ability to teach core and elective courses. Demonstrated experience or potential in University Teaching, including classroom instruction, student assessment, and academic mentoring. Skills in Curriculum Development, with the ability to design and update course content aligned with current academic and industry standards. Relevant postgraduate or doctoral degree in Political Science, Economics, or a closely related discipline from a recognized institution. Evidence of research activity or strong research potential, including publications, conference presentations, or ongoing projects. Excellent communication and interpersonal skills, with the ability to work collaboratively in a diverse academic environment. Commitment to inclusive, learner-centered pedagogy and use of appropriate educational technologies. Prior teaching or research experience in higher education is highly desirable.",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 56,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (economics): partly your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "c095ba268d7f",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "Official site",
+      "title": "Human Resource Development Centre (HRDC), DTU is organizing an Online Workshop on “Leveraging Artificial Intelligence for Teaching and Research: Tools, Techniques and Applications” for Faculty Members",
+      "org": "Delhi Technological University",
+      "url": "http://dtu.ac.in/Web/dtu_uploads/circulars/1711202649.png",
+      "region": "Delhi",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 82,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (human resource): partly your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "a0f4d6d0f0ca",
+      "firstSeen": "2026-11-17"
+    },
     {
       "source": "LinkedIn",
       "title": "Assistant Professor- Management",
@@ -74,7 +296,7 @@
       "postedAt": "2026-11-16",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "Role Objective To contribute to the academic excellence of SOIL through effective teaching, research, and industry engagement in the field of Human Resource Management. The role involves delivering high-quality learning experiences to postgraduate students, developing relevant academic content, pursuing impactful research, and contributing to the overall academic and institutional development of the department. Key Responsibilities 1. Teaching & Learning Deliver lectures, tutorials, seminars, and interactive learning sessions in various areas of Human Resource Management at the postgraduate level. Develop, review, and update course curriculum, teaching plans, and academic materials in line with industry developments and academic requirements. Adopt innovative teaching methodologies, case-based learning, experiential learning, and technology-enabled instructional approaches. Evaluate student performance through examinations, assignments, projects, presentations, and other assessment methods. Provide academic guidance, mentoring, and support to students to facilitate their overall development. 2. Research & Publications Conduct independent and collaborative research in Human Resource Management and related areas. Contribute to scholarly publications in reputed academic journals, including ABDC, Scopus, and Web of Science-indexed journals. Identify and pursue research funding opportunities and collaborate with researchers and academic institutions. Participate in academic conferences, seminars, and research forums, and present research findings. Contribute to the development of the institution's research culture and academic reputation. 3. Academic & Administrative Responsibilities Participate in departmental meetings, academic reviews, and institutional planning activities. Contribute to curriculum development, academic quality enhancement, and departmental initiatives. Participate in student recruitment, admissions-related activities, and student mentoring. Assist in organising academic workshops, conferences, seminars, faculty development programmes, and guest lectures. Undertake other academic and administrative responsibilities as assigned by the department. 4. Industry & Professional Engagement Build and strengthen relationships with industry professionals and corporate partners to enhance practical learning opportunities for students. Facilitate industry interactions, guest lectures, live projects, and other experiential learning initiatives. Contribut",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": false,
@@ -96,50 +318,9 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "13ac385808d6",
-      "firstSeen": "2026-11-16"
-    },
-    {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "The NorthCap University",
-      "url": "https://www.linkedin.com/jobs/view/4491292512",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
-      "postedAt": "2026-11-16",
-      "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "We’re Hiring for Teaching Posts | Department of Computer Science & Engineering, SOET, The NorthCap University Open Positions: Assistant Professor Specialization Areas: AI and ML, Data Science, Cybersecurity and Quantum Computing Minimum Eligibility, Qualifications and Experience Assistant Professor Bachelors and Masters OR integrated M. Tech. in relevant branch with first class or equivalent OR B. Tech. and PhD in relevant Branch. NET / SET (Exempted for PhD Candidates) Preference will be given to candidates with minimum five years of relevant experience - Teaching, Research, and/or Industry PhD candidates will be preferred. How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – CSE Last date to apply: November 22, 2026 Guest Faculty Opportunities Experienced industry practitioners (minimum 6 years experience) and academic professionals with strong academic credentials who are interested in contributing as Guest Faculty are encouraged to apply. Interested candidates may submit their updated CV to career@ncuindia.edu with the subject line: Application for Guest Faculty – CSE . About Us The NorthCap University (NCU), Gurugram, established under the Haryana Private University Act and recognized by the University Grants Commission and accorded 12 (B) status, is a self-reliant, multi-disciplinary, digital-first university committed to academic excellence and innovation. It is recognised by the Bar Council of India (BCI) and is a Member of the Association of Indian Universities (AIU), and the American Society for Quality (ASQ). Graded ‘A’ by NAAC and conferred the prestigious QS 5-Star Rating (2025), NCU offers undergraduate, postgraduate, and doctoral programmes across Engineering, Management, Applied Sciences, Law, and Liberal Studies. Located in Gurugram, the University supports a vibrant academic ecosystem, strong industry linkages, and a culture that values research, entrepreneurship, and learner-centric education.",
-      "applyUrl": null,
-      "applyEmail": "career@ncuindia.edu",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 39,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (computer)"
-        },
-        {
-          "ok": false,
-          "text": "Asks for 6+ years' experience; you have under 3"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "fb827325d8f2",
       "firstSeen": "2026-11-16"
     },
     {
@@ -177,6 +358,43 @@
         }
       ],
       "id": "ed70b0753b4d",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4491292512",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Teaching Posts | Department of Computer Science & Engineering, SOET, The NorthCap University Open Positions: Assistant Professor Specialization Areas: AI and ML, Data Science, Cybersecurity and Quantum Computing Minimum Eligibility, Qualifications and Experience Assistant Professor Bachelors and Masters OR integrated M. Tech. in relevant branch with first class or equivalent OR B. Tech. and PhD in relevant Branch. NET / SET (Exempted for PhD Candidates) Preference will be given to candidates with minimum five years of relevant experience - Teaching, Research, and/or Industry PhD candidates will be preferred. How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – CSE Last date to apply: November 22, 2026 Guest Faculty Opportunities Experienced industry practitioners (minimum 6 years experience) and academic professionals with strong academic credentials who are interested in contributing as Guest Faculty are encouraged to apply. Interested candidates may submit their updated CV to career@ncuindia.edu with the subject line: Application for Guest Faculty – CSE . About Us The NorthCap University (NCU), Gurugram, established under the Haryana Private University Act and recognized by the University Grants Commission and accorded 12 (B) status, is a self-reliant, multi-disciplinary, digital-first university committed to academic excellence and innovation. It is recognised by the Bar Council of India (BCI) and is a Member of the Association of Indian Universities (AIU), and the American Society for Quality (ASQ). Graded ‘A’ by NAAC and conferred the prestigious QS 5-Star Rating (2025), NCU offers undergraduate, postgraduate, and doctoral programmes across Engineering, Management, Applied Sciences, Law, and Liberal Studies. Located in Gurugram, the University supports a vibrant academic ecosystem, strong industry linkages, and a culture that values research, entrepreneurship, and learner-centric education.",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 39,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (computer)"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 6+ years' experience; you have under 3"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "fb827325d8f2",
       "firstSeen": "2026-11-16"
     },
     {
@@ -365,43 +583,6 @@
       "firstSeen": "2026-11-15"
     },
     {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "O.P. Jindal Global University (JGU)",
-      "url": "https://www.linkedin.com/jobs/view/4488301221",
-      "region": "Haryana",
-      "location": "Sonipat, Haryana, India",
-      "postedAt": "2026-11-10",
-      "lastDate": null,
-      "summary": "Sonipat, Haryana, India",
-      "details": "Job Description School: Jindal School of Journalism and Communication (JSJC) Position: Assistant Professor Location: O.P. Jindal Global University, Sonipat, Haryana About the School Jindal School of Journalism and Communication (JSJC) at O.P. Jindal Global University is a leading institution dedicated to media, journalism, communication, and related interdisciplinary studies. The school offers three undergraduate programs: • BA in Journalism and Media Studies • BA in Film and New Media • BA in Corporate Communication and Public Affairs It also offers two postgraduate programmes, including the MA in Political Communication. Position Overview. JSJC invites applications from dynamic, motivated, and experienced professionals for a full-time faculty position at the level of Assistant Professor. The selected candidate will be expected to teach courses across the BA in Corporate Communication and Public Affairs and the MA in Political Communication programmes. Areas of Specialisation Candidates with academic and professional expertise in one or more of the following areas are encouraged to apply: • Advertising and Strategic Communication • Digital Strategy and Audience Engagement • Political Communication and Digital Branding Essential Qualifications and Experience • PhD or Master's degree in Journalism, Mass Communication, Film Studies, Media Production, or a related discipline. • 8 to 10 years of relevant professional or academic experience. • Teaching experience is desirable but not mandatory. Application Requirements Interested candidates are requested to submit the following: Updated Curriculum Vitae. Cover Letter Contact details of two professional or academic references. Portfolio of relevant work, wherever applicable. Work Location: O.P. Jindal Global University, Sonipat, Haryana. Join us and contribute to shaping the next generation of media and communication professionals.",
-      "applyUrl": null,
-      "applyEmail": null,
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 42,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (journalism)"
-        },
-        {
-          "ok": false,
-          "text": "Asks for 8+ years' experience; you have under 3"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Well-regarded institution"
-        }
-      ],
-      "id": "f2021cebdeac",
-      "firstSeen": "2026-11-15"
-    },
-    {
       "source": "Google News",
       "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
       "org": "Adda247",
@@ -436,6 +617,43 @@
         }
       ],
       "id": "cb89c71d9f2d",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "O.P. Jindal Global University (JGU)",
+      "url": "https://www.linkedin.com/jobs/view/4488301221",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-10",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "Job Description School: Jindal School of Journalism and Communication (JSJC) Position: Assistant Professor Location: O.P. Jindal Global University, Sonipat, Haryana About the School Jindal School of Journalism and Communication (JSJC) at O.P. Jindal Global University is a leading institution dedicated to media, journalism, communication, and related interdisciplinary studies. The school offers three undergraduate programs: • BA in Journalism and Media Studies • BA in Film and New Media • BA in Corporate Communication and Public Affairs It also offers two postgraduate programmes, including the MA in Political Communication. Position Overview. JSJC invites applications from dynamic, motivated, and experienced professionals for a full-time faculty position at the level of Assistant Professor. The selected candidate will be expected to teach courses across the BA in Corporate Communication and Public Affairs and the MA in Political Communication programmes. Areas of Specialisation Candidates with academic and professional expertise in one or more of the following areas are encouraged to apply: • Advertising and Strategic Communication • Digital Strategy and Audience Engagement • Political Communication and Digital Branding Essential Qualifications and Experience • PhD or Master's degree in Journalism, Mass Communication, Film Studies, Media Production, or a related discipline. • 8 to 10 years of relevant professional or academic experience. • Teaching experience is desirable but not mandatory. Application Requirements Interested candidates are requested to submit the following: Updated Curriculum Vitae. Cover Letter Contact details of two professional or academic references. Portfolio of relevant work, wherever applicable. Work Location: O.P. Jindal Global University, Sonipat, Haryana. Join us and contribute to shaping the next generation of media and communication professionals.",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 42,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (journalism)"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 8+ years' experience; you have under 3"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        }
+      ],
+      "id": "f2021cebdeac",
       "firstSeen": "2026-11-15"
     },
     {
@@ -524,7 +742,7 @@
       "postedAt": "2026-11-02",
       "lastDate": null,
       "summary": "Jaipur, Rajasthan, India",
-      "details": "",
+      "details": "Faculty Vacancy in the area of General Management & Strategy/ Finance & Accounting/ Business Analytics at Jaipuria Institute of Management, Jaipur Campus. About the Company Jaipuria Institute of Management, a part of the renowned Jaipuria Group of Institutions, is dedicated to excellence in management education. With a legacy spanning over two decades, the Institute is recognized for its innovative pedagogy, industry-focused curriculum, and robust research ecosystem. Consistently ranked among India’s top business schools, Jaipuria is committed to nurturing leadership and fostering holistic development. All four campuses (Lucknow, Noida, Jaipur, and Indore) of Jaipuria Institute of Management are accredited with the AACSB and is recognized as BEST WORKPLACE IN EDUCATION AND TRAINING. Faculty Disciplines We are inviting applications for faculty positions in the discipline of General Management & Strategy/ Finance & Accounting/ Business Analytics for Jaipuria Institute of Management, Jaipur Campus: Specialization subjects : Finance/ Accounting/ Corporate Finance/Accounting for leases/Buyback of shares and bonus shares and its accounting treatment/Strategic Management /Design Thinking /Entrepreneurship/Business Analytics/ Programming for Business Analytics/ Machine learning / Algorithmic Trading/ Artificial Intelligence/ Python Programming Qualification : PhD with area specialization in Finance & Accounting/ Management / Business Analytics (PhD from Top 100 NIRF ranked Universities / Institutions or top 200 QS Global ranked Universities are preferred) . Eligibility Criteria Professor Applicants for the Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 10 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated institute/ universities or a top 200 QS university. Associate Professor Applicants for the Associate Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 8 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated universities/ institution or a top 200 QS university. Flexi Track for Faculty At Jaipuria Institute of Management, we understand the diverse aspirations of academicians. Our Flexible Faculty Tracks allow ",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": true,
@@ -546,10 +764,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "181cbe4033c3",

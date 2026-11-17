@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-16T17:48:34.904Z",
+  "updatedAt": "2026-11-17T02:44:26.855Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
-      "count": 2
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 56
+      "count": 53
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,47 +19,14 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 17
+      "count": 18
     },
     "googleNews": {
       "ok": true,
-      "count": 248
+      "count": 227
     }
   },
   "jobs": [
-    {
-      "source": "FacultyTick",
-      "title": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
-      "org": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
-      "url": "https://facultytick.com/2026/11/16/gautam-buddha-university-online-applications-are-invited-from-eligible-candidate-for-the-assistant-professor-teaching-faculty-recruitment-job-opportunity-2026/",
-      "region": "UP-NCR",
-      "postedAt": "2026-11-16",
-      "lastDate": null,
-      "summary": "Explore a career-defining opportunity at Gautam Buddha University as an Assistant Professor in the Department of Education of Training. With a competitive salary and a focus on academic excellence, this role is perfect for candidates with NET or Ph.D. qualifications. Find out how to apply and prepar",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 64,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "UP-NCR, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        }
-      ],
-      "id": "996bfc44df49",
-      "firstSeen": "2026-11-16"
-    },
     {
       "source": "LinkedIn",
       "title": "Assistant Professor- Management",
@@ -107,7 +74,7 @@
       "postedAt": "2026-11-16",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "Role Objective To contribute to the academic excellence of SOIL through effective teaching, research, and industry engagement in the field of Human Resource Management. The role involves delivering high-quality learning experiences to postgraduate students, developing relevant academic content, pursuing impactful research, and contributing to the overall academic and institutional development of the department. Key Responsibilities 1. Teaching & Learning Deliver lectures, tutorials, seminars, and interactive learning sessions in various areas of Human Resource Management at the postgraduate level. Develop, review, and update course curriculum, teaching plans, and academic materials in line with industry developments and academic requirements. Adopt innovative teaching methodologies, case-based learning, experiential learning, and technology-enabled instructional approaches. Evaluate student performance through examinations, assignments, projects, presentations, and other assessment methods. Provide academic guidance, mentoring, and support to students to facilitate their overall development. 2. Research & Publications Conduct independent and collaborative research in Human Resource Management and related areas. Contribute to scholarly publications in reputed academic journals, including ABDC, Scopus, and Web of Science-indexed journals. Identify and pursue research funding opportunities and collaborate with researchers and academic institutions. Participate in academic conferences, seminars, and research forums, and present research findings. Contribute to the development of the institution's research culture and academic reputation. 3. Academic & Administrative Responsibilities Participate in departmental meetings, academic reviews, and institutional planning activities. Contribute to curriculum development, academic quality enhancement, and departmental initiatives. Participate in student recruitment, admissions-related activities, and student mentoring. Assist in organising academic workshops, conferences, seminars, faculty development programmes, and guest lectures. Undertake other academic and administrative responsibilities as assigned by the department. 4. Industry & Professional Engagement Build and strengthen relationships with industry professionals and corporate partners to enhance practical learning opportunities for students. Facilitate industry interactions, guest lectures, live projects, and other experiential learning initiatives. Contribut",
+      "details": "",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": false,
@@ -129,6 +96,10 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "13ac385808d6",
@@ -206,6 +177,39 @@
         }
       ],
       "id": "ed70b0753b4d",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "FacultyTick",
+      "title": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
+      "org": "Gautam Buddha University Online applications are invited from eligible candidate for the Assistant Professor Teaching Faculty Recruitment Job Opportunity 2026",
+      "url": "https://facultytick.com/2026/11/16/gautam-buddha-university-online-applications-are-invited-from-eligible-candidate-for-the-assistant-professor-teaching-faculty-recruitment-job-opportunity-2026/",
+      "region": "UP-NCR",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Explore a career-defining opportunity at Gautam Buddha University as an Assistant Professor in the Department of Education of Training. With a competitive salary and a focus on academic excellence, this role is perfect for candidates with NET or Ph.D. qualifications. Find out how to apply and prepar",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "UP-NCR, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "996bfc44df49",
       "firstSeen": "2026-11-16"
     },
     {
@@ -520,7 +524,7 @@
       "postedAt": "2026-11-02",
       "lastDate": null,
       "summary": "Jaipur, Rajasthan, India",
-      "details": "Faculty Vacancy in the area of General Management & Strategy/ Finance & Accounting/ Business Analytics at Jaipuria Institute of Management, Jaipur Campus. About the Company Jaipuria Institute of Management, a part of the renowned Jaipuria Group of Institutions, is dedicated to excellence in management education. With a legacy spanning over two decades, the Institute is recognized for its innovative pedagogy, industry-focused curriculum, and robust research ecosystem. Consistently ranked among India’s top business schools, Jaipuria is committed to nurturing leadership and fostering holistic development. All four campuses (Lucknow, Noida, Jaipur, and Indore) of Jaipuria Institute of Management are accredited with the AACSB and is recognized as BEST WORKPLACE IN EDUCATION AND TRAINING. Faculty Disciplines We are inviting applications for faculty positions in the discipline of General Management & Strategy/ Finance & Accounting/ Business Analytics for Jaipuria Institute of Management, Jaipur Campus: Specialization subjects : Finance/ Accounting/ Corporate Finance/Accounting for leases/Buyback of shares and bonus shares and its accounting treatment/Strategic Management /Design Thinking /Entrepreneurship/Business Analytics/ Programming for Business Analytics/ Machine learning / Algorithmic Trading/ Artificial Intelligence/ Python Programming Qualification : PhD with area specialization in Finance & Accounting/ Management / Business Analytics (PhD from Top 100 NIRF ranked Universities / Institutions or top 200 QS Global ranked Universities are preferred) . Eligibility Criteria Professor Applicants for the Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 10 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated institute/ universities or a top 200 QS university. Associate Professor Applicants for the Associate Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 8 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated universities/ institution or a top 200 QS university. Flexi Track for Faculty At Jaipuria Institute of Management, we understand the diverse aspirations of academicians. Our Flexible Faculty Tracks allow ",
+      "details": "",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": true,
@@ -542,6 +546,10 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "181cbe4033c3",

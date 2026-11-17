@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T12:42:56.746Z",
+  "updatedAt": "2026-11-17T23:17:43.539Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 57
+      "count": 54
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 21
+      "count": 20
     },
     "googleNews": {
       "ok": true,
-      "count": 256
+      "count": 252
     }
   },
   "jobs": [
@@ -103,6 +103,43 @@
     },
     {
       "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -173,43 +210,6 @@
         }
       ],
       "id": "c095ba268d7f",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
-      "title": "Consultant – Assistant Professor",
-      "org": "Public Health Career",
-      "url": "https://www.linkedin.com/jobs/view/4491159243",
-      "region": "Delhi",
-      "location": "Delhi, Delhi, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Delhi, Delhi, India",
-      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
-      "applyUrl": "https://www.phfi.org",
-      "applyEmail": "recruit@phfi.org",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 65,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Adjacent subject (operations)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "3fe51b104105",
       "firstSeen": "2026-11-17"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T05:33:21.379Z",
+  "updatedAt": "2026-11-18T16:53:25.362Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 5
+      "count": 4
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 54
+      "count": 57
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,127 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 20
+      "count": 24
     },
     "googleNews": {
       "ok": true,
-      "count": 254
+      "count": 278
     }
   },
   "jobs": [
+    {
+      "source": "FreeJobAlert",
+      "title": "AUD: Guest Faculty – 12 Posts",
+      "org": "AUD",
+      "url": "https://www.freejobalert.com/articles/aud-guest-faculty-recruitment-2026-3082342",
+      "region": "Delhi",
+      "sourceState": "delhi",
+      "postedAt": "2026-11-18",
+      "lastDate": "2026-11-30",
+      "qualification": "M.Phil/Ph.D, Post Graduate",
+      "advtNo": "AUD/Acad./2026/SVS",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 55,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": false,
+          "text": "Guest post: a step down from your permanent job"
+        }
+      ],
+      "id": "8ea675293362",
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "SSG Pareek PG Mahila Mahavidyalaya",
+      "url": "https://www.linkedin.com/jobs/view/4491834455",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-18",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "assistant professor of Business administration",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 67,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "b277733f7fd8",
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Business Administration Assistant Professor",
+      "org": "Selection Search",
+      "url": "https://www.linkedin.com/jobs/view/4490264314",
+      "region": "Rajasthan",
+      "location": "Rajasthan, India",
+      "postedAt": "2026-11-18",
+      "lastDate": null,
+      "summary": "Rajasthan, India",
+      "details": "Location: Rajasthan Client: A Reputed PG Girls College A reputed PG Girls College in Sikar District, Rajasthan, is looking to appoint a qualified and experienced Assistant Professor in Business Administration . The role involves teaching, student mentorship, academic support, research, and contributing to departmental activities. Key Responsibilities Prepare and deliver lectures, tutorials, and seminars. Develop course materials, lesson plans, and assessments. Teach and guide undergraduate and postgraduate students. Evaluate student performance through assignments, examinations, and projects. Provide academic guidance and mentorship to students. Support Professors and Department Heads with academic and departmental responsibilities. Conduct research and publish papers in academic journals. Participate in academic conferences and deliver presentations when required. Educational Qualifications NET/SET qualification is mandatory. Experience Minimum 3 years of teaching and/or research experience. Teaching experience in College / University. Published works would be advantageous. Ideal Candidate Profile Strong subject knowledge in Business Administration and a passion for teaching. Effective teaching, presentation, and communication skills. Good understanding of the National Education Policy (NEP) 2020. Strong research, writing, analytical, and problem-solving abilities. Good interpersonal skills and a student-focused approach. Basic computer knowledge. Note: The institution provides Hostel accommodation for eligible single female candidates.",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 62,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "fd4e301ecb48",
+      "firstSeen": "2026-11-18"
+    },
     {
       "source": "LinkedIn",
       "title": "Asst. Professor IT",
@@ -62,6 +175,43 @@
         }
       ],
       "id": "76d5c5f26d9b",
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor / Associate Professor – Programming and Data Structures",
+      "org": "Rishihood University",
+      "url": "https://www.linkedin.com/jobs/view/4491560109",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Programming & Data Structures Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. Every student begins with programming, and what they learn there decides how confident they feel for the rest of the degree. Students who get this foundation right find machine learning, systems and data courses far easier, and walk into internships and placements with real confidence. You will take ownership of this foundation, and grow the area through research and new courses. We are looking for a full time faculty member for the whole Programming and Data Structures area, not a single course, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. You will teach students who arrive with very different levels of prior experience, and you will be expected to teach across the area as the programme grows. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Problem Solving and Programming (including the CS Minor course), with problem solving at the centre of every class, in Python and C++ or Java. Teach Data Structures and Algorithms (DSA I and II), covering",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (data science)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "556f28ff8ec6",
       "firstSeen": "2026-11-18"
     },
     {
@@ -214,43 +364,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Consultant – Assistant Professor",
-      "org": "Public Health Career",
-      "url": "https://www.linkedin.com/jobs/view/4491159243",
-      "region": "Delhi",
-      "location": "Delhi, Delhi, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Delhi, Delhi, India",
-      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
-      "applyUrl": "https://www.phfi.org",
-      "applyEmail": "recruit@phfi.org",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 65,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Adjacent subject (operations)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "3fe51b104105",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -284,6 +397,43 @@
         }
       ],
       "id": "730a6b152bea",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
       "firstSeen": "2026-11-17"
     },
     {
@@ -370,20 +520,20 @@
       "postedAt": "2026-11-16",
       "lastDate": null,
       "summary": "Noida, Uttar Pradesh, India",
-      "details": "🌟 Amity Business School – Faculty Opportunities 🌟 Amity University Noida invites applications for the position of Assistant Professor in the areas of: Digital Marketing IT/ Analytics Economics Entrepreneurship Finance & Accounting Strategic Management About the Role You will be responsible for teaching, research, and contributing to curriculum design and program development. Qualifications Ph.D. from a Tier‑1 Institute/University 3–6 years of teaching/industry experience from premier Institutes/Universities Noteworthy publications in Scopus‑indexed journals Strong linkages with industry and academia at national and international levels Prior university‑level teaching experience will be an added advantage Required Skills Excellent communication skills Effective classroom management Ability to integrate management concepts with technology applications 📩 Interested applicants may forward their resume to: Ms. Chhaya Chandraker (AGM – HR) 📧 cchandraker@amity.edu",
+      "details": "",
       "applyUrl": null,
-      "applyEmail": "cchandraker@amity.edu",
+      "applyEmail": null,
       "subjectMatch": true,
       "preferred": true,
-      "matchScore": 74,
+      "matchScore": 86,
       "matchReasons": [
         {
           "ok": true,
           "text": "Management / business: close to your field"
         },
         {
-          "ok": false,
-          "text": "Asks for 6+ years' experience; you have under 3"
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
         },
         {
           "ok": true,
@@ -392,6 +542,10 @@
         {
           "ok": true,
           "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "687bbfdd8947",

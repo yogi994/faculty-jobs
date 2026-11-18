@@ -59,17 +59,76 @@ jobs:
             echo "::warning::ANDROID_KEYSTORE_B64 not set; APK signed with a one-off key"
           fi
 
+      - name: Check crash-prevention rules are in place
+        run: grep -q "androidx.work" android/app/proguard-rules.pro
+
       - name: Build release APK
         working-directory: app/android
         run: ./gradlew assembleRelease --no-daemon
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: app/android/app/build/outputs/apk/release/app-release.apk
+
+  # Install on an emulator and make sure it opens without crashing before anyone gets it.
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - uses: actions/download-artifact@v4
+        with:
+          name: apk
+      - name: Launch on emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: |
+            adb logcat -c
+            adb install -r app-release.apk
+            adb shell pm grant com.yogeshpandey.facultyjobs android.permission.POST_NOTIFICATIONS || true
+            adb shell am start -W -n com.yogeshpandey.facultyjobs/.MainActivity
+            sleep 25
+            adb shell monkey -p com.yogeshpandey.facultyjobs --pct-syskeys 0 --pct-appswitch 0 --throttle 300 -v 100 || true
+            sleep 5
+            adb logcat -d > logcat.txt
+            adb exec-out screencap -p > screen.png
+            if grep -q "FATAL EXCEPTION" logcat.txt; then grep -A25 "FATAL EXCEPTION" logcat.txt | head -60; echo "::error::App crashed on the emulator"; exit 1; fi
+            adb shell pidof com.yogeshpandey.facultyjobs || { echo "::error::App is not running"; exit 1; }
+            echo "App opened and survived taps without crashing"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emulator-logs
+          path: |
+            logcat.txt
+            screen.png
+
+  publish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: apk
+
       - name: Publish APK release
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
-          cp android/app/build/outputs/apk/release/app-release.apk faculty-jobs.apk
+          cp app-release.apk faculty-jobs.apk
           gh release delete app-latest --yes --cleanup-tag || true
-          gh release create app-latest faculty-jobs.apk \
+          gh release create app-latest faculty-jobs.apk --target ${{ github.sha }} \
             --title "Faculty Jobs app (Android)" \
             --notes "Latest Android build from ${GITHUB_SHA::7}. Download faculty-jobs.apk on the phone and open it to install." \
             --latest

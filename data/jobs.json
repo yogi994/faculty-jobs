@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:17:43.539Z",
+  "updatedAt": "2026-11-18T05:33:21.379Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,7 +7,7 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 4
+      "count": 5
     },
     "freeJobAlert": {
       "ok": true,
@@ -23,10 +23,121 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 252
+      "count": 254
     }
   },
   "jobs": [
+    {
+      "source": "LinkedIn",
+      "title": "Asst. Professor IT",
+      "org": "Avviare Educational Hub",
+      "url": "https://www.linkedin.com/jobs/view/4491486443",
+      "region": "UP-NCR",
+      "location": "Noida, Uttar Pradesh, India",
+      "postedAt": "2026-11-18",
+      "lastDate": null,
+      "summary": "Noida, Uttar Pradesh, India",
+      "details": "JOB DESCRIPTION – ASSISTANT PROFESSOR (IT) Organization: Avviare Educational Hub (AEH) Position: Assistant Professor – Information Technology (IT) Department: Information Technology Employment Type: Full-Time Job Location: Noida Experience: 1–5 Years (Freshers with strong subject knowledge may also apply) Salary: As per industry standards / Negotiable About the Role We are looking for a qualified and passionate Assistant Professor in Information Technology who can deliver engaging lectures, guide students in academic and practical learning, and contribute to the overall development of the IT Department. Key Responsibilities Deliver lectures on IT and Computer Science subjects to UG/PG students. Teach subjects such as: Programming Principles & Algorithms C, C++ and Python Programming Data Structures Database Management Systems (DBMS) Operating Systems Computer Networks Software Engineering Web Development Conduct practical sessions, assignments, projects, and assessments. Prepare lesson plans, lecture notes, and academic materials. Mentor students and support their academic progress. Participate in departmental activities, academic events, and institutional responsibilities. Maintain academic records and student performance reports. Eligibility & Requirements Master's degree in Computer Science, Information Technology, or a relevant discipline (MCA/M.Tech/M.Sc. IT). Strong command of programming languages and core IT concepts. Excellent teaching, presentation, and communication skills. Ability to explain technical concepts through practical examples. Prior teaching experience in a college/university will be preferred. Skills Required Strong subject knowledge. Good English communication. Classroom management and student engagement. Practical programming and problem-solving skills. Knowledge of modern teaching methodologies. Interested candidates can share their updated CV at the time of application.",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 27,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (computer)"
+        },
+        {
+          "ok": false,
+          "text": "Senior post: needs more experience than you have"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "76d5c5f26d9b",
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "source": "Google News",
+      "title": "VDU Faculty Recruitment 2026 – Walkin for 37 Head of the Department, Assistant Professor Posts",
+      "org": "FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkh5VXpxcUs2b2xSeHM2Rzl4b1lwNURtTl91MzQ5QmhjYmVuNFhkaUV1LWx4eU1sWGZ2Rk8ybndweF9iWmxUWVdHczFlV25fVG5FcVNHYUFzWjk0UGRjWUtTTGYxbWE2OFVicDI3Y2daTjRnbF9Jbk5WdVBuZEQwejNWRWRFc0dPUUplSHhmejFpWk51enhxdkNPXzIwTDQ1UHV5dnZETjBqNDZqeWc?oc=5",
+      "region": "Delhi",
+      "postedAt": "2026-11-14",
+      "lastDate": null,
+      "query": "\"assistant professor\" management recruitment Delhi",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 63,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "ba7f75c19cf8",
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "source": "Official site",
+      "title": "Public Notice: Last date for online Application and Receipt of Hard Copies of Recruitment for Teaching Posts (On Regular Basis)",
+      "org": "Ambedkar University Delhi",
+      "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/public_notice_dated_12.11.2026_last_date_for_online_application_and_receipt_of_hardcopies.pdf",
+      "region": "Delhi",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "61f5c9ec7d99",
+      "firstSeen": "2026-11-18"
+    },
     {
       "source": "LinkedIn",
       "title": "Assistant Professor",

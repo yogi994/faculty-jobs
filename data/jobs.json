@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T16:53:25.362Z",
+  "updatedAt": "2026-11-19T01:38:14.200Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 4
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 57
+      "count": 52
     },
     "facultyFeeds": {
       "ok": true,
@@ -23,7 +23,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 278
+      "count": 277
     }
   },
   "jobs": [
@@ -364,43 +364,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
-      "org": "Rishihood University",
-      "url": "https://www.linkedin.com/jobs/view/4491541828",
-      "region": "Haryana",
-      "location": "Sonipat, Haryana, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Sonipat, Haryana, India",
-      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
-      "applyUrl": null,
-      "applyEmail": null,
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 47,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (data science)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "730a6b152bea",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Consultant – Assistant Professor",
       "org": "Public Health Career",
       "url": "https://www.linkedin.com/jobs/view/4491159243",
@@ -434,6 +397,43 @@
         }
       ],
       "id": "3fe51b104105",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
+      "org": "Rishihood University",
+      "url": "https://www.linkedin.com/jobs/view/4491541828",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (data science)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "730a6b152bea",
       "firstSeen": "2026-11-17"
     },
     {
@@ -512,47 +512,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor- Management",
-      "org": "Amity University",
-      "url": "https://www.linkedin.com/jobs/view/4489741173",
-      "region": "UP-NCR",
-      "location": "Noida, Uttar Pradesh, India",
-      "postedAt": "2026-11-16",
-      "lastDate": null,
-      "summary": "Noida, Uttar Pradesh, India",
-      "details": "",
-      "applyUrl": null,
-      "applyEmail": null,
-      "subjectMatch": true,
-      "preferred": true,
-      "matchScore": 86,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Management / business: close to your field"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Well-regarded institution"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
-        }
-      ],
-      "id": "687bbfdd8947",
-      "firstSeen": "2026-11-16"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor – Human Resources",
       "org": "School of Inspired Leadership",
       "url": "https://www.linkedin.com/jobs/view/4490250970",
@@ -623,6 +582,47 @@
         }
       ],
       "id": "ed70b0753b4d",
+      "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor- Management",
+      "org": "Amity University",
+      "url": "https://www.linkedin.com/jobs/view/4489741173",
+      "region": "UP-NCR",
+      "location": "Noida, Uttar Pradesh, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Noida, Uttar Pradesh, India",
+      "details": "",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": true,
+      "matchScore": 86,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "687bbfdd8947",
       "firstSeen": "2026-11-16"
     },
     {

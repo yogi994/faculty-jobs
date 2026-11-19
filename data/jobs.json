@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:25:20.349Z",
+  "updatedAt": "2026-11-19T22:52:18.676Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 3
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 53
+      "count": 51
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 17
+      "count": 18
     },
     "googleNews": {
       "ok": true,
-      "count": 259
+      "count": 288
     }
   },
   "jobs": [
@@ -820,12 +820,12 @@
       "postedAt": "2026-11-11",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "Every management student at UDIT will write code, question data and build models before they graduate. We are looking for the person who makes that possible. UDIT is India's foremost university built from first principles for those who want to create, where design, technology and management converge. Our School of Management treats business as a creative discipline. Where business gets built. This role sits at the centre of the management school. You will build the quantitative spine of our BBA common core: statistics for business decisions, Python taught from first principles to students who have never coded, and data science foundations including regression, forecasting and experimentation. You will lead the analytical side of our AI Fluency Lab, and work with colleagues in finance, marketing and technology so that every BBA student can build an analysis and defend it. You will not deliver lectures followed by exams. At UDIT, courses run as two-to-six-week projects co-taught by faculty teams, and students defend their work before a jury. You will help build a data lab, a library of real datasets and analytics projects with companies across Gurugram. You bring: A PhD in Statistics, Econometrics, Operations Research, Data Science, Business Analytics or a related field. A Master's degree with at least 55% marks, as per UGC norms. A research record and evidence of effective teaching. Fluency in Python for data analysis and modelling. Industry experience as a data scientist, analyst or quantitative researcher is strongly preferred. To apply, send your CV and a two-page project brief to hr@udit.edu.in. Tell us about a project you would run with first-year students who have never coded: what they would make, and how you would judge it. ( Not case studies. Real work.)",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "hr@udit.edu.in",
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 77,
+      "matchScore": 80,
       "matchReasons": [
         {
           "ok": true,
@@ -844,8 +844,8 @@
           "text": "Private institution: check the pay beats your current salary"
         },
         {
-          "ok": null,
-          "text": "Scored from the title only"
+          "ok": true,
+          "text": "Wants research-methods skills you have (SPSS / PLS-SEM / NVivo)"
         }
       ],
       "id": "bc9fcafd318c",
@@ -1048,16 +1048,16 @@
       "postedAt": "2026-11-02",
       "lastDate": null,
       "summary": "Jaipur, Rajasthan, India",
-      "details": "",
-      "applyUrl": null,
+      "details": "About Organisation: Founded in 2011 by the 141-year-old J.K. Organisation (JKO), JK Lakshmipat University (JKLU) continues JKO's legacy of excellence and commitment to nation-building. Accredited with an 'A' grade by NAAC, JKLU is at the forefront of innovation, blending academia with industry through its interdisciplinary programs in engineering, management, and design. For more information, please visit www.jklu.edu.in Job Overview: The Institute of Engineering & Technology (IET) at JKLU is seeking dynamic and committed Faculty members at the Assistant Professor level, particularly in the domains of Machine Learning/ Artificial Intellegence and Cloud Computing. These positions are critical to strengthening IET’s growing focus on advanced computing, AI-driven innovation, and future-ready engineering education. The selected faculty members will contribute to the institute’s mission of delivering high-quality engineering education, advancing research, and nurturing an innovation-centric academic culture. They will play a pivotal role in undergraduate and postgraduate teaching, developing cutting-edge research agendas, mentoring industry-oriented projects, and supporting key institutional initiatives aligned with emerging technologies. These faculty opportunities are ideal for academicians who demonstrate deep expertise in statistics and its subfields, a commitment to continuous professional development, and a passion for fostering high-impact learning environments. The ideal candidates will showcase strong research orientation, experience with contemporary pedagogical approaches, and the ability to collaborate with industry, research bodies, and internal stakeholders to enhance the institute’s academic standing and societal impact. The roles offer substantial scope for academic leadership, interdisciplinary collaboration, and professional growth while contributing meaningfully to student success and IET’s long-term vision. Qualifications Educational Background: A PhD from a recognised institution in Computer Science only A strong record of scholarly research, including publications in peer-reviewed journals and contributions to the field. Why JKLU Industry-Leading Compensation: We benchmark faculty salaries with the Pay Commission of the Government of India. Inclusivity: We foster an inclusive environment that celebrates diversity and ensures equal opportunities for all faculty and staff. State-of-the-Art Facilities: JKLU ensures faculty members have access",
+      "applyUrl": "https://www.jklu.edu.in",
       "applyEmail": null,
       "subjectMatch": false,
       "preferred": false,
-      "matchScore": 46,
+      "matchScore": 30,
       "matchReasons": [
         {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
+          "ok": false,
+          "text": "Ad is for another subject (engineering)"
         },
         {
           "ok": true,
@@ -1070,10 +1070,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "89b9e0768e78",

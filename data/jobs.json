@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T22:52:18.676Z",
+  "updatedAt": "2026-11-20T05:19:01.916Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": false,
-      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
+      "ok": true,
+      "count": 3
     },
     "watchlist": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 51
+      "count": 52
     },
     "facultyFeeds": {
       "ok": true,
@@ -23,7 +23,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 288
+      "count": 272
     }
   },
   "jobs": [
@@ -364,43 +364,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
-      "org": "Rishihood University",
-      "url": "https://www.linkedin.com/jobs/view/4491541828",
-      "region": "Haryana",
-      "location": "Sonipat, Haryana, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Sonipat, Haryana, India",
-      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
-      "applyUrl": null,
-      "applyEmail": null,
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 47,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (data science)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "730a6b152bea",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Consultant – Assistant Professor",
       "org": "Public Health Career",
       "url": "https://www.linkedin.com/jobs/view/4491159243",
@@ -434,6 +397,43 @@
         }
       ],
       "id": "3fe51b104105",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
+      "org": "Rishihood University",
+      "url": "https://www.linkedin.com/jobs/view/4491541828",
+      "region": "Haryana",
+      "location": "Sonipat, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Sonipat, Haryana, India",
+      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 47,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (data science)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "730a6b152bea",
       "firstSeen": "2026-11-17"
     },
     {
@@ -779,16 +779,16 @@
       "postedAt": "2026-11-13",
       "lastDate": null,
       "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "details": "",
+      "details": "GL Bajaj (Institute of Technology & Mgmt.) – A Glimpse! Passionate education provider in multi disciplines at undergraduate and postgraduate level (B.Tech, MBA, MCA) Vibrant Learning Ecosystem on the campus, has inspired and brilliant students. GL Bajaj Group was incepted in year 1997 , carrying a winning legacy of 12 institutions running diverse higher education programs. GL Bajaj Group, has +14,000 students, +800 faculty members , 12 institutions, and 6 campuses with +300 acres of land. NAAC A+ accredited, 4 stars from Ministry of Education, NIRF rank holder, Research & Incubation centre, Entrepreneurship development and top quality placement for students Vision to give globally competent & socially sensitive professionals to the society. Highly inquisitive students who take risks, experiment, and put novel ideas into action. Sharpens the Technical as well as Life Skills of students – Developing young leaders. Have world class collaborative LEARNING infrastructure for teaching & learning practices. Hiring Distinguished faculty members from the Institutes of repute . We nurture versatile INTRAPRENEURs . Our core belief is in nurturing Diverse, inclusive, equity knowledge gems Hi – Tech Campus has a beautiful , serene environment & students enjoy learning. Believes in relentless change and desire to improve . We are looking for passionate researchers/out of box thinkers/academician s who have a go-gette r attitude, have fire to innovat e, works with technology drive n progressive mindse t and execute the concept of sustainabilit y in each task (paperles s) in learning proces s delivery. We are offering to the right candidate an excellent compensation packag e along with the tools and the environment to foster intellect and new ideas . If you want to CONTRIBUTE meaningful to the society at large, join us & Find your SPARK! ABOUT JOB Designat i on: Assistant Professor in CSE and Allied Branches Job Purpose & Role : To teach, research and s erve the Institution for academic, institutional & student’s growth & developm ent. WORK Responsibilities: LEARNING & TEACHING To develop and teach undergraduate and graduate courses in CORE Computer Science & Allied courses. Command on Subjects like: Programming Fundamentals via language C/C++, JAVA, Python Data Structures & Algorithms Operating Systems Computer Architecture & Organisation Object Oriented Programming (OOP)Software Engineering Design & Analysis of Algorithms Computer Networks, Compiler Designs, DevOps Arti",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "hrm@glbitm.ac.in",
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 63,
+      "matchScore": 47,
       "matchReasons": [
         {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
+          "ok": false,
+          "text": "Ad is for another subject (mca)"
         },
         {
           "ok": true,
@@ -801,10 +801,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "1f2a6a2bd966",
@@ -1569,43 +1565,6 @@
         }
       ],
       "id": "68ef992c57cd",
-      "firstSeen": "2026-11-15"
-    },
-    {
-      "source": "FacultyPlus",
-      "title": "Aditi Mahavidyalaya, Delhi - Guest Faculty Recruitment",
-      "org": "Aditi Mahavidyalaya, Delhi - Guest Faculty Recruitment",
-      "url": "https://www.facultyplus.com/aditi-mahavidyalaya-delhi-guest-faculty-recruitment/",
-      "region": "Delhi",
-      "postedAt": "2026-10-05",
-      "lastDate": null,
-      "summary": "Aditi Mahavidyalaya, Delhi has announced vacancies for the post of Guest Faculty for the academic year 2026-2027 . Interested candidates may apply through Online Date Posted: 5th October 2026 Hiring Organization: Aditi Mahavidyalaya, Delhi Organization Profile: Aditi Mahavidyalaya was established in",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 57,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": false,
-          "text": "Guest post: a step down from your permanent job"
-        }
-      ],
-      "id": "1db79043eed2",
       "firstSeen": "2026-11-15"
     },
     {

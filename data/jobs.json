@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T05:19:01.916Z",
+  "updatedAt": "2026-11-20T16:37:14.217Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
-      "count": 0
+      "count": 2
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 52
+      "count": 57
     },
     "facultyFeeds": {
       "ok": true,
@@ -23,10 +23,47 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 272
+      "count": 266
     }
   },
   "jobs": [
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "Divy Jyoti Paramedical Collage MP.",
+      "url": "https://www.linkedin.com/jobs/view/4491691662",
+      "region": "Rajasthan",
+      "location": "Amber, Rajasthan, India",
+      "postedAt": "2026-11-20",
+      "lastDate": null,
+      "summary": "Amber, Rajasthan, India",
+      "details": "Company Description Divy Jyoti Paramedical College MP is an educational institution focused on training future paramedical and healthcare professionals. The college is committed to delivering quality theoretical and practical education that aligns with current healthcare standards and practices. It aims to prepare learners for responsible roles in hospitals, clinics, and other healthcare settings through a structured curriculum and hands-on training. Faculty members are encouraged to contribute to an inclusive academic environment that supports student development, professional ethics, and community health. The college promotes collaboration, continuous improvement, and adherence to regulatory and accreditation requirements. Role Description The Assistant Professor will be responsible for planning and delivering lectures, demonstrations, and practical sessions aligned with the paramedical curriculum. Daily responsibilities include preparing lesson plans, assessing student performance through assignments, exams, and practical evaluations, and providing academic guidance and mentoring. The role involves participating in curriculum development, maintaining accurate academic records, and contributing to departmental meetings, academic committees, and quality assurance activities. The Assistant Professor is expected to stay current with developments in the relevant paramedical discipline, engage in scholarly or professional activities, and support student projects, seminars, and clinical training. This is a full-time, on-site role based in Amber, requiring consistent presence on campus and collaboration with faculty, administration, and clinical partners. Qualifications Postgraduate degree (or higher) in a relevant paramedical, allied health, or medical discipline from a recognized institution. Demonstrated teaching ability, including lesson planning, classroom management, and assessment of theoretical and practical competencies. Strong communication and interpersonal skills to effectively engage students, colleagues, and clinical staff in a diverse academic environment. Experience or training in clinical or laboratory settings, with the ability to supervise practical work and ensure adherence to safety and ethical standards. Familiarity with academic policies, student evaluation methods, and basic educational technology (e.g., learning management systems, presentation tools). Commitment to student-centered learning, professional integrity, and continuous devel",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 58,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for management / business"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "0bda2505b75b",
+      "firstSeen": "2026-11-20"
+    },
     {
       "source": "FreeJobAlert",
       "title": "AUD: Guest Faculty – 12 Posts",
@@ -327,43 +364,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor (SOMC) - Finance & Advance Excel",
-      "org": "K.R. Mangalam University",
-      "url": "https://www.linkedin.com/jobs/view/4490401499",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "Desired Candidate Profile: Job Title: Assistant Professor - Analytics & Marketing Department: Management Position Overview: The Assistant Professor will be integral in teaching, research, and service within the department. The role encompasses delivering educational content, conducting pertinent research, and providing service to the department. Specialization: Finance Advance Excel Key Responsibilities: Teaching: Instruct in the areas of Management at various academic levels. Create and maintain course materials and curricula. Evaluate students’ assignments and performance. Research: Perform research in Management, targeting publication in acclaimed journals. Seek external funding to facilitate research activities. Mentorship: Provide academic and career mentorship to students. Oversee student projects and research efforts. Service: Engage in departmental and university service, including committee participation. Community and Industry Engagement. Partner with industry and community stakeholders to foster collaborative initiatives. Minimum Qualifications: Ph.D. in Management or a related field. Demonstrable ability or potential for research and teaching excellence. Effective communication and interpersonal skills. Preferred Qualifications: A track record of publications in academic journals. Experience in securing research funding. Relevant industry experience. Interested Candidates can visit our website and they can send the resume on this mail id: Website - K. R. Mangalam University Email ID - krmujobs@krmangalam.edu.in",
-      "applyUrl": null,
-      "applyEmail": "krmujobs@krmangalam.edu.in",
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 91,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Commerce / finance / accounting: your teaching area"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "00ef4f990bd8",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Consultant – Assistant Professor",
       "org": "Public Health Career",
       "url": "https://www.linkedin.com/jobs/view/4491159243",
@@ -434,6 +434,43 @@
         }
       ],
       "id": "730a6b152bea",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor (SOMC) - Finance & Advance Excel",
+      "org": "K.R. Mangalam University",
+      "url": "https://www.linkedin.com/jobs/view/4490401499",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "Desired Candidate Profile: Job Title: Assistant Professor - Analytics & Marketing Department: Management Position Overview: The Assistant Professor will be integral in teaching, research, and service within the department. The role encompasses delivering educational content, conducting pertinent research, and providing service to the department. Specialization: Finance Advance Excel Key Responsibilities: Teaching: Instruct in the areas of Management at various academic levels. Create and maintain course materials and curricula. Evaluate students’ assignments and performance. Research: Perform research in Management, targeting publication in acclaimed journals. Seek external funding to facilitate research activities. Mentorship: Provide academic and career mentorship to students. Oversee student projects and research efforts. Service: Engage in departmental and university service, including committee participation. Community and Industry Engagement. Partner with industry and community stakeholders to foster collaborative initiatives. Minimum Qualifications: Ph.D. in Management or a related field. Demonstrable ability or potential for research and teaching excellence. Effective communication and interpersonal skills. Preferred Qualifications: A track record of publications in academic journals. Experience in securing research funding. Relevant industry experience. Interested Candidates can visit our website and they can send the resume on this mail id: Website - K. R. Mangalam University Email ID - krmujobs@krmangalam.edu.in",
+      "applyUrl": null,
+      "applyEmail": "krmujobs@krmangalam.edu.in",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 91,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Commerce / finance / accounting: your teaching area"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "00ef4f990bd8",
       "firstSeen": "2026-11-17"
     },
     {
@@ -512,24 +549,24 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor – Human Resources",
-      "org": "School of Inspired Leadership",
-      "url": "https://www.linkedin.com/jobs/view/4490250970",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
+      "title": "Assistant Professor- Management",
+      "org": "Amity University",
+      "url": "https://www.linkedin.com/jobs/view/4489741173",
+      "region": "UP-NCR",
+      "location": "Noida, Uttar Pradesh, India",
       "postedAt": "2026-11-16",
       "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "Role Objective To contribute to the academic excellence of SOIL through effective teaching, research, and industry engagement in the field of Human Resource Management. The role involves delivering high-quality learning experiences to postgraduate students, developing relevant academic content, pursuing impactful research, and contributing to the overall academic and institutional development of the department. Key Responsibilities 1. Teaching & Learning Deliver lectures, tutorials, seminars, and interactive learning sessions in various areas of Human Resource Management at the postgraduate level. Develop, review, and update course curriculum, teaching plans, and academic materials in line with industry developments and academic requirements. Adopt innovative teaching methodologies, case-based learning, experiential learning, and technology-enabled instructional approaches. Evaluate student performance through examinations, assignments, projects, presentations, and other assessment methods. Provide academic guidance, mentoring, and support to students to facilitate their overall development. 2. Research & Publications Conduct independent and collaborative research in Human Resource Management and related areas. Contribute to scholarly publications in reputed academic journals, including ABDC, Scopus, and Web of Science-indexed journals. Identify and pursue research funding opportunities and collaborate with researchers and academic institutions. Participate in academic conferences, seminars, and research forums, and present research findings. Contribute to the development of the institution's research culture and academic reputation. 3. Academic & Administrative Responsibilities Participate in departmental meetings, academic reviews, and institutional planning activities. Contribute to curriculum development, academic quality enhancement, and departmental initiatives. Participate in student recruitment, admissions-related activities, and student mentoring. Assist in organising academic workshops, conferences, seminars, faculty development programmes, and guest lectures. Undertake other academic and administrative responsibilities as assigned by the department. 4. Industry & Professional Engagement Build and strengthen relationships with industry professionals and corporate partners to enhance practical learning opportunities for students. Facilitate industry interactions, guest lectures, live projects, and other experiential learning initiatives. Contribut",
+      "summary": "Noida, Uttar Pradesh, India",
+      "details": "",
       "applyUrl": null,
       "applyEmail": null,
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 77,
+      "subjectMatch": true,
+      "preferred": true,
+      "matchScore": 86,
       "matchReasons": [
         {
           "ok": true,
-          "text": "Management area (human resource): partly your field"
+          "text": "Management / business: close to your field"
         },
         {
           "ok": true,
@@ -537,14 +574,18 @@
         },
         {
           "ok": true,
-          "text": "Gurugram: your first choice"
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
         },
         {
           "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
+          "text": "Scored from the title only"
         }
       ],
-      "id": "13ac385808d6",
+      "id": "687bbfdd8947",
       "firstSeen": "2026-11-16"
     },
     {
@@ -586,24 +627,24 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor- Management",
-      "org": "Amity University",
-      "url": "https://www.linkedin.com/jobs/view/4489741173",
-      "region": "UP-NCR",
-      "location": "Noida, Uttar Pradesh, India",
+      "title": "Assistant Professor – Human Resources",
+      "org": "School of Inspired Leadership",
+      "url": "https://www.linkedin.com/jobs/view/4490250970",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
       "postedAt": "2026-11-16",
       "lastDate": null,
-      "summary": "Noida, Uttar Pradesh, India",
-      "details": "",
+      "summary": "Gurugram, Haryana, India",
+      "details": "Role Objective To contribute to the academic excellence of SOIL through effective teaching, research, and industry engagement in the field of Human Resource Management. The role involves delivering high-quality learning experiences to postgraduate students, developing relevant academic content, pursuing impactful research, and contributing to the overall academic and institutional development of the department. Key Responsibilities 1. Teaching & Learning Deliver lectures, tutorials, seminars, and interactive learning sessions in various areas of Human Resource Management at the postgraduate level. Develop, review, and update course curriculum, teaching plans, and academic materials in line with industry developments and academic requirements. Adopt innovative teaching methodologies, case-based learning, experiential learning, and technology-enabled instructional approaches. Evaluate student performance through examinations, assignments, projects, presentations, and other assessment methods. Provide academic guidance, mentoring, and support to students to facilitate their overall development. 2. Research & Publications Conduct independent and collaborative research in Human Resource Management and related areas. Contribute to scholarly publications in reputed academic journals, including ABDC, Scopus, and Web of Science-indexed journals. Identify and pursue research funding opportunities and collaborate with researchers and academic institutions. Participate in academic conferences, seminars, and research forums, and present research findings. Contribute to the development of the institution's research culture and academic reputation. 3. Academic & Administrative Responsibilities Participate in departmental meetings, academic reviews, and institutional planning activities. Contribute to curriculum development, academic quality enhancement, and departmental initiatives. Participate in student recruitment, admissions-related activities, and student mentoring. Assist in organising academic workshops, conferences, seminars, faculty development programmes, and guest lectures. Undertake other academic and administrative responsibilities as assigned by the department. 4. Industry & Professional Engagement Build and strengthen relationships with industry professionals and corporate partners to enhance practical learning opportunities for students. Facilitate industry interactions, guest lectures, live projects, and other experiential learning initiatives. Contribut",
       "applyUrl": null,
       "applyEmail": null,
-      "subjectMatch": true,
-      "preferred": true,
-      "matchScore": 86,
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 77,
       "matchReasons": [
         {
           "ok": true,
-          "text": "Management / business: close to your field"
+          "text": "Management area (human resource): partly your field"
         },
         {
           "ok": true,
@@ -611,18 +652,14 @@
         },
         {
           "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Well-regarded institution"
+          "text": "Gurugram: your first choice"
         },
         {
           "ok": null,
-          "text": "Scored from the title only"
+          "text": "Private institution: check the pay beats your current salary"
         }
       ],
-      "id": "687bbfdd8947",
+      "id": "13ac385808d6",
       "firstSeen": "2026-11-16"
     },
     {
@@ -731,6 +768,43 @@
       ],
       "id": "2519dd9d2cf6",
       "firstSeen": "2026-11-16"
+    },
+    {
+      "source": "Google News",
+      "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
+      "org": "Adda247",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
+      "region": "Delhi",
+      "postedAt": "2026-11-20",
+      "lastDate": null,
+      "query": "\"assistant professor\" management recruitment Delhi",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "cb89c71d9f2d",
+      "firstSeen": "2026-11-15"
     },
     {
       "source": "FacultyPlus",
@@ -848,43 +922,6 @@
       "firstSeen": "2026-11-15"
     },
     {
-      "source": "Google News",
-      "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
-      "org": "Adda247",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
-      "region": "Delhi",
-      "postedAt": "2026-11-10",
-      "lastDate": null,
-      "query": "\"assistant professor\" management recruitment Delhi",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 72,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
-        }
-      ],
-      "id": "cb89c71d9f2d",
-      "firstSeen": "2026-11-15"
-    },
-    {
       "source": "LinkedIn",
       "title": "Assistant Professor",
       "org": "O.P. Jindal Global University (JGU)",
@@ -999,43 +1036,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant/Associate Professor- General Management & Strategy/ Finance & Accounting/ Business Analytics",
-      "org": "Jaipuria Institute of Management",
-      "url": "https://www.linkedin.com/jobs/view/4484349807",
-      "region": "Rajasthan",
-      "location": "Jaipur, Rajasthan, India",
-      "postedAt": "2026-11-02",
-      "lastDate": null,
-      "summary": "Jaipur, Rajasthan, India",
-      "details": "Faculty Vacancy in the area of General Management & Strategy/ Finance & Accounting/ Business Analytics at Jaipuria Institute of Management, Jaipur Campus. About the Company Jaipuria Institute of Management, a part of the renowned Jaipuria Group of Institutions, is dedicated to excellence in management education. With a legacy spanning over two decades, the Institute is recognized for its innovative pedagogy, industry-focused curriculum, and robust research ecosystem. Consistently ranked among India’s top business schools, Jaipuria is committed to nurturing leadership and fostering holistic development. All four campuses (Lucknow, Noida, Jaipur, and Indore) of Jaipuria Institute of Management are accredited with the AACSB and is recognized as BEST WORKPLACE IN EDUCATION AND TRAINING. Faculty Disciplines We are inviting applications for faculty positions in the discipline of General Management & Strategy/ Finance & Accounting/ Business Analytics for Jaipuria Institute of Management, Jaipur Campus: Specialization subjects : Finance/ Accounting/ Corporate Finance/Accounting for leases/Buyback of shares and bonus shares and its accounting treatment/Strategic Management /Design Thinking /Entrepreneurship/Business Analytics/ Programming for Business Analytics/ Machine learning / Algorithmic Trading/ Artificial Intelligence/ Python Programming Qualification : PhD with area specialization in Finance & Accounting/ Management / Business Analytics (PhD from Top 100 NIRF ranked Universities / Institutions or top 200 QS Global ranked Universities are preferred) . Eligibility Criteria Professor Applicants for the Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 10 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated institute/ universities or a top 200 QS university. Associate Professor Applicants for the Associate Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 8 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated universities/ institution or a top 200 QS university. Flexi Track for Faculty At Jaipuria Institute of Management, we understand the diverse aspirations of academicians. Our Flexible Faculty Tracks allow ",
-      "applyUrl": null,
-      "applyEmail": null,
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 66,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Commerce / finance / accounting: your teaching area"
-        },
-        {
-          "ok": true,
-          "text": "Assistant or Associate: you fit the Assistant level"
-        },
-        {
-          "ok": false,
-          "text": "Rajasthan: you want to move to NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "181cbe4033c3",
-      "firstSeen": "2026-11-15"
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor",
       "org": "JK Lakshmipat University, Jaipur",
       "url": "https://www.linkedin.com/jobs/view/4484337858",
@@ -1069,6 +1069,43 @@
         }
       ],
       "id": "89b9e0768e78",
+      "firstSeen": "2026-11-15"
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant/Associate Professor- General Management & Strategy/ Finance & Accounting/ Business Analytics",
+      "org": "Jaipuria Institute of Management",
+      "url": "https://www.linkedin.com/jobs/view/4484349807",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-02",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "Faculty Vacancy in the area of General Management & Strategy/ Finance & Accounting/ Business Analytics at Jaipuria Institute of Management, Jaipur Campus. About the Company Jaipuria Institute of Management, a part of the renowned Jaipuria Group of Institutions, is dedicated to excellence in management education. With a legacy spanning over two decades, the Institute is recognized for its innovative pedagogy, industry-focused curriculum, and robust research ecosystem. Consistently ranked among India’s top business schools, Jaipuria is committed to nurturing leadership and fostering holistic development. All four campuses (Lucknow, Noida, Jaipur, and Indore) of Jaipuria Institute of Management are accredited with the AACSB and is recognized as BEST WORKPLACE IN EDUCATION AND TRAINING. Faculty Disciplines We are inviting applications for faculty positions in the discipline of General Management & Strategy/ Finance & Accounting/ Business Analytics for Jaipuria Institute of Management, Jaipur Campus: Specialization subjects : Finance/ Accounting/ Corporate Finance/Accounting for leases/Buyback of shares and bonus shares and its accounting treatment/Strategic Management /Design Thinking /Entrepreneurship/Business Analytics/ Programming for Business Analytics/ Machine learning / Algorithmic Trading/ Artificial Intelligence/ Python Programming Qualification : PhD with area specialization in Finance & Accounting/ Management / Business Analytics (PhD from Top 100 NIRF ranked Universities / Institutions or top 200 QS Global ranked Universities are preferred) . Eligibility Criteria Professor Applicants for the Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 10 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated institute/ universities or a top 200 QS university. Associate Professor Applicants for the Associate Professor position must demonstrate an outstanding research record, publications in reputed academic journals, and proven academic leadership skills. Minimum of 8 years of teaching/research experience with a top ranked Universities/Institution. Ph.D. degree from a top 100 NIRF-rated universities/ institution or a top 200 QS university. Flexi Track for Faculty At Jaipuria Institute of Management, we understand the diverse aspirations of academicians. Our Flexible Faculty Tracks allow ",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 66,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Commerce / finance / accounting: your teaching area"
+        },
+        {
+          "ok": true,
+          "text": "Assistant or Associate: you fit the Assistant level"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "181cbe4033c3",
       "firstSeen": "2026-11-15"
     },
     {

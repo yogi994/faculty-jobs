@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T18:12:33.648Z",
+  "updatedAt": "2026-11-21T18:52:58.760Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 57
+      "count": 55
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 17
     },
     "googleNews": {
       "ok": true,
-      "count": 273
+      "count": 274
     }
   },
   "jobs": [
@@ -643,16 +643,16 @@
       "postedAt": "2026-11-17",
       "lastDate": null,
       "summary": "Sonipat, Haryana, India",
-      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
+      "details": "",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": false,
       "preferred": false,
-      "matchScore": 47,
+      "matchScore": 63,
       "matchReasons": [
         {
-          "ok": false,
-          "text": "Ad is for another subject (data science)"
+          "ok": null,
+          "text": "Subject not stated: check the ad"
         },
         {
           "ok": true,
@@ -665,6 +665,10 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "730a6b152bea",
@@ -850,20 +854,20 @@
       "postedAt": "2026-11-16",
       "lastDate": null,
       "summary": "Noida, Uttar Pradesh, India",
-      "details": "🌟 Amity Business School – Faculty Opportunities 🌟 Amity University Noida invites applications for the position of Assistant Professor in the areas of: Digital Marketing IT/ Analytics Economics Entrepreneurship Finance & Accounting Strategic Management About the Role You will be responsible for teaching, research, and contributing to curriculum design and program development. Qualifications Ph.D. from a Tier‑1 Institute/University 3–6 years of teaching/industry experience from premier Institutes/Universities Noteworthy publications in Scopus‑indexed journals Strong linkages with industry and academia at national and international levels Prior university‑level teaching experience will be an added advantage Required Skills Excellent communication skills Effective classroom management Ability to integrate management concepts with technology applications 📩 Interested applicants may forward their resume to: Ms. Chhaya Chandraker (AGM – HR) 📧 cchandraker@amity.edu",
+      "details": "",
       "applyUrl": null,
-      "applyEmail": "cchandraker@amity.edu",
+      "applyEmail": null,
       "subjectMatch": true,
       "preferred": true,
-      "matchScore": 74,
+      "matchScore": 86,
       "matchReasons": [
         {
           "ok": true,
           "text": "Management / business: close to your field"
         },
         {
-          "ok": false,
-          "text": "Asks for 6+ years' experience; you have under 3"
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
         },
         {
           "ok": true,
@@ -872,6 +876,10 @@
         {
           "ok": true,
           "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "687bbfdd8947",

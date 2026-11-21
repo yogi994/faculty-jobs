@@ -139,7 +139,12 @@ async function main() {
 
   const fresh = new Map();
   const seenTitles = new Set();
-  for (const r of raw) {
+  for (const r0 of raw) {
+    // A failed fetch (e.g. LinkedIn rate limit) shouldn't wipe text we already have.
+    const before = known.get(createHash('sha1').update(r0.url ?? '').digest('hex').slice(0, 12));
+    const r = before
+      ? { ...r0, details: r0.details || before.details, applyUrl: r0.applyUrl ?? before.applyUrl, applyEmail: r0.applyEmail ?? before.applyEmail }
+      : r0;
     const job = qualify(r);
     if (!job) continue;
     const id = createHash('sha1').update(job.url).digest('hex').slice(0, 12);

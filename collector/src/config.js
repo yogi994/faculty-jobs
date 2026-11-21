@@ -38,6 +38,7 @@ export const EXCLUDE_PATTERN = new RegExp(
     'lists? of', 'selected', 'recommendation', 'written test', 'cut[- ]?off', 'objection', 'provisional', 'waiting list', 'date-?sheet', 'grievance', 'cancell', 'eligibility of', 'eligible candidates', 'ans(wer)?\\.? key', 'q\\. and ans',
     '\\bmarks\\b', 'roll no', 'inspection', 'qualified', 'shortlist', 'proposal', 'publication', 'presentation', 'schedule', 'appointment of', 'engagement of', 'joining',
     // unrelated news
+    'workshop', 'webinar', 'seminar', 'conference', 'symposium', '\\bfdp\\b', 'faculty development programme',
     'harass', 'on leave', 'suspend', 'arrest', 'protest', 'strike', 'iris murdoch',
   ].join('|'),
   'i',

@@ -27,6 +27,35 @@ export type Job = {
   // Fit with her CV, 0-100, with the reasons behind it.
   matchScore?: number;
   matchReasons?: { ok: boolean | null; text: string }[];
+  // Number of posts, when the ad states it.
+  openings?: number | null;
+  institution?: Institution | null;
+};
+
+export type Reviews = {
+  source: string;
+  url: string;
+  scope: string; // 'Assistant Professors' or 'all staff'
+  count: number | null;
+  overall: number;
+  culture: number | null;
+  workLife: number | null;
+  jobSecurity: number | null;
+  salary: number | null;
+  careerGrowth: number | null;
+  skillDevelopment: number | null;
+  praised: string[];
+  criticised: string[];
+  likes: string[];
+  dislikes: string[];
+};
+
+export type Institution = {
+  name: string;
+  website: string;
+  type: 'Government' | 'Private';
+  note: string | null;
+  reviews: Reviews | null;
 };
 
 export type JobsFile = { updatedAt: string; jobs: Job[] };

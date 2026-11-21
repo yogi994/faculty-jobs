@@ -11,6 +11,7 @@ import { watchlist } from './sources/watchlist.js';
 import { facultyFeeds } from './sources/facultyfeeds.js';
 import { linkedin } from './sources/linkedin.js';
 import { scoreJob } from './match.js';
+import { loadInstitutions, refreshReviews, institutionInfo, openingsOf } from './institutions.js';
 
 const DATA_FILE = new URL('../../data/jobs.json', import.meta.url);
 const SOURCES = { delhiUniversity, watchlist, freeJobAlert, facultyFeeds, linkedin, googleNews };
@@ -148,9 +149,14 @@ async function main() {
     if (still) fresh.set(j.id, { ...still, id: j.id, firstSeen: j.firstSeen });
   }
 
-  const jobs = [...fresh.values()]
+  const kept = [...fresh.values()]
     .filter((j) => !isExpired(j))
     .sort((a, b) => (b.firstSeen + (b.postedAt ?? '')).localeCompare(a.firstSeen + (a.postedAt ?? '')));
+
+  // Employer website, reviews and number of posts for each card.
+  const inst = await loadInstitutions();
+  await refreshReviews(inst, kept).catch((err) => console.warn(`Reviews skipped: ${err.message}`));
+  const jobs = kept.map((j) => ({ ...j, openings: openingsOf(j), institution: institutionInfo(inst, j) }));
 
   const newJobs = jobs.filter((j) => !known.has(j.id) && !knownTitles.has(jobKey(j)));
   await writeFile(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), sourceStatus, jobs }, null, 2) + '\n');

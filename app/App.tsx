@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { FlatList, Linking, Platform, Pressable, RefreshControl, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { Job, REGIONS, Region } from './src/config';
+import { Institution, Job, REGIONS, Region } from './src/config';
 import { markSeen, setUpNotifications } from './src/notify';
 import { JobStatus, loadJobs, loadStatuses, markOpened, saveStatuses } from './src/storage';
 
@@ -35,11 +35,57 @@ function Chip({ label, active, onPress }: { label: string; active: boolean; onPr
   );
 }
 
+const stars = (n: number) => '★'.repeat(Math.round(n)) + '☆'.repeat(5 - Math.round(n));
+const rateColor = (n: number | null) => (n === null ? C.muted : n >= 4 ? C.green : n >= 3 ? '#8A5A00' : C.red);
+
+function InstitutionPanel({ inst }: { inst: Institution }) {
+  const r = inst.reviews;
+  const rows: [string, number | null][] = r
+    ? [['Work culture', r.culture], ['Work-life balance', r.workLife], ['Job security', r.jobSecurity], ['Salary & benefits', r.salary], ['Career growth', r.careerGrowth], ['Skill development', r.skillDevelopment]]
+    : [];
+  return (
+    <View style={s.instPanel}>
+      <Text style={s.instName}>{inst.name} · {inst.type}</Text>
+      {inst.note && <Text style={s.instText}>{inst.note}</Text>}
+      {r ? (
+        <>
+          <Text style={s.instText}>
+            Rated <Text style={{ fontWeight: '700', color: rateColor(r.overall) }}>{r.overall}/5</Text> by {r.count ?? 'some'}{' '}
+            {r.scope === 'Assistant Professors' ? 'Assistant Professors who work there' : 'staff (not enough faculty reviews)'} on {r.source}.
+          </Text>
+          {(r.count ?? 0) < 5 && <Text style={[s.instText, { color: C.red }]}>Only a few reviews: treat with caution.</Text>}
+          {rows.filter(([, v]) => v !== null).map(([label, v]) => (
+            <View key={label} style={s.rateRow}>
+              <Text style={s.rateLabel}>{label}</Text>
+              <View style={s.rateBar}><View style={[s.rateFill, { width: `${((v ?? 0) / 5) * 100}%`, backgroundColor: rateColor(v) }]} /></View>
+              <Text style={[s.rateNum, { color: rateColor(v) }]}>{v?.toFixed(1)}</Text>
+            </View>
+          ))}
+          {r.praised.length > 0 && <Text style={s.instText}><Text style={{ color: C.green, fontWeight: '700' }}>Praised: </Text>{r.praised.join(', ')}</Text>}
+          {r.criticised.length > 0 && <Text style={s.instText}><Text style={{ color: C.red, fontWeight: '700' }}>Criticised: </Text>{r.criticised.join(', ')}</Text>}
+          {r.likes.length > 0 && <Text style={s.quoteHead}>What staff like</Text>}
+          {r.likes.map((q, i) => <Text key={`l${i}`} style={s.quote}>“{q}”</Text>)}
+          {r.dislikes.length > 0 && <Text style={s.quoteHead}>What staff dislike</Text>}
+          {r.dislikes.map((q, i) => <Text key={`d${i}`} style={s.quote}>“{q}”</Text>)}
+          <Pressable onPress={() => Linking.openURL(r.url)} hitSlop={6}>
+            <Text style={s.why}>All reviews on {r.source} ↗</Text>
+          </Pressable>
+        </>
+      ) : (
+        <Text style={s.instText}>No employee reviews found online for this institution.</Text>
+      )}
+    </View>
+  );
+}
+
 function JobCard({
   job, status, isNew, onStatus,
 }: { job: Job; status?: JobStatus; isNew: boolean; onStatus: (st: JobStatus | null) => void }) {
   const left = job.lastDate ? daysLeft(job.lastDate) : null;
   const [why, setWhy] = useState(false);
+  const [about, setAbout] = useState(false);
+  const inst = job.institution;
+  const rev = inst?.reviews;
   const score = job.matchScore;
   const tone = score === undefined ? null : score >= 75 ? 'good' : score >= 55 ? 'ok' : 'low';
   return (
@@ -66,6 +112,7 @@ function JobCard({
       )}
       <View style={s.tagRow}>
         {isNew && <Text style={[s.tag, s.tagNew]}>NEW</Text>}
+        {!!job.openings && <Text style={[s.tag, s.tagPosts]}>{job.openings} {job.openings === 1 ? 'post' : 'posts'}</Text>}
         {job.subjectMatch && <Text style={[s.tag, s.tagGreen]}>Commerce / Mgmt</Text>}
         {job.preferred && <Text style={[s.tag, s.tagBlue]}>Top institution</Text>}
         <Text style={[s.tag, s.tagGrey]}>{job.region}</Text>
@@ -74,6 +121,20 @@ function JobCard({
       {!!job.org && job.org !== job.title.split(':')[0] && <Text style={s.org}>{job.org}</Text>}
       {!!job.location && <Text style={s.meta}>{job.location}</Text>}
       {!!job.qualification && <Text style={s.meta}>Qualification: {job.qualification}</Text>}
+      {inst && (
+        <Pressable onPress={() => setAbout((v) => !v)} style={s.rating} hitSlop={6} accessibilityRole="button">
+          {rev ? (
+            <Text style={s.ratingText}>
+              <Text style={{ color: rateColor(rev.overall) }}>{stars(rev.overall)} {rev.overall}/5</Text>
+              <Text style={s.ratingMuted}> · {rev.count} {rev.scope === 'Assistant Professors' ? 'faculty' : 'staff'} reviews</Text>
+            </Text>
+          ) : (
+            <Text style={s.ratingMuted}>{inst.type} · no reviews online</Text>
+          )}
+          <Text style={s.why}>{about ? 'Hide' : 'Work culture ›'}</Text>
+        </Pressable>
+      )}
+      {about && inst && <InstitutionPanel inst={inst} />}
       <View style={s.footer}>
         <Text style={[s.meta, left !== null && left <= 5 && { color: C.red, fontWeight: '600' }]}>
           {job.lastDate
@@ -108,6 +169,11 @@ function JobCard({
             accessibilityRole="link"
           >
             <Text style={s.applyText}>Email CV ✉</Text>
+          </Pressable>
+        )}
+        {!!inst?.website && (
+          <Pressable onPress={() => Linking.openURL(inst.website)} style={s.applyBtn} accessibilityRole="link">
+            <Text style={s.applyText}>Website ↗</Text>
           </Pressable>
         )}
       </View>
@@ -145,6 +211,7 @@ function Main() {
   const [query, setQuery] = useState('');
   const [notifOff, setNotifOff] = useState(false);
   const [sort, setSort] = useState<'match' | 'newest'>('match');
+  const [showFilters, setShowFilters] = useState(false);
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -194,6 +261,7 @@ function Main() {
   }, [jobs, statuses, tab, regions, commerceOnly, topOnly, query, sort]);
 
   const newCount = lastOpened ? jobs.filter((j) => j.firstSeen > lastOpened && statuses[j.id] !== 'hidden').length : 0;
+  const activeCount = regions.length + (commerceOnly ? 1 : 0) + (topOnly ? 1 : 0) + (query.trim() ? 1 : 0);
   const toggleRegion = (r: Region) => setRegions((p) => (p.includes(r) ? p.filter((x) => x !== r) : [...p, r]));
 
   return (
@@ -224,26 +292,35 @@ function Main() {
         ))}
       </View>
 
-      <TextInput
-        style={s.search}
-        placeholder="Search college, university, subject…"
-        placeholderTextColor={C.muted}
-        value={query}
-        onChangeText={setQuery}
-        clearButtonMode="while-editing"
-      />
-      <View style={s.chips}>
-        {REGIONS.map((r) => (
-          <Chip key={r} label={r} active={regions.includes(r)} onPress={() => toggleRegion(r)} />
-        ))}
-        <Chip label="Commerce / Mgmt" active={commerceOnly} onPress={() => setCommerceOnly((v) => !v)} />
-        <Chip label="Top institutions" active={topOnly} onPress={() => setTopOnly((v) => !v)} />
-        <Chip
-          label={sort === 'match' ? 'Sorted: best match' : 'Sorted: newest'}
-          active={false}
-          onPress={() => setSort((v) => (v === 'match' ? 'newest' : 'match'))}
-        />
+      <View style={s.filterBar}>
+        <Pressable onPress={() => setShowFilters((v) => !v)} style={s.filterToggle} hitSlop={6} accessibilityRole="button" accessibilityState={{ expanded: showFilters }}>
+          <Text style={s.filterToggleText}>
+            {showFilters ? '▾' : '▸'} Search & filters{activeCount ? ` (${activeCount} on)` : ''}
+          </Text>
+        </Pressable>
+        <Pressable onPress={() => setSort((v) => (v === 'match' ? 'newest' : 'match'))} hitSlop={6} accessibilityRole="button">
+          <Text style={s.why}>{sort === 'match' ? 'Best match ⇅' : 'Newest ⇅'}</Text>
+        </Pressable>
       </View>
+      {showFilters && (
+        <>
+          <TextInput
+            style={s.search}
+            placeholder="Search college, university, subject…"
+            placeholderTextColor={C.muted}
+            value={query}
+            onChangeText={setQuery}
+            clearButtonMode="while-editing"
+          />
+          <View style={s.chips}>
+            {REGIONS.map((r) => (
+              <Chip key={r} label={r} active={regions.includes(r)} onPress={() => toggleRegion(r)} />
+            ))}
+            <Chip label="Commerce / Mgmt" active={commerceOnly} onPress={() => setCommerceOnly((v) => !v)} />
+            <Chip label="Top institutions" active={topOnly} onPress={() => setTopOnly((v) => !v)} />
+          </View>
+        </>
+      )}
 
       <FlatList
         data={visible}
@@ -331,5 +408,22 @@ const s = StyleSheet.create({
   action: { paddingVertical: 2 },
   actionText: { color: C.accent, fontWeight: '600', fontSize: 13 },
   actionOn: { color: C.green },
+  tagPosts: { backgroundColor: '#EFE7FB', color: '#5B3B8C' },
+  rating: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 },
+  ratingText: { fontSize: 13, fontWeight: '600' },
+  ratingMuted: { fontSize: 13, color: C.muted, fontWeight: '400' },
+  instPanel: { backgroundColor: C.bg, borderRadius: 8, padding: 10, marginTop: 8, gap: 5 },
+  instName: { fontSize: 14, fontWeight: '700', color: C.text },
+  instText: { fontSize: 13, color: C.text, lineHeight: 18 },
+  rateRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  rateLabel: { width: 118, fontSize: 12, color: C.muted },
+  rateBar: { flex: 1, height: 6, borderRadius: 3, backgroundColor: C.line, overflow: 'hidden' },
+  rateFill: { height: 6, borderRadius: 3 },
+  rateNum: { width: 28, fontSize: 12, fontWeight: '700', textAlign: 'right' },
+  quoteHead: { fontSize: 12, fontWeight: '700', color: C.muted, marginTop: 4, textTransform: 'uppercase' },
+  quote: { fontSize: 13, color: C.text, fontStyle: 'italic', lineHeight: 18 },
+  filterBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginHorizontal: 16, marginTop: 10 },
+  filterToggle: { paddingVertical: 4 },
+  filterToggleText: { fontSize: 14, fontWeight: '600', color: C.accent },
   empty: { textAlign: 'center', color: C.muted, marginTop: 40 },
 });

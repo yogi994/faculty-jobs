@@ -1,0 +1,380 @@
+{
+  "b90f689fb366": {
+    "checkedAt": "2026-11-21T18:56:56.712Z",
+    "seats": {
+      "subjects": [
+        {
+          "subject": "Commerce",
+          "posts": 4,
+          "categories": null
+        },
+        {
+          "subject": "Management",
+          "posts": 2,
+          "categories": null
+        }
+      ],
+      "totals": null,
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://website.crsu.ac.in/wp-content/uploads/2026/11/Recruitment-Bulletin-2026-I-Advt.-No.-01-2026-to-28-2026.pdf",
+        "inApp": false
+      },
+      {
+        "url": "https://website.crsu.ac.in/wp-content/uploads/2026/11/Recruitment-Bulletin-2026-II-Advt.-No.-29-2026-to-38-2026.pdf",
+        "inApp": false
+      }
+    ],
+    "lastDate": null
+  },
+  "ffd6d78de547": {
+    "checkedAt": "2026-11-21T18:56:58.731Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "ac015db2b9cc": {
+    "checkedAt": "2026-11-21T18:56:58.731Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://niftem.ac.in/storage/careers/openings/NUDzF9gUYTpsDtfoB1uAx4uigRvuotsBEg5dCN8v.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": "2026-11-12"
+  },
+  "0bda2505b75b": {
+    "checkedAt": "2026-11-21T18:57:01.667Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "8ea675293362": {
+    "checkedAt": "2026-11-21T18:57:01.667Z",
+    "seats": {
+      "subjects": [],
+      "totals": {
+        "UR": 3,
+        "ST": 2,
+        "SC": 2,
+        "EWS": 2,
+        "OBC": 3
+      },
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/advt._for_walk-in-interview_guest_faculty_svs_2026.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "b277733f7fd8": {
+    "checkedAt": "2026-11-21T18:57:02.640Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "fd4e301ecb48": {
+    "checkedAt": "2026-11-21T18:57:02.640Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "76d5c5f26d9b": {
+    "checkedAt": "2026-11-21T18:57:02.640Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "556f28ff8ec6": {
+    "checkedAt": "2026-11-21T18:57:02.641Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "ba7f75c19cf8": {
+    "checkedAt": "2026-11-21T18:57:02.641Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "61f5c9ec7d99": {
+    "checkedAt": "2026-11-21T18:57:02.641Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/public_notice_dated_12.11.2026_last_date_for_online_application_and_receipt_of_hardcopies.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": "2026-11-28"
+  },
+  "13789a99a98e": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "3fe51b104105": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "730a6b152bea": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "00ef4f990bd8": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "c095ba268d7f": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "687bbfdd8947": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "ed70b0753b4d": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "13ac385808d6": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "fb827325d8f2": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "996bfc44df49": {
+    "checkedAt": "2026-11-21T18:57:11.382Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://www.gbu.ac.in/Content/gbudata/jobs/WalkIn-Adv-AP-OCFD-Education-Training-SoHSS.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "2519dd9d2cf6": {
+    "checkedAt": "2026-11-21T18:57:12.481Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "18683ae54f79": {
+    "checkedAt": "2026-11-21T18:57:12.481Z",
+    "seats": {
+      "subjects": [],
+      "totals": {
+        "UR": 4,
+        "SC": 2,
+        "ST": 1,
+        "OBC": 0,
+        "EWS": 0
+      },
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": "2026-12-01"
+  },
+  "cb89c71d9f2d": {
+    "checkedAt": "2026-11-21T18:57:13.708Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "1139f1a0d059": {
+    "checkedAt": "2026-11-21T18:57:13.708Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d3b1fb02964aa64e257f9f26a31f72cf/uploads/2026/11/202611061846234715.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "1f2a6a2bd966": {
+    "checkedAt": "2026-11-21T18:57:28.441Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "bc9fcafd318c": {
+    "checkedAt": "2026-11-21T18:57:28.441Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "f2021cebdeac": {
+    "checkedAt": "2026-11-21T18:57:28.441Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "91199ae0b4df": {
+    "checkedAt": "2026-11-21T18:57:28.441Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://svsu.ac.in/wp-content/uploads/2026/11/Skill-Assistant%20Professor-History-Advertisement.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": "2026-11-27"
+  },
+  "e9303617cf0e": {
+    "checkedAt": "2026-11-21T18:57:30.632Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "89b9e0768e78": {
+    "checkedAt": "2026-11-21T18:57:32.238Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "181cbe4033c3": {
+    "checkedAt": "2026-11-21T18:57:32.238Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "17e1389133dd": {
+    "checkedAt": "2026-11-21T18:57:32.238Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://www.du.ac.in/uploads/new-web/26102026-Advt-Guest%20Fac-%20HomeSci-Bhagini.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "b34302ec130b": {
+    "checkedAt": "2026-11-21T18:57:35.911Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "cd832eb55c63": {
+    "checkedAt": "2026-11-21T18:57:35.911Z",
+    "seats": {
+      "subjects": [
+        {
+          "subject": "Management",
+          "posts": 10,
+          "categories": null
+        }
+      ],
+      "totals": {
+        "UR": 62,
+        "SC": 27,
+        "ST": 21,
+        "OBC": 80,
+        "EWS": 29
+      },
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://dtu.ac.in/Web/upload/jobs/2026/oct/file1010.pdf",
+        "inApp": false
+      }
+    ],
+    "lastDate": null
+  },
+  "518601b62768": {
+    "checkedAt": "2026-11-21T18:57:37.223Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "a74e69fde40e": {
+    "checkedAt": "2026-11-21T18:57:37.956Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "69723984f988": {
+    "checkedAt": "2026-11-21T18:57:37.956Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/updated%20Advt.%20No._%20132026@nitdelhi5247f15d-922c-4547-801f-9c9579c4d7ef.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "60fb305dc60e": {
+    "checkedAt": "2026-11-21T18:57:40.213Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "a192e7540c06": {
+    "checkedAt": "2026-11-21T18:57:40.214Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://www.facultyplus.com/wp-content/uploads/2026/10/Faculty-and-Non-Teaching.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "4c2e8234436d": {
+    "checkedAt": "2026-11-21T18:57:45.673Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "851de597867c": {
+    "checkedAt": "2026-11-21T18:57:45.673Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "e39cd44f6910": {
+    "checkedAt": "2026-11-21T18:57:47.072Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/10/RoR-Faculty-Rolling-Advertisement.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  }
+}

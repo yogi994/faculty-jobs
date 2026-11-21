@@ -11,6 +11,7 @@ import { watchlist } from './sources/watchlist.js';
 import { facultyFeeds } from './sources/facultyfeeds.js';
 import { linkedin } from './sources/linkedin.js';
 import { scoreJob } from './match.js';
+import { addSeats } from './seats.js';
 import { loadInstitutions, refreshReviews, institutionInfo, openingsOf } from './institutions.js';
 
 const DATA_FILE = new URL('../../data/jobs.json', import.meta.url);
@@ -73,6 +74,21 @@ function qualify(job) {
     preferred: PREFERRED_ORGS.test(text) || (region === 'Delhi' && /college|mahavidyalaya/i.test(job.title)),
   };
   return { ...enriched, ...scoreJob(enriched) };
+}
+
+// A notice hosted on another university's site belongs to a different ad.
+const baseDomain = (u) => {
+  const parts = new URL(u).hostname.replace(/^www\./, '').split('.');
+  return parts.slice(/\.(ac|edu|gov|nic|co)\.in$/.test(new URL(u).hostname) ? -3 : -2).join('.');
+};
+function sameInstitution(pdf, website) {
+  try {
+    const host = new URL(pdf).hostname;
+    if (!/\.(ac\.in|edu|edu\.in)$/.test(host) || !website) return true;
+    return baseDomain(pdf) === baseDomain(website);
+  } catch {
+    return false;
+  }
 }
 
 function isExpired(job) {
@@ -156,7 +172,20 @@ async function main() {
   // Employer website, reviews and number of posts for each card.
   const inst = await loadInstitutions();
   await refreshReviews(inst, kept).catch((err) => console.warn(`Reviews skipped: ${err.message}`));
-  const jobs = kept.map((j) => ({ ...j, openings: openingsOf(j), institution: institutionInfo(inst, j) }));
+  const withInfo = kept.map((j) => ({ ...j, openings: openingsOf(j), institution: institutionInfo(inst, j) }));
+  // Commerce/Management seats by reservation category, from the ad and its notification PDF.
+  const seated = await addSeats(withInfo).catch((err) => {
+    console.warn(`Seats skipped: ${err.message}`);
+    return withInfo;
+  });
+  // Seats in Commerce/Management confirm the subject even when the title doesn't name it.
+  const jobs = seated.map((job) => {
+    let j = job;
+    const subjects = j.seats?.subjects?.map((x) => x.subject) ?? [];
+    j = { ...j, notices: (j.notices ?? []).filter((n) => sameInstitution(n.url, j.institution?.website)) };
+    if (!subjects.length) return j;
+    return { ...j, subjectMatch: true, ...scoreJob(j) };
+  }).filter((j) => !isExpired(j)); // the notice may reveal a deadline that has passed
 
   const newJobs = jobs.filter((j) => !known.has(j.id) && !knownTitles.has(jobKey(j)));
   await writeFile(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), sourceStatus, jobs }, null, 2) + '\n');

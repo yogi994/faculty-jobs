@@ -24,6 +24,8 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: collector/package-lock.json
+      - name: Tools to read notification PDFs (text and scanned)
+        run: sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr >/dev/null
       - run: npm ci
         working-directory: collector
       - run: npm run collect

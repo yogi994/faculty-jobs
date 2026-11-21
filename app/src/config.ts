@@ -30,6 +30,16 @@ export type Job = {
   // Number of posts, when the ad states it.
   openings?: number | null;
   institution?: Institution | null;
+  // Seats for her subjects, and for the whole ad, by reservation category.
+  seats?: Seats | null;
+  // Official notification PDFs.
+  notices?: { url: string; inApp: boolean }[];
+};
+
+export type Seats = {
+  subjects: { subject: string; posts: number; categories: Record<string, number> | null }[];
+  totals: Record<string, number> | null;
+  ocr: boolean;
 };
 
 export type Reviews = {

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T18:52:58.760Z",
+  "updatedAt": "2026-11-21T18:57:48.234Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": false,
-      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
+      "ok": true,
+      "count": 3
     },
     "watchlist": {
       "ok": true,
@@ -23,7 +23,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 274
+      "count": 276
     }
   },
   "jobs": [
@@ -38,13 +38,13 @@
       "lastDate": "2026-12-16",
       "qualification": "M.Phil/Ph.D, Post Graduate",
       "advtNo": "01/2026 to 38/2026",
-      "subjectMatch": false,
+      "subjectMatch": true,
       "preferred": false,
-      "matchScore": 55,
+      "matchScore": 79,
       "matchReasons": [
         {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
+          "ok": true,
+          "text": "Seats in your subject: Commerce 4, Management 2"
         },
         {
           "ok": true,
@@ -90,7 +90,33 @@
             "Nearby area is mostly rural"
           ]
         }
-      }
+      },
+      "seats": {
+        "subjects": [
+          {
+            "subject": "Commerce",
+            "posts": 4,
+            "categories": null
+          },
+          {
+            "subject": "Management",
+            "posts": 2,
+            "categories": null
+          }
+        ],
+        "totals": null,
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://website.crsu.ac.in/wp-content/uploads/2026/11/Recruitment-Bulletin-2026-I-Advt.-No.-01-2026-to-28-2026.pdf",
+          "inApp": false
+        },
+        {
+          "url": "https://website.crsu.ac.in/wp-content/uploads/2026/11/Recruitment-Bulletin-2026-II-Advt.-No.-29-2026-to-38-2026.pdf",
+          "inApp": false
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -163,7 +189,9 @@
             "Their management behaviour some time is not good."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -206,7 +234,9 @@
       "id": "0bda2505b75b",
       "firstSeen": "2026-11-20",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FreeJobAlert",
@@ -253,7 +283,24 @@
         "type": "Government",
         "note": null,
         "reviews": null
-      }
+      },
+      "seats": {
+        "subjects": [],
+        "totals": {
+          "UR": 3,
+          "ST": 2,
+          "SC": 2,
+          "EWS": 2,
+          "OBC": 3
+        },
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/advt._for_walk-in-interview_guest_faculty_svs_2026.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -292,7 +339,9 @@
       "id": "b277733f7fd8",
       "firstSeen": "2026-11-18",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -331,7 +380,9 @@
       "id": "fd4e301ecb48",
       "firstSeen": "2026-11-18",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -370,7 +421,9 @@
       "id": "76d5c5f26d9b",
       "firstSeen": "2026-11-18",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -439,7 +492,9 @@
             "Compensation everything else in great."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "Google News",
@@ -478,7 +533,9 @@
       "id": "ba7f75c19cf8",
       "firstSeen": "2026-11-18",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "Official site",
@@ -487,7 +544,7 @@
       "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/public_notice_dated_12.11.2026_last_date_for_online_application_and_receipt_of_hardcopies.pdf",
       "region": "Delhi",
       "postedAt": null,
-      "lastDate": null,
+      "lastDate": "2026-11-28",
       "official": true,
       "subjectMatch": false,
       "preferred": true,
@@ -523,7 +580,14 @@
         "type": "Government",
         "note": null,
         "reviews": null
-      }
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/public_notice_dated_12.11.2026_last_date_for_online_application_and_receipt_of_hardcopies.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -592,7 +656,9 @@
             "Work culture is not so good"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -631,7 +697,9 @@
       "id": "3fe51b104105",
       "firstSeen": "2026-11-17",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -643,16 +711,16 @@
       "postedAt": "2026-11-17",
       "lastDate": null,
       "summary": "Sonipat, Haryana, India",
-      "details": "",
+      "details": "ABOUT RISHIHOOD UNIVERSITY Rishihood is India’s first national transformation university. It prepares learners to solve the big problems of tomorrow. Our transformative education is built on three pillars: Personal Impact – developing physical, intellectual, emotional, and spiritual strength. Professional Impact – building real-world skills through industry-integrated, practice-based learning. Public Impact – fostering interdisciplinary thinking and a commitment to nation-building. At Rishihood, we nurture leaders who will transform themselves, their professions, and the nation. POSITION | Assistant Professor / Associate Professor – Data Mining & Big Data Purpose SASTech, the Sajjan Agarwal School of Technology, is Rishihood University's deep tech school, built on a ₹100 crore endowment, India's first of its kind, with a mandate to build the country's technological sovereignty in AI, robotics, and other critical systems. Rishihood's broader mission is nation building through education, producing builders and ethical leaders, not just degree holders. The B.Tech in CS and Data Science is an established programme with students across several batches, and our faculty team is growing with it. The data a student meets at work is rarely clean, small or on one machine. You will take ownership of the data systems thread of the programme, and teach students how patterns are found in data and how it is processed at scale. We are looking for a full time faculty member to own the data mining and big data area of the B.Tech in CS and Data Science and the CS Minor, joining as an Assistant Professor or Associate Professor depending on experience. This is a teaching and research role. Teaching is the core, and you will have the freedom to start or continue research in your area. As you grow, you will take on Track Lead responsibilities: shaping the curriculum for the area, helping build the faculty team, and bringing real industry problems into the classroom. Responsibilities Teach Data Mining (including the CS Minor course), covering pattern discovery, clustering, classification, association rules and anomaly detection, always with the why behind each method. Teach Data Warehousing, covering star and snowflake schemas, ETL pipelines, and data lakes versus data warehouses. Teach Big Data Processing on distributed frameworks such as Spark (PySpark), Hadoop, Hive and Kafka, with labs on real, messy datasets. Design labs where students build ETL pipelines and mining workflows",
       "applyUrl": null,
       "applyEmail": null,
       "subjectMatch": false,
       "preferred": false,
-      "matchScore": 63,
+      "matchScore": 47,
       "matchReasons": [
         {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
+          "ok": false,
+          "text": "Ad is for another subject (data science)"
         },
         {
           "ok": true,
@@ -665,10 +733,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "730a6b152bea",
@@ -704,7 +768,9 @@
             "Compensation everything else in great."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -773,7 +839,9 @@
             "far from my place but they provide bus facility"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -842,7 +910,9 @@
             "University have only one issue of irregular salary. Otherwise best place to work."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -854,20 +924,20 @@
       "postedAt": "2026-11-16",
       "lastDate": null,
       "summary": "Noida, Uttar Pradesh, India",
-      "details": "",
+      "details": "🌟 Amity Business School – Faculty Opportunities 🌟 Amity University Noida invites applications for the position of Assistant Professor in the areas of: Digital Marketing IT/ Analytics Economics Entrepreneurship Finance & Accounting Strategic Management About the Role You will be responsible for teaching, research, and contributing to curriculum design and program development. Qualifications Ph.D. from a Tier‑1 Institute/University 3–6 years of teaching/industry experience from premier Institutes/Universities Noteworthy publications in Scopus‑indexed journals Strong linkages with industry and academia at national and international levels Prior university‑level teaching experience will be an added advantage Required Skills Excellent communication skills Effective classroom management Ability to integrate management concepts with technology applications 📩 Interested applicants may forward their resume to: Ms. Chhaya Chandraker (AGM – HR) 📧 cchandraker@amity.edu",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "cchandraker@amity.edu",
       "subjectMatch": true,
       "preferred": true,
-      "matchScore": 86,
+      "matchScore": 74,
       "matchReasons": [
         {
           "ok": true,
           "text": "Management / business: close to your field"
         },
         {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+          "ok": false,
+          "text": "Asks for 6+ years' experience; you have under 3"
         },
         {
           "ok": true,
@@ -876,10 +946,6 @@
         {
           "ok": true,
           "text": "Well-regarded institution"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "687bbfdd8947",
@@ -915,7 +981,9 @@
             "Not adequate number of leaves and too long working hours"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "Google News",
@@ -984,7 +1052,9 @@
             "The atmosphere is very good and working atmosphere."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1053,7 +1123,9 @@
             "As an academic I have no dislikes. Yes, we have to take responsibility of student development and that can, at times, eat into your private time."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1122,7 +1194,9 @@
             "Work culture is not so good"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyTick",
@@ -1187,7 +1261,14 @@
             "Poor work culture and environment. Permanent employees treat contractual ones as their bonded labour. No dignity of work."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://www.gbu.ac.in/Content/gbudata/jobs/WalkIn-Adv-AP-OCFD-Education-Training-SoHSS.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "Google News",
@@ -1256,7 +1337,9 @@
             "Poor work culture and environment. Permanent employees treat contractual ones as their bonded labour. No dignity of work."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FreeJobAlert",
@@ -1299,7 +1382,24 @@
         "type": "Government",
         "note": null,
         "reviews": null
-      }
+      },
+      "seats": {
+        "subjects": [],
+        "totals": {
+          "UR": 4,
+          "SC": 2,
+          "ST": 1,
+          "OBC": 0,
+          "EWS": 0
+        },
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "Google News",
@@ -1363,7 +1463,9 @@
           ],
           "dislikes": []
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -1402,7 +1504,14 @@
       "id": "1139f1a0d059",
       "firstSeen": "2026-11-15",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://cdnbbsr.s3waas.gov.in/s3d3b1fb02964aa64e257f9f26a31f72cf/uploads/2026/11/202611061846234715.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -1471,7 +1580,9 @@
             "Everything, there was not even a single thing to like about the GL Bajaj, and i highly recommend everyone not to join such a collage if anyone wants to grow in their career."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1514,7 +1625,9 @@
       "id": "bc9fcafd318c",
       "firstSeen": "2026-11-15",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1583,7 +1696,9 @@
             "Terrible location and no work life balance"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FreeJobAlert",
@@ -1654,7 +1769,14 @@
             "Totally bureaucratic, no role clarify, Management is not concerned about the well being of employees and students so started offline classes. Delayed remuneration, no feedback from or to the employee"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://svsu.ac.in/wp-content/uploads/2026/11/Skill-Assistant%20Professor-History-Advertisement.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "FacultyPlus",
@@ -1723,7 +1845,9 @@
             "Education system was poor"
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1790,7 +1914,9 @@
             "Its like underworld. Entry is easy but getting out is difficult. Either you will be terminated or you will be forced to stay by complicating the resignation acceptance and relieving process."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -1859,7 +1985,9 @@
             "Student quality may be improved and more academic rigor would make it a better B School."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -1924,7 +2052,14 @@
             "Some stubborn male clerk I found usually one, Location is very off from the dwarka more metro.."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://www.du.ac.in/uploads/new-web/26102026-Advt-Guest%20Fac-%20HomeSci-Bhagini.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -1993,7 +2128,9 @@
             "As an academic I have no dislikes. Yes, we have to take responsibility of student development and that can, at times, eat into your private time."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -2004,13 +2141,13 @@
       "postedAt": "2026-10-28",
       "lastDate": null,
       "summary": "Delhi Technological University, Delhi has released Advertisement No. 04/2026 for Assistant Professor Recruitment, including backlog vacancies with a special drive for the PwBD category. A total of 219 vacancies are open across 24 disciplines, including Computer Science and Engineering, Civil Enginee",
-      "subjectMatch": false,
+      "subjectMatch": true,
       "preferred": true,
-      "matchScore": 56,
+      "matchScore": 88,
       "matchReasons": [
         {
-          "ok": false,
-          "text": "Ad is for another subject (computer)"
+          "ok": true,
+          "text": "Seats in your subject: Management 10"
         },
         {
           "ok": true,
@@ -2053,7 +2190,30 @@
           ],
           "dislikes": []
         }
-      }
+      },
+      "seats": {
+        "subjects": [
+          {
+            "subject": "Management",
+            "posts": 10,
+            "categories": null
+          }
+        ],
+        "totals": {
+          "UR": 62,
+          "SC": 27,
+          "ST": 21,
+          "OBC": 80,
+          "EWS": 29
+        },
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://dtu.ac.in/Web/upload/jobs/2026/oct/file1010.pdf",
+          "inApp": false
+        }
+      ]
     },
     {
       "source": "FacultyPlus",
@@ -2118,7 +2278,9 @@
             "Toxic work culture, micromanagement, no work life balance."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "LinkedIn",
@@ -2186,76 +2348,9 @@
             "Compensation, no growth opportunity, poor work life balance"
           ]
         }
-      }
-    },
-    {
-      "source": "FacultyPlus",
-      "title": "National Institute of Food Technology Entrepreneurship and Management Kundli Recruitment 2026: Apply for Contractual Assistant Professor in Postharvest Technology (PHTBES)",
-      "org": "National Institute of Food Technology Entrepreneurship and Management Kundli Recruitment 2026: Apply for Contractual Assistant Professor in Postharvest Technology (PHTBES)",
-      "url": "https://www.facultyplus.com/national-institute-of-food-technology-entrepreneurship-and-management-kundli-recruitment-2026-apply-for-contractual-assistant-professor-in-postharvest-technology-phtbes/",
-      "region": "Haryana",
-      "postedAt": "2026-10-27",
-      "lastDate": null,
-      "summary": "Date Posted: October 27, 2026 Institution Name: National Institute of Food Technology Entrepreneurship and Management (NIFTEM), Kundli Advertisement No.: AES-17011/8/2026-Conf_hall, dated 23.10.2026 NIFTEM has released the NIFTEM Kundli Recruitment 2026 notification inviting applications from Indian",
-      "subjectMatch": true,
-      "preferred": false,
-      "matchScore": 59,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Management area (entrepreneurship): partly your field"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": false,
-          "text": "Contract post: a step down from your permanent job"
-        }
-      ],
-      "id": "ac015db2b9cc",
-      "firstSeen": "2026-11-15",
-      "openings": null,
-      "institution": {
-        "name": "NIFTEM Kundli",
-        "website": "https://niftem.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/niftem-reviews",
-          "scope": "all staff",
-          "count": 22,
-          "overall": 3.8,
-          "culture": 3.3,
-          "workLife": 3.5,
-          "jobSecurity": 3.1,
-          "salary": 3.3,
-          "careerGrowth": 3.1,
-          "skillDevelopment": 4.2,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Beautiful and green campus. Helpful people and regular extracurricular activities.",
-            "You have highly sophisticated instrument Good place",
-            "Excellent for those who want to kick-start their career in food technology and expect better opportunities and career growth in food technology field"
-          ],
-          "dislikes": [
-            "The position in temporary",
-            "Neither dislikes for the office",
-            "Poor life quality outside campus. No proper amenities."
-          ]
-        }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -2296,7 +2391,14 @@
         "type": "Government",
         "note": null,
         "reviews": null
-      }
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/updated%20Advt.%20No._%20132026@nitdelhi5247f15d-922c-4547-801f-9c9579c4d7ef.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "Google News",
@@ -2335,7 +2437,9 @@
       "id": "60fb305dc60e",
       "firstSeen": "2026-11-15",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -2370,7 +2474,14 @@
       "id": "a192e7540c06",
       "firstSeen": "2026-11-15",
       "openings": null,
-      "institution": null
+      "institution": null,
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://www.facultyplus.com/wp-content/uploads/2026/10/Faculty-and-Non-Teaching.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "LinkedIn",
@@ -2439,7 +2550,9 @@
             "Their management behaviour some time is not good."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -2504,7 +2617,9 @@
             "Poor work culture and environment. Permanent employees treat contractual ones as their bonded labour. No dignity of work."
           ]
         }
-      }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",
@@ -2573,76 +2688,9 @@
             "Unusual and poor Style of functioning at the top level and casteism and groupism at every level."
           ]
         }
-      }
-    },
-    {
-      "source": "Official site",
-      "title": "Applications are invited for engaging Assistant Professor on contract basis (under Self Finance) for Academic Session 2026-27 in various disciplines vide Advt. No. CT-12-17/2026",
-      "org": "Gurugram University",
-      "url": "https://gurugramuniversity.ac.in/Notice/Advt.%20C-12-17_2026%20(1).pdf",
-      "region": "Haryana",
-      "postedAt": null,
-      "lastDate": null,
-      "official": true,
-      "subjectMatch": false,
-      "preferred": true,
-      "id": "4570ea702e26",
-      "firstSeen": "2026-11-15",
-      "matchScore": 61,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": false,
-          "text": "Contract post: a step down from your permanent job"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
-        }
-      ],
-      "openings": null,
-      "institution": {
-        "name": "Gurugram University",
-        "website": "https://gurugramuniversity.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/gurugram-university-reviews",
-          "scope": "all staff",
-          "count": 4,
-          "overall": 2.7,
-          "culture": 2.3,
-          "workLife": 4.9,
-          "jobSecurity": 2.8,
-          "salary": 2.3,
-          "careerGrowth": 2.6,
-          "skillDevelopment": 2.7,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Being a state government University employee enjoy all benefits which a state govt. Employee enjoys plus no transfer for lifetime."
-          ],
-          "dislikes": [
-            "Exploitation of employees. There is lot of corruption in recruitment process."
-          ]
-        }
-      }
+      },
+      "seats": null,
+      "notices": []
     }
   ]
 }

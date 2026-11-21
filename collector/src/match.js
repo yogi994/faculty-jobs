@@ -26,7 +26,13 @@ const NOT_PERMANENT = /guest|visiting|adjunct|contract|ad[- ]?hoc|temporary|part
 const count = (re, t) => (t.match(new RegExp(re.source, 'gi')) ?? []).length;
 const word = (re, t) => t.match(re)?.[0].toLowerCase();
 
-function subject(title, text) {
+function subject(title, text, seats) {
+  // Seats listed for her subjects settle it.
+  const mine = seats?.subjects ?? [];
+  if (mine.length) {
+    const list = mine.map((x) => `${x.subject} ${x.posts}`).join(', ');
+    return [/commerce|finance|account/i.test(list) ? 40 : 32, true, `Seats in your subject: ${list}`];
+  }
   // When the title names a subject, the title decides.
   if (has(CORE, title)) return [40, true, 'Commerce / finance / accounting: your teaching area'];
   if (has(ADJACENT, title)) return [26, true, `Management area (${word(ADJACENT, title)}): partly your field`];
@@ -70,7 +76,7 @@ function institution(job, text) {
 
 export function scoreJob(job) {
   const text = `${job.qualification ?? ''} ${job.summary ?? ''} ${job.details ?? ''}`;
-  const parts = [subject(job.title, text), level(job.title, text), place(job), institution(job, text)];
+  const parts = [subject(job.title, text, job.seats), level(job.title, text), place(job), institution(job, text)];
   let score = parts.reduce((n, [p]) => n + p, 0);
   const reasons = parts.map(([, ok, text]) => ({ ok, text }));
   const temp = job.title.match(NOT_PERMANENT)?.[0];

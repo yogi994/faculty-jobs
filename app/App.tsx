@@ -2,8 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { FlatList, Linking, Platform, Pressable, RefreshControl, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { Institution, Job, REGIONS, Region } from './src/config';
+import { Institution, Job, REGIONS, Region, Seats } from './src/config';
 import { markSeen, setUpNotifications } from './src/notify';
+import { PdfViewer } from './src/PdfViewer';
 import { JobStatus, loadJobs, loadStatuses, markOpened, saveStatuses } from './src/storage';
 
 type Tab = 'all' | 'saved' | 'applied';
@@ -37,6 +38,35 @@ function Chip({ label, active, onPress }: { label: string; active: boolean; onPr
 
 const stars = (n: number) => '★'.repeat(Math.round(n)) + '☆'.repeat(5 - Math.round(n));
 const rateColor = (n: number | null) => (n === null ? C.muted : n >= 4 ? C.green : n >= 3 ? '#8A5A00' : C.red);
+
+const CAT_ORDER = ['UR', 'EWS', 'OBC', 'BC-A', 'BC-B', 'MBC', 'SC', 'DSC', 'OSC', 'ST', 'PwBD', 'ESM'];
+const catLine = (cats: Record<string, number>) =>
+  Object.entries(cats)
+    .filter(([, n]) => n > 0)
+    .sort(([a], [b]) => CAT_ORDER.indexOf(a) - CAT_ORDER.indexOf(b))
+    .map(([c, n]) => `${c} ${n}`)
+    .join(' · ');
+
+function SeatsBox({ seats }: { seats: Seats }) {
+  const totalAll = seats.totals ? Object.entries(seats.totals).filter(([c]) => c !== 'PwBD' && c !== 'ESM').reduce((n, [, v]) => n + v, 0) : 0;
+  return (
+    <View style={s.seats}>
+      {seats.subjects.map((x) => (
+        <Text key={x.subject} style={s.seatLine}>
+          <Text style={s.seatSubject}>{x.subject}: {x.posts} {x.posts === 1 ? 'seat' : 'seats'}</Text>
+          {x.categories && catLine(x.categories) ? <Text style={s.seatCats}>{`  (${catLine(x.categories)})`}</Text> : null}
+        </Text>
+      ))}
+      {seats.totals && catLine(seats.totals) !== '' && (
+        <Text style={s.seatLine}>
+          <Text style={s.seatMuted}>{seats.subjects.length ? 'All subjects' : 'All posts'}{totalAll ? ` (${totalAll})` : ''} by category: </Text>
+          <Text style={s.seatCats}>{catLine(seats.totals)}</Text>
+        </Text>
+      )}
+      {seats.ocr && <Text style={s.seatMuted}>Read from a scanned notice: check the numbers in the notice.</Text>}
+    </View>
+  );
+}
 
 function InstitutionPanel({ inst }: { inst: Institution }) {
   const r = inst.reviews;
@@ -79,8 +109,9 @@ function InstitutionPanel({ inst }: { inst: Institution }) {
 }
 
 function JobCard({
-  job, status, isNew, onStatus,
-}: { job: Job; status?: JobStatus; isNew: boolean; onStatus: (st: JobStatus | null) => void }) {
+  job, status, isNew, onStatus, onPdf,
+}: { job: Job; status?: JobStatus; isNew: boolean; onStatus: (st: JobStatus | null) => void; onPdf: (url: string) => void }) {
+  const pdfs = (job.notices?.length ? job.notices : /\.pdf(\?|$)/i.test(job.url) ? [{ url: job.url, inApp: true }] : []).slice(0, 2);
   const left = job.lastDate ? daysLeft(job.lastDate) : null;
   const [why, setWhy] = useState(false);
   const [about, setAbout] = useState(false);
@@ -121,6 +152,7 @@ function JobCard({
       {!!job.org && job.org !== job.title.split(':')[0] && <Text style={s.org}>{job.org}</Text>}
       {!!job.location && <Text style={s.meta}>{job.location}</Text>}
       {!!job.qualification && <Text style={s.meta}>Qualification: {job.qualification}</Text>}
+      {!!job.seats && (job.seats.subjects.length > 0 || !!job.seats.totals) && <SeatsBox seats={job.seats} />}
       {inst && (
         <Pressable onPress={() => setAbout((v) => !v)} style={s.rating} hitSlop={6} accessibilityRole="button">
           {rev ? (
@@ -171,6 +203,13 @@ function JobCard({
             <Text style={s.applyText}>Email CV ✉</Text>
           </Pressable>
         )}
+        {pdfs.map((n, i) => (
+          <Pressable key={n.url} onPress={() => (n.inApp ? onPdf(n.url) : Linking.openURL(n.url))} style={s.applyBtn} accessibilityRole="button">
+            <Text style={s.applyText}>
+              {pdfs.length > 1 ? `Notice ${i + 1}` : n.inApp ? 'View notice' : 'Notice'} {n.inApp ? '📄' : '↗'}
+            </Text>
+          </Pressable>
+        ))}
         {!!inst?.website && (
           <Pressable onPress={() => Linking.openURL(inst.website)} style={s.applyBtn} accessibilityRole="link">
             <Text style={s.applyText}>Website ↗</Text>
@@ -212,6 +251,7 @@ function Main() {
   const [notifOff, setNotifOff] = useState(false);
   const [sort, setSort] = useState<'match' | 'newest'>('match');
   const [showFilters, setShowFilters] = useState(false);
+  const [pdf, setPdf] = useState<{ url: string; title: string } | null>(null);
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -322,6 +362,7 @@ function Main() {
         </>
       )}
 
+      <PdfViewer doc={pdf} onClose={() => setPdf(null)} />
       <FlatList
         data={visible}
         keyExtractor={(j) => j.id}
@@ -333,6 +374,7 @@ function Main() {
             status={statuses[item.id]}
             isNew={!!lastOpened && item.firstSeen > lastOpened}
             onStatus={(st) => setStatus(item.id, st)}
+            onPdf={(url) => setPdf({ url, title: item.org || item.title })}
           />
         )}
         ListEmptyComponent={
@@ -408,6 +450,11 @@ const s = StyleSheet.create({
   action: { paddingVertical: 2 },
   actionText: { color: C.accent, fontWeight: '600', fontSize: 13 },
   actionOn: { color: C.green },
+  seats: { backgroundColor: '#F4F0FB', borderRadius: 8, padding: 8, marginTop: 8, gap: 3 },
+  seatLine: { fontSize: 13, lineHeight: 18, color: C.text },
+  seatSubject: { fontWeight: '700', color: '#5B3B8C' },
+  seatCats: { color: C.text },
+  seatMuted: { fontSize: 12, color: C.muted },
   tagPosts: { backgroundColor: '#EFE7FB', color: '#5B3B8C' },
   rating: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 },
   ratingText: { fontSize: 13, fontWeight: '600' },

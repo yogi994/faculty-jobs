@@ -34,26 +34,25 @@ jobs:
           target: ${{ matrix.api >= 33 && 'google_apis' || 'default' }}
           disable-animations: true
           script: |
-            P=com.yogeshpandey.facultyjobs
             adb logcat -c
             adb install -r faculty-jobs.apk
-            adb shell am start -W -n $P/.MainActivity
+            adb shell am start -W -n com.yogeshpandey.facultyjobs/.MainActivity
             sleep 20
             adb exec-out screencap -p > launch1.png
-            adb shell pidof $P && echo "RUNNING after first launch" || echo "NOT RUNNING after first launch"
+            adb shell pidof com.yogeshpandey.facultyjobs && echo "RUNNING after first launch" || echo "NOT RUNNING after first launch"
             adb shell input keyevent KEYCODE_ENTER || true
             adb shell input tap 540 1400 || true
             sleep 3
-            adb shell am force-stop $P
-            adb shell am start -W -n $P/.MainActivity
+            adb shell am force-stop com.yogeshpandey.facultyjobs
+            adb shell am start -W -n com.yogeshpandey.facultyjobs/.MainActivity
             sleep 15
-            adb shell pidof $P && echo "RUNNING after relaunch" || echo "NOT RUNNING after relaunch"
-            adb shell cmd jobscheduler run -f $P 0 || true
-            for id in $(adb shell dumpsys jobscheduler | grep -o "$P/[^ ]*#[0-9]*" | grep -o '[0-9]*$' | sort -u); do adb shell cmd jobscheduler run -f $P $id || true; done
+            adb shell pidof com.yogeshpandey.facultyjobs && echo "RUNNING after relaunch" || echo "NOT RUNNING after relaunch"
+            adb shell cmd jobscheduler run -f com.yogeshpandey.facultyjobs 0 || true
+            for id in $(adb shell dumpsys jobscheduler | grep -o "com.yogeshpandey.facultyjobs/[^ ]*#[0-9]*" | grep -o '[0-9]*$' | sort -u); do adb shell cmd jobscheduler run -f com.yogeshpandey.facultyjobs $id || true; done
             sleep 10
-            adb shell monkey -p $P --pct-syskeys 0 --pct-appswitch 0 --throttle 300 -v 100 || true
+            adb shell monkey -p com.yogeshpandey.facultyjobs --pct-syskeys 0 --pct-appswitch 0 --throttle 300 -v 100 || true
             sleep 5
-            adb shell pidof $P && echo "RUNNING after taps" || echo "NOT RUNNING after taps"
+            adb shell pidof com.yogeshpandey.facultyjobs && echo "RUNNING after taps" || echo "NOT RUNNING after taps"
             adb exec-out screencap -p > end.png
             adb logcat -d > logcat.txt
             grep -nE "FATAL EXCEPTION|AndroidRuntime: |ReactNativeJS: .*(Error|error)" logcat.txt | head -80 || true

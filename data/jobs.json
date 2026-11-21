@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:02:48.310Z",
+  "updatedAt": "2026-11-21T11:59:24.688Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 54
+      "count": 55
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,49 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 19
+      "count": 17
     },
     "googleNews": {
       "ok": true,
-      "count": 249
+      "count": 271
     }
   },
   "jobs": [
+    {
+      "source": "FreeJobAlert",
+      "title": "CRSU: Assistant Professor, Associate Professor and More – 68 Posts",
+      "org": "CRSU",
+      "url": "https://www.freejobalert.com/articles/crsu-teaching-recruitment-2026-3083382",
+      "region": "Haryana",
+      "sourceState": "haryana",
+      "postedAt": "2026-11-21",
+      "lastDate": "2026-12-16",
+      "qualification": "M.Phil/Ph.D, Post Graduate",
+      "advtNo": "01/2026 to 38/2026",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 55,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "b90f689fb366",
+      "firstSeen": "2026-11-21"
+    },
     {
       "source": "LinkedIn",
       "title": "Assistant Professor",
@@ -372,6 +407,43 @@
     },
     {
       "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4490994775",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 25, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 87,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for commerce / finance / accounting"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "13789a99a98e",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "source": "LinkedIn",
       "title": "Consultant – Assistant Professor",
       "org": "Public Health Career",
       "url": "https://www.linkedin.com/jobs/view/4491159243",
@@ -442,43 +514,6 @@
         }
       ],
       "id": "730a6b152bea",
-      "firstSeen": "2026-11-17"
-    },
-    {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "The NorthCap University",
-      "url": "https://www.linkedin.com/jobs/view/4490994775",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 25, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
-      "applyUrl": null,
-      "applyEmail": "career@ncuindia.edu",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 87,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Ad asks for commerce / finance / accounting"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "13789a99a98e",
       "firstSeen": "2026-11-17"
     },
     {
@@ -811,6 +846,41 @@
       "firstSeen": "2026-11-16"
     },
     {
+      "source": "FreeJobAlert",
+      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
+      "org": "IIIT Sonepat",
+      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
+      "region": "Haryana",
+      "sourceState": "haryana",
+      "postedAt": "2026-11-21",
+      "lastDate": "2026-12-05",
+      "qualification": "M.Phil/Ph.D",
+      "advtNo": "IIITS/Estt./Rect./2026/04",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "18683ae54f79",
+      "firstSeen": "2026-11-15"
+    },
+    {
       "source": "Google News",
       "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
       "org": "Adda247",
@@ -894,16 +964,16 @@
       "postedAt": "2026-11-13",
       "lastDate": null,
       "summary": "Gautam Buddha Nagar, Uttar Pradesh, India",
-      "details": "GL Bajaj (Institute of Technology & Mgmt.) – A Glimpse! Passionate education provider in multi disciplines at undergraduate and postgraduate level (B.Tech, MBA, MCA) Vibrant Learning Ecosystem on the campus, has inspired and brilliant students. GL Bajaj Group was incepted in year 1997 , carrying a winning legacy of 12 institutions running diverse higher education programs. GL Bajaj Group, has +14,000 students, +800 faculty members , 12 institutions, and 6 campuses with +300 acres of land. NAAC A+ accredited, 4 stars from Ministry of Education, NIRF rank holder, Research & Incubation centre, Entrepreneurship development and top quality placement for students Vision to give globally competent & socially sensitive professionals to the society. Highly inquisitive students who take risks, experiment, and put novel ideas into action. Sharpens the Technical as well as Life Skills of students – Developing young leaders. Have world class collaborative LEARNING infrastructure for teaching & learning practices. Hiring Distinguished faculty members from the Institutes of repute . We nurture versatile INTRAPRENEURs . Our core belief is in nurturing Diverse, inclusive, equity knowledge gems Hi – Tech Campus has a beautiful , serene environment & students enjoy learning. Believes in relentless change and desire to improve . We are looking for passionate researchers/out of box thinkers/academician s who have a go-gette r attitude, have fire to innovat e, works with technology drive n progressive mindse t and execute the concept of sustainabilit y in each task (paperles s) in learning proces s delivery. We are offering to the right candidate an excellent compensation packag e along with the tools and the environment to foster intellect and new ideas . If you want to CONTRIBUTE meaningful to the society at large, join us & Find your SPARK! ABOUT JOB Designat i on: Assistant Professor in CSE and Allied Branches Job Purpose & Role : To teach, research and s erve the Institution for academic, institutional & student’s growth & developm ent. WORK Responsibilities: LEARNING & TEACHING To develop and teach undergraduate and graduate courses in CORE Computer Science & Allied courses. Command on Subjects like: Programming Fundamentals via language C/C++, JAVA, Python Data Structures & Algorithms Operating Systems Computer Architecture & Organisation Object Oriented Programming (OOP)Software Engineering Design & Analysis of Algorithms Computer Networks, Compiler Designs, DevOps Arti",
+      "details": "",
       "applyUrl": null,
-      "applyEmail": "hrm@glbitm.ac.in",
+      "applyEmail": null,
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 47,
+      "matchScore": 63,
       "matchReasons": [
         {
-          "ok": false,
-          "text": "Ad is for another subject (mca)"
+          "ok": null,
+          "text": "Subject not stated: check the ad"
         },
         {
           "ok": true,
@@ -916,6 +986,10 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "1f2a6a2bd966",
@@ -931,12 +1005,12 @@
       "postedAt": "2026-11-11",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "Every management student at UDIT will write code, question data and build models before they graduate. We are looking for the person who makes that possible. UDIT is India's foremost university built from first principles for those who want to create, where design, technology and management converge. Our School of Management treats business as a creative discipline. Where business gets built. This role sits at the centre of the management school. You will build the quantitative spine of our BBA common core: statistics for business decisions, Python taught from first principles to students who have never coded, and data science foundations including regression, forecasting and experimentation. You will lead the analytical side of our AI Fluency Lab, and work with colleagues in finance, marketing and technology so that every BBA student can build an analysis and defend it. You will not deliver lectures followed by exams. At UDIT, courses run as two-to-six-week projects co-taught by faculty teams, and students defend their work before a jury. You will help build a data lab, a library of real datasets and analytics projects with companies across Gurugram. You bring: A PhD in Statistics, Econometrics, Operations Research, Data Science, Business Analytics or a related field. A Master's degree with at least 55% marks, as per UGC norms. A research record and evidence of effective teaching. Fluency in Python for data analysis and modelling. Industry experience as a data scientist, analyst or quantitative researcher is strongly preferred. To apply, send your CV and a two-page project brief to hr@udit.edu.in. Tell us about a project you would run with first-year students who have never coded: what they would make, and how you would judge it. ( Not case studies. Real work.)",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "hr@udit.edu.in",
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 77,
+      "matchScore": 80,
       "matchReasons": [
         {
           "ok": true,
@@ -955,8 +1029,8 @@
           "text": "Private institution: check the pay beats your current salary"
         },
         {
-          "ok": null,
-          "text": "Scored from the title only"
+          "ok": true,
+          "text": "Wants research-methods skills you have (SPSS / PLS-SEM / NVivo)"
         }
       ],
       "id": "bc9fcafd318c",
@@ -1361,41 +1435,6 @@
         }
       ],
       "id": "ac015db2b9cc",
-      "firstSeen": "2026-11-15"
-    },
-    {
-      "source": "FreeJobAlert",
-      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
-      "org": "IIIT Sonepat",
-      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
-      "region": "Haryana",
-      "sourceState": "haryana",
-      "postedAt": "2026-10-23",
-      "lastDate": "2026-11-21",
-      "qualification": "M.Phil/Ph.D",
-      "advtNo": "IIITS/Estt./Rect./2026/04",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 64,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        }
-      ],
-      "id": "18683ae54f79",
       "firstSeen": "2026-11-15"
     },
     {

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T18:57:48.234Z",
+  "updatedAt": "2026-11-21T19:00:15.015Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 17
+      "count": 18
     },
     "googleNews": {
       "ok": true,
-      "count": 276
+      "count": 324
     }
   },
   "jobs": [
@@ -599,16 +599,16 @@
       "postedAt": "2026-11-17",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 26, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
+      "details": "",
       "applyUrl": null,
-      "applyEmail": "career@ncuindia.edu",
+      "applyEmail": null,
       "subjectMatch": false,
       "preferred": false,
-      "matchScore": 87,
+      "matchScore": 67,
       "matchReasons": [
         {
-          "ok": true,
-          "text": "Ad asks for commerce / finance / accounting"
+          "ok": null,
+          "text": "Subject not stated: check the ad"
         },
         {
           "ok": true,
@@ -621,6 +621,10 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "13789a99a98e",
@@ -1594,12 +1598,12 @@
       "postedAt": "2026-11-11",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "Every management student at UDIT will write code, question data and build models before they graduate. We are looking for the person who makes that possible. UDIT is India's foremost university built from first principles for those who want to create, where design, technology and management converge. Our School of Management treats business as a creative discipline. Where business gets built. This role sits at the centre of the management school. You will build the quantitative spine of our BBA common core: statistics for business decisions, Python taught from first principles to students who have never coded, and data science foundations including regression, forecasting and experimentation. You will lead the analytical side of our AI Fluency Lab, and work with colleagues in finance, marketing and technology so that every BBA student can build an analysis and defend it. You will not deliver lectures followed by exams. At UDIT, courses run as two-to-six-week projects co-taught by faculty teams, and students defend their work before a jury. You will help build a data lab, a library of real datasets and analytics projects with companies across Gurugram. You bring: A PhD in Statistics, Econometrics, Operations Research, Data Science, Business Analytics or a related field. A Master's degree with at least 55% marks, as per UGC norms. A research record and evidence of effective teaching. Fluency in Python for data analysis and modelling. Industry experience as a data scientist, analyst or quantitative researcher is strongly preferred. To apply, send your CV and a two-page project brief to hr@udit.edu.in. Tell us about a project you would run with first-year students who have never coded: what they would make, and how you would judge it. ( Not case studies. Real work.)",
+      "details": "",
       "applyUrl": null,
-      "applyEmail": "hr@udit.edu.in",
+      "applyEmail": null,
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 80,
+      "matchScore": 77,
       "matchReasons": [
         {
           "ok": true,
@@ -1618,8 +1622,8 @@
           "text": "Private institution: check the pay beats your current salary"
         },
         {
-          "ok": true,
-          "text": "Wants research-methods skills you have (SPSS / PLS-SEM / NVivo)"
+          "ok": null,
+          "text": "Scored from the title only"
         }
       ],
       "id": "bc9fcafd318c",

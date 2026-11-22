@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-22T00:03:15.779Z",
+  "updatedAt": "2026-11-22T12:13:31.215Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 55
+      "count": 57
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 19
     },
     "googleNews": {
       "ok": true,
-      "count": 366
+      "count": 295
     }
   },
   "jobs": [
@@ -128,9 +128,9 @@
       "postedAt": "2026-11-20",
       "lastDate": null,
       "summary": "Jaipur, Rajasthan, India",
-      "details": "",
+      "details": "Department Allied Healthcare & Sciences (Physiotherapy) Location Jaipur Experience 3-5 Years Type Full Time Job Description Assistant Professor – Physiotherapy Regulatory Alignment: National Commission for Allied & Healthcare Professions (NCAHP) / State Physiotherapy Council Specializations: 1)Orthopedics 2)Neurosciences 3)Sports Physiotherapy 5)Cardio-Pulmonary Physiotherapy Essential Qualifications: BPT and MPT in relevant specialization (Orthopedics/Neurology/Sports/Cardiopulmonary etc.) Valid State Physiotherapy Council Registration Ph.D. desirable Key Roles & Responsibilities: Deliver theory lectures, practical sessions, and clinical supervision Guide UG/PG dissertations and case studies Coordinate hospital postings and clinical training Conduct community rehabilitation and outreach programs Maintain clinical labs as per council norms Publish research in indexed journals Apply Now Assistant Professor Allied Healthcare & Sciences (Physiotherapy) Apply for This Position → 🔍 Check Application Status 📍 Jaipur, Rajasthan ✉ careers@vgu.ac.in 📞 1800 3131 415 ← All Openings",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "careers@vgu.ac.in",
       "subjectMatch": false,
       "preferred": false,
       "matchScore": 46,
@@ -150,10 +150,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "ffd6d78de547",
@@ -1342,72 +1338,12 @@
       "notices": []
     },
     {
-      "source": "FreeJobAlert",
-      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
-      "org": "IIIT Sonepat",
-      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
-      "region": "Haryana",
-      "sourceState": "haryana",
-      "postedAt": "2026-11-21",
-      "lastDate": "2026-12-05",
-      "qualification": "M.Phil/Ph.D",
-      "advtNo": "IIITS/Estt./Rect./2026/04",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 64,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        }
-      ],
-      "id": "18683ae54f79",
-      "firstSeen": "2026-11-15",
-      "openings": 7,
-      "institution": {
-        "name": "IIIT Sonepat",
-        "website": "https://iiitsonepat.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": null
-      },
-      "seats": {
-        "subjects": [],
-        "totals": {
-          "UR": 4,
-          "SC": 2,
-          "ST": 1,
-          "OBC": 0,
-          "EWS": 0
-        },
-        "ocr": false
-      },
-      "notices": [
-        {
-          "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
-          "inApp": true
-        }
-      ]
-    },
-    {
       "source": "Google News",
       "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
       "org": "Adda247",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
       "region": "Delhi",
-      "postedAt": "2026-11-20",
+      "postedAt": "2026-11-22",
       "lastDate": null,
       "query": "\"assistant professor\" management recruitment Delhi",
       "subjectMatch": false,
@@ -1466,6 +1402,66 @@
       },
       "seats": null,
       "notices": []
+    },
+    {
+      "source": "FreeJobAlert",
+      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
+      "org": "IIIT Sonepat",
+      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
+      "region": "Haryana",
+      "sourceState": "haryana",
+      "postedAt": "2026-11-21",
+      "lastDate": "2026-12-05",
+      "qualification": "M.Phil/Ph.D",
+      "advtNo": "IIITS/Estt./Rect./2026/04",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "18683ae54f79",
+      "firstSeen": "2026-11-15",
+      "openings": 7,
+      "institution": {
+        "name": "IIIT Sonepat",
+        "website": "https://iiitsonepat.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": null
+      },
+      "seats": {
+        "subjects": [],
+        "totals": {
+          "UR": 4,
+          "SC": 2,
+          "ST": 1,
+          "OBC": 0,
+          "EWS": 0
+        },
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "FacultyPlus",
@@ -1594,12 +1590,12 @@
       "postedAt": "2026-11-11",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "Every management student at UDIT will write code, question data and build models before they graduate. We are looking for the person who makes that possible. UDIT is India's foremost university built from first principles for those who want to create, where design, technology and management converge. Our School of Management treats business as a creative discipline. Where business gets built. This role sits at the centre of the management school. You will build the quantitative spine of our BBA common core: statistics for business decisions, Python taught from first principles to students who have never coded, and data science foundations including regression, forecasting and experimentation. You will lead the analytical side of our AI Fluency Lab, and work with colleagues in finance, marketing and technology so that every BBA student can build an analysis and defend it. You will not deliver lectures followed by exams. At UDIT, courses run as two-to-six-week projects co-taught by faculty teams, and students defend their work before a jury. You will help build a data lab, a library of real datasets and analytics projects with companies across Gurugram. You bring: A PhD in Statistics, Econometrics, Operations Research, Data Science, Business Analytics or a related field. A Master's degree with at least 55% marks, as per UGC norms. A research record and evidence of effective teaching. Fluency in Python for data analysis and modelling. Industry experience as a data scientist, analyst or quantitative researcher is strongly preferred. To apply, send your CV and a two-page project brief to hr@udit.edu.in. Tell us about a project you would run with first-year students who have never coded: what they would make, and how you would judge it. ( Not case studies. Real work.)",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "hr@udit.edu.in",
       "subjectMatch": true,
       "preferred": false,
-      "matchScore": 77,
+      "matchScore": 80,
       "matchReasons": [
         {
           "ok": true,
@@ -1618,8 +1614,8 @@
           "text": "Private institution: check the pay beats your current salary"
         },
         {
-          "ok": null,
-          "text": "Scored from the title only"
+          "ok": true,
+          "text": "Wants research-methods skills you have (SPSS / PLS-SEM / NVivo)"
         }
       ],
       "id": "bc9fcafd318c",

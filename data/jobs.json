@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T19:00:15.015Z",
+  "updatedAt": "2026-11-22T00:03:15.779Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": false,
-      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
+      "ok": true,
+      "count": 3
     },
     "watchlist": {
       "ok": true,
@@ -23,7 +23,7 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 324
+      "count": 366
     }
   },
   "jobs": [
@@ -599,16 +599,16 @@
       "postedAt": "2026-11-17",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 26, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "career@ncuindia.edu",
       "subjectMatch": false,
       "preferred": false,
-      "matchScore": 67,
+      "matchScore": 87,
       "matchReasons": [
         {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
+          "ok": true,
+          "text": "Ad asks for commerce / finance / accounting"
         },
         {
           "ok": true,
@@ -621,10 +621,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "13789a99a98e",

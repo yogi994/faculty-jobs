@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-23T05:14:32.312Z",
+  "updatedAt": "2026-11-23T19:45:29.132Z",
   "sourceStatus": {
     "delhiUniversity": {
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "https://rec.uod.ac.in/: HTTP 403; curl: curl: (22) The requested URL returned error: 403"
     },
     "watchlist": {
       "ok": true,
-      "count": 0
+      "count": 43
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 57
+      "count": 50
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,132 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 17
+      "count": 19
     },
     "googleNews": {
       "ok": true,
-      "count": 301
+      "count": 263
     }
   },
   "jobs": [
+    {
+      "source": "Official site",
+      "title": "Notification regarding the post of Assistant Professor in the Department of BSE/BT dated 23.11.2026NEW",
+      "org": "NSUT",
+      "url": "https://drive.google.com/file/d/12jg1XadZ7YsVWovk009sWWON8wYwEH9i/view?usp=drive_link",
+      "region": "Delhi",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "44d816f23668",
+      "firstSeen": "2026-11-23",
+      "openings": null,
+      "institution": {
+        "name": "Netaji Subhas University of Technology",
+        "website": "https://nsut.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": null
+      },
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "Official site",
+      "title": "Amity University Uttar Pradesh, Noida invites applications for Amity Centre for Translational Research (ACTR) for Assistant Professor (No-01) & Associate Professor (No- 01)",
+      "org": "Amity University Noida",
+      "url": "https://www.amity.edu/careers/.297",
+      "region": "UP-NCR",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 70,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "0bb403db47ab",
+      "firstSeen": "2026-11-23",
+      "openings": null,
+      "institution": {
+        "name": "Amity University",
+        "website": "https://www.amity.edu",
+        "type": "Private",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/amity-university-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 273,
+          "overall": 3.3,
+          "culture": 3.2,
+          "workLife": 3.5,
+          "jobSecurity": 3.9,
+          "salary": 2.8,
+          "careerGrowth": 2.7,
+          "skillDevelopment": 3.1,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "good work life balance, no pressure",
+            "Supportive peer group of other departments and well groomed students",
+            "Departmental staff is good. Students are very cooperative and interactive. Salary, even though in peanuts, comes on time."
+          ],
+          "dislikes": [
+            "very negative, lazy work culture",
+            "Rigid work culture and slow promotion and yet lack transparency",
+            "Not adequate number of leaves and too long working hours"
+          ]
+        }
+      },
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "FreeJobAlert",
       "title": "CRSU: Assistant Professor, Associate Professor and More – 68 Posts",
@@ -658,47 +776,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Consultant – Assistant Professor",
-      "org": "Public Health Career",
-      "url": "https://www.linkedin.com/jobs/view/4491159243",
-      "region": "Delhi",
-      "location": "Delhi, Delhi, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Delhi, Delhi, India",
-      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
-      "applyUrl": "https://www.phfi.org",
-      "applyEmail": "recruit@phfi.org",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 65,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Adjacent subject (operations)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "3fe51b104105",
-      "firstSeen": "2026-11-17",
-      "openings": null,
-      "institution": null,
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -765,6 +842,47 @@
           ]
         }
       },
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
+      "firstSeen": "2026-11-17",
+      "openings": null,
+      "institution": null,
       "seats": null,
       "notices": []
     },
@@ -1338,72 +1456,6 @@
       "notices": []
     },
     {
-      "source": "Google News",
-      "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
-      "org": "Adda247",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
-      "region": "Delhi",
-      "postedAt": "2026-11-22",
-      "lastDate": null,
-      "query": "\"assistant professor\" management recruitment Delhi",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 72,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
-        }
-      ],
-      "id": "cb89c71d9f2d",
-      "firstSeen": "2026-11-15",
-      "openings": 219,
-      "institution": {
-        "name": "Delhi Technological University",
-        "website": "https://dtu.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/dtu-reviews/assistant-professor",
-          "scope": "Assistant Professors",
-          "count": 8,
-          "overall": 4.8,
-          "culture": 4.9,
-          "workLife": 4.6,
-          "jobSecurity": 4.6,
-          "salary": 4.4,
-          "careerGrowth": 4.4,
-          "skillDevelopment": 4.8,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Supportive Academic Environment, Experienced Faculty , Research opportunity ,Excellent Infrastructure ,Practical Learning and Professional Development",
-            "After taking lecture we can go out of DTU. Work time is very good."
-          ],
-          "dislikes": []
-        }
-      },
-      "seats": null,
-      "notices": []
-    },
-    {
       "source": "FreeJobAlert",
       "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
       "org": "IIIT Sonepat",
@@ -1462,6 +1514,72 @@
           "inApp": true
         }
       ]
+    },
+    {
+      "source": "Google News",
+      "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
+      "org": "Adda247",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
+      "region": "Delhi",
+      "postedAt": "2026-11-20",
+      "lastDate": null,
+      "query": "\"assistant professor\" management recruitment Delhi",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "cb89c71d9f2d",
+      "firstSeen": "2026-11-15",
+      "openings": 219,
+      "institution": {
+        "name": "Delhi Technological University",
+        "website": "https://dtu.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/dtu-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 8,
+          "overall": 4.8,
+          "culture": 4.9,
+          "workLife": 4.6,
+          "jobSecurity": 4.6,
+          "salary": 4.4,
+          "careerGrowth": 4.4,
+          "skillDevelopment": 4.8,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "Supportive Academic Environment, Experienced Faculty , Research opportunity ,Excellent Infrastructure ,Practical Learning and Professional Development",
+            "After taking lecture we can go out of DTU. Work time is very good."
+          ],
+          "dislikes": []
+        }
+      },
+      "seats": null,
+      "notices": []
     },
     {
       "source": "FacultyPlus",

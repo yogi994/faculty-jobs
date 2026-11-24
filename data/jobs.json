@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:34:58.867Z",
+  "updatedAt": "2026-11-24T19:17:46.324Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 50
+      "count": 54
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,109 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 17
+      "count": 15
     },
     "googleNews": {
       "ok": true,
-      "count": 379
+      "count": 468
     }
   },
   "jobs": [
+    {
+      "source": "FreeJobAlert",
+      "title": "IIIDEM: Assistant Professor and Professor cum Dean – 6 Posts",
+      "org": "IIIDEM",
+      "url": "https://www.freejobalert.com/articles/iiidem-recruitment-2026-apply-online-for-6-assistant-professor-and-professor-cum-dean-posts-3084212",
+      "region": "Delhi",
+      "sourceState": "delhi",
+      "postedAt": "2026-11-24",
+      "lastDate": "2026-11-30",
+      "qualification": "Other",
+      "advtNo": "–",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 79,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Seats in your subject: Management 3"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "2dfdb5706e37",
+      "firstSeen": "2026-11-24",
+      "openings": 6,
+      "institution": null,
+      "seats": {
+        "subjects": [
+          {
+            "subject": "Management",
+            "posts": 3,
+            "categories": null
+          }
+        ],
+        "totals": null,
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://iiidem.eci.gov.in/uploads/vacancy/vpdf/1791962213091.pdf",
+          "inApp": true
+        }
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "GNDU Assistant Professor Recruitment 2026 – Apply Online",
+      "org": "FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb1NzVkFTM0R6aGU3STJZV0xTOVJWY0tnbng1QW95Ry1yVTZHM01pbHp1bHExZERDZ1lxeGpJU29TN0o1dkZTS3dCSWRHV3FjNW9XaHpFY2ZSdktqQ2t0UXYtMjBlM042VjNmXzNnYXVIUkpqMGNoVzNtVk1wWEpPdTBmRWUzZkhwQ1VDSGhnRXU?oc=5",
+      "region": "Delhi",
+      "postedAt": "2026-11-19",
+      "lastDate": null,
+      "query": "\"assistant professor\" recruitment Gurugram OR Gurgaon OR Faridabad",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 63,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "e5286432f0fc",
+      "firstSeen": "2026-11-24",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "Official site",
       "title": "Notification regarding the post of Assistant Professor in the Department of BSE/BT dated 23.11.2026NEW",

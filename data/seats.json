@@ -371,5 +371,32 @@
     "seats": null,
     "notices": [],
     "lastDate": null
+  },
+  "2dfdb5706e37": {
+    "checkedAt": "2026-11-24T19:17:41.717Z",
+    "seats": {
+      "subjects": [
+        {
+          "subject": "Management",
+          "posts": 3,
+          "categories": null
+        }
+      ],
+      "totals": null,
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://iiidem.eci.gov.in/uploads/vacancy/vpdf/1791962213091.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "e5286432f0fc": {
+    "checkedAt": "2026-11-24T19:17:44.849Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
   }
 }

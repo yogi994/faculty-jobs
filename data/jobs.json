@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:45:29.132Z",
+  "updatedAt": "2026-11-24T04:34:58.867Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,7 +7,7 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 43
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 19
+      "count": 17
     },
     "googleNews": {
       "ok": true,
-      "count": 263
+      "count": 379
     }
   },
   "jobs": [
@@ -2729,77 +2729,6 @@
             "Learning new skills and there is no promotion.",
             "Everything , poor system , worst engineering college I have seen so far, salary poor and that too never on time. Poor quality of students in engineering, no proper labs",
             "Poor work culture and environment. Permanent employees treat contractual ones as their bonded labour. No dignity of work."
-          ]
-        }
-      },
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "FacultyPlus",
-      "title": "Central University of Haryana, Mahendergarh - Guest Faculty Recruitment",
-      "org": "Central University of Haryana, Mahendergarh - Guest Faculty Recruitment",
-      "url": "https://www.facultyplus.com/central-university-of-haryana-mahendergarh-guest-faculty-recruitment/",
-      "region": "Haryana",
-      "postedAt": "2026-10-09",
-      "lastDate": null,
-      "summary": "Teaching Faculty recruitment notification 2026 announced by the Central University of Haryana - Guest Faculty Jobs. Eligible candidates may Walk-In Date Posted: 9th October 2026 Hiring Organization Name: Central University of Haryana Organization Profile: Central University of Haryana is one of the ",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 49,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": false,
-          "text": "Guest post: a step down from your permanent job"
-        }
-      ],
-      "id": "e39cd44f6910",
-      "firstSeen": "2026-11-15",
-      "openings": null,
-      "institution": {
-        "name": "Central University of Haryana",
-        "website": "https://www.cuh.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/central-university-of-haryana-reviews",
-          "scope": "all staff",
-          "count": 15,
-          "overall": 4.7,
-          "culture": 4.6,
-          "workLife": 4.7,
-          "jobSecurity": 4.7,
-          "salary": 4.7,
-          "careerGrowth": 4.7,
-          "skillDevelopment": 4.6,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Supporting faculty staff and management",
-            "Very Nice Environment of Central university of haryana",
-            "Work place is at aravli hills, very beautiful"
-          ],
-          "dislikes": [
-            "Residence is very poor and not available",
-            "Polotics is not good for permanent employee",
-            "Unusual and poor Style of functioning at the top level and casteism and groupism at every level."
           ]
         }
       },

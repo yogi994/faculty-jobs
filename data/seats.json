@@ -404,5 +404,46 @@
     "seats": null,
     "notices": [],
     "lastDate": null
+  },
+  "49eb5e2ff2b0": {
+    "checkedAt": "2026-11-25T13:49:03.882Z",
+    "seats": {
+      "subjects": [
+        {
+          "subject": "Commerce",
+          "posts": 5,
+          "categories": {
+            "BC-B": 1,
+            "OSC": 1,
+            "DSC": 1,
+            "EWS": 2
+          }
+        }
+      ],
+      "totals": null,
+      "ocr": false
+    },
+    "notices": [
+      {
+        "url": "https://mdu.ac.in/UpFiles/UpPdfFiles/2026/Nov/4_11-25-2026_13-19-23_advertisement%20of%20cra%20college.pdf",
+        "inApp": false
+      }
+    ],
+    "lastDate": null
+  },
+  "6ce47e7f07f4": {
+    "checkedAt": "2026-11-25T13:50:04.121Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://snu.edu.in/site/assets/files/24802/student_handbook_2026_final_1.pdf",
+        "inApp": true
+      },
+      {
+        "url": "https://snu.edu.in/site/assets/files/4259/parents_handbook_a5_040724.pdf?v=2",
+        "inApp": false
+      }
+    ],
+    "lastDate": null
   }
 }

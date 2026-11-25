@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:19:23.737Z",
+  "updatedAt": "2026-11-25T13:50:07.019Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 1
+      "count": 9
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 55
+      "count": 58
     },
     "facultyFeeds": {
       "ok": true,
@@ -23,10 +23,69 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 383
+      "count": 420
     }
   },
   "jobs": [
+    {
+      "source": "FreeJobAlert",
+      "title": "CRA College: Teaching Posts and Librarian – 38 Posts",
+      "org": "CRA College",
+      "url": "https://www.freejobalert.com/articles/cra-college-recruitment-2026-teaching-posts-and-librarian-3084419",
+      "region": "Haryana",
+      "sourceState": "haryana",
+      "postedAt": "2026-11-25",
+      "lastDate": "2026-12-12",
+      "qualification": "Any Masters Degree, M.Phil/Ph.D",
+      "advtNo": "08/18-2026 C-4(1)",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 79,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Seats in your subject: Commerce 5"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "49eb5e2ff2b0",
+      "firstSeen": "2026-11-25",
+      "openings": 38,
+      "institution": null,
+      "seats": {
+        "subjects": [
+          {
+            "subject": "Commerce",
+            "posts": 5,
+            "categories": {
+              "BC-B": 1,
+              "OSC": 1,
+              "DSC": 1,
+              "EWS": 2
+            }
+          }
+        ],
+        "totals": null,
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://mdu.ac.in/UpFiles/UpPdfFiles/2026/Nov/4_11-25-2026_13-19-23_advertisement%20of%20cra%20college.pdf",
+          "inApp": false
+        }
+      ]
+    },
     {
       "source": "Google News",
       "title": "UPESSC Assistant Professor Recruitment 2026 (Advt 04/2026) – 1936 Posts | Apply by 07 Oct, Exam 19-20 Nov",
@@ -73,6 +132,62 @@
       },
       "seats": null,
       "notices": []
+    },
+    {
+      "source": "Official site",
+      "title": "Assistant Professor",
+      "org": "Shiv Nadar University",
+      "url": "https://snu.edu.in/careers/faculty/assistant-professor-11",
+      "region": "UP-NCR",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 62,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "UP-NCR, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "6ce47e7f07f4",
+      "firstSeen": "2026-11-25",
+      "openings": null,
+      "institution": {
+        "name": "Shiv Nadar University",
+        "website": "https://snu.edu.in",
+        "type": "Private",
+        "note": null,
+        "reviews": null
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://snu.edu.in/site/assets/files/24802/student_handbook_2026_final_1.pdf",
+          "inApp": true
+        },
+        {
+          "url": "https://snu.edu.in/site/assets/files/4259/parents_handbook_a5_040724.pdf?v=2",
+          "inApp": false
+        }
+      ]
     },
     {
       "source": "FreeJobAlert",

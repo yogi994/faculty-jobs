@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:58:53.144Z",
+  "updatedAt": "2026-11-26T07:00:03.232Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -23,10 +23,47 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 393
+      "count": 400
     }
   },
   "jobs": [
+    {
+      "source": "FacultyPlus",
+      "title": "Faculty Jobs 2026 at Fairfield Institute of Management &#038; Technology, Bijwasan, New Delhi",
+      "org": "Faculty Jobs 2026 at Fairfield Institute of Management &#038; Technology, Bijwasan, New Delhi",
+      "url": "https://www.facultyplus.com/faculty-jobs-2026-at-fairfield-institute-of-management-technology-bijwasan-new-delhi/",
+      "region": "Delhi",
+      "postedAt": "2026-11-26",
+      "lastDate": null,
+      "summary": "Fairfield Institute of Management &#38; Technology (FIMT), Bijwasan Road, New Delhi, has invited applications for immediate appointments in Engineering (B.Tech), B.Pharmacy and Law. The institute is hiring Professors, Associate Professors, Assistant Professors, Lab Tutors, Demonstrators and Instruct",
+      "subjectMatch": true,
+      "preferred": true,
+      "matchScore": 86,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        }
+      ],
+      "id": "e0c29c697f15",
+      "firstSeen": "2026-11-26",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "FreeJobAlert",
       "title": "CRA College: Teaching Posts and Librarian – 38 Posts",
@@ -94,7 +131,7 @@
       "region": "UP-NCR",
       "postedAt": "2026-11-16",
       "lastDate": null,
-      "query": "UPESSC assistant professor",
+      "query": "\"assistant professor\" recruitment Haryana",
       "subjectMatch": false,
       "preferred": true,
       "matchScore": 64,

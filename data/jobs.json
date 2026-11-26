@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T07:00:03.232Z",
+  "updatedAt": "2026-11-26T18:03:55.656Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 55
+      "count": 57
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 19
     },
     "googleNews": {
       "ok": true,
-      "count": 400
+      "count": 364
     }
   },
   "jobs": [
@@ -61,6 +61,81 @@
       "firstSeen": "2026-11-26",
       "openings": null,
       "institution": null,
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor (SOMC) - IR, Labour Law, Strategic Management, Organisation Design",
+      "org": "K.R. Mangalam University",
+      "url": "https://www.linkedin.com/jobs/view/4495267778",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-26",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 77,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (strategic): partly your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "8e64f83565c3",
+      "firstSeen": "2026-11-26",
+      "openings": null,
+      "institution": {
+        "name": "K.R. Mangalam University",
+        "website": "https://www.krmangalam.edu.in",
+        "type": "Private",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/k-r-mangalam-university-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 146,
+          "overall": 4.6,
+          "culture": 4.4,
+          "workLife": 4.4,
+          "jobSecurity": 4.4,
+          "salary": 4.2,
+          "careerGrowth": 4.3,
+          "skillDevelopment": 4.6,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "overall working environment, infrastructure and facilities good. very good transportation facility for students and educators. Good Appraisal each year and also promotion policy is there.",
+            "Good work life balance and opportunities for career growth",
+            "Work Life Balance, Clarity of work, Research environment"
+          ],
+          "dislikes": [
+            "Salary could be more. nO MEDICAL INSURANCE AND MPAID MATERNITY/PATERNITY LEAVES FOR EMPLOYEES.",
+            "Disparity in salary according to experience. Lack of employee retention. Students selection worst. Low salary and more work load. Sudden unplanned late working hours.",
+            "far from my place but they provide bus facility"
+          ]
+        }
+      },
       "seats": null,
       "notices": []
     },

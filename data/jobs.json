@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T13:26:50.802Z",
+  "updatedAt": "2026-11-27T23:54:32.212Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 37
+      "count": 0
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 58
+      "count": 52
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,11 +19,11 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 20
     },
     "googleNews": {
       "ok": true,
-      "count": 413
+      "count": 356
     }
   },
   "jobs": [
@@ -1368,6 +1368,47 @@
     },
     {
       "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
+      "firstSeen": "2026-11-17",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -1434,47 +1475,6 @@
           ]
         }
       },
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "LinkedIn",
-      "title": "Consultant – Assistant Professor",
-      "org": "Public Health Career",
-      "url": "https://www.linkedin.com/jobs/view/4491159243",
-      "region": "Delhi",
-      "location": "Delhi, Delhi, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Delhi, Delhi, India",
-      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
-      "applyUrl": "https://www.phfi.org",
-      "applyEmail": "recruit@phfi.org",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 65,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Adjacent subject (operations)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "3fe51b104105",
-      "firstSeen": "2026-11-17",
-      "openings": null,
-      "institution": null,
       "seats": null,
       "notices": []
     },
@@ -2407,6 +2407,77 @@
       "notices": []
     },
     {
+      "source": "FacultyPlus",
+      "title": "Adjunct Faculty Recruitment NIT Kurukshetra, Haryana",
+      "org": "Adjunct Faculty Recruitment NIT Kurukshetra, Haryana",
+      "url": "https://www.facultyplus.com/adjunct-faculty-recruitment-nit-kurukshetra-haryana/",
+      "region": "Haryana",
+      "postedAt": "2026-11-06",
+      "lastDate": null,
+      "summary": "National Institute of Technology Kurukshetra in Haryana has invited Indian nationals with excellent academic and professional records to apply for engagement as Adjunct Faculty in 13 departments, under Advertisement No. 35/2026. This Adjunct Faculty Recruitment is a rolling advertisement with no fix",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 49,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": false,
+          "text": "Adjunct post: a step down from your permanent job"
+        }
+      ],
+      "id": "e9303617cf0e",
+      "firstSeen": "2026-11-15",
+      "openings": null,
+      "institution": {
+        "name": "NIT Kurukshetra",
+        "website": "https://nitkkr.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/national-institute-of-technology-kurukshetra-reviews",
+          "scope": "all staff",
+          "count": 25,
+          "overall": 2.6,
+          "culture": 2.6,
+          "workLife": 3.1,
+          "jobSecurity": 2.4,
+          "salary": 2.6,
+          "careerGrowth": 2.3,
+          "skillDevelopment": 2.8,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "Work Culture, Faculty co-operation is of top level",
+            "staff is very cooperative and supportive, facilities are good.",
+            "Not much of a headache working here but the R&D sector is not par with best research institutes like IITs."
+          ],
+          "dislikes": [
+            "Salary is not increased since 5 years",
+            "Food quality is not good in the hostel",
+            "Education system was poor"
+          ]
+        }
+      },
+      "seats": null,
+      "notices": []
+    },
+    {
       "source": "FreeJobAlert",
       "title": "SVSU: Skill Assistant Professor – 1 Posts",
       "org": "SVSU",
@@ -2483,77 +2554,6 @@
           "inApp": true
         }
       ]
-    },
-    {
-      "source": "FacultyPlus",
-      "title": "Adjunct Faculty Recruitment NIT Kurukshetra, Haryana",
-      "org": "Adjunct Faculty Recruitment NIT Kurukshetra, Haryana",
-      "url": "https://www.facultyplus.com/adjunct-faculty-recruitment-nit-kurukshetra-haryana/",
-      "region": "Haryana",
-      "postedAt": "2026-11-06",
-      "lastDate": null,
-      "summary": "National Institute of Technology Kurukshetra in Haryana has invited Indian nationals with excellent academic and professional records to apply for engagement as Adjunct Faculty in 13 departments, under Advertisement No. 35/2026. This Adjunct Faculty Recruitment is a rolling advertisement with no fix",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 49,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        },
-        {
-          "ok": false,
-          "text": "Adjunct post: a step down from your permanent job"
-        }
-      ],
-      "id": "e9303617cf0e",
-      "firstSeen": "2026-11-15",
-      "openings": null,
-      "institution": {
-        "name": "NIT Kurukshetra",
-        "website": "https://nitkkr.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/national-institute-of-technology-kurukshetra-reviews",
-          "scope": "all staff",
-          "count": 25,
-          "overall": 2.6,
-          "culture": 2.6,
-          "workLife": 3.1,
-          "jobSecurity": 2.4,
-          "salary": 2.6,
-          "careerGrowth": 2.3,
-          "skillDevelopment": 2.8,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Work Culture, Faculty co-operation is of top level",
-            "staff is very cooperative and supportive, facilities are good.",
-            "Not much of a headache working here but the R&D sector is not par with best research institutes like IITs."
-          ],
-          "dislikes": [
-            "Salary is not increased since 5 years",
-            "Food quality is not good in the hostel",
-            "Education system was poor"
-          ]
-        }
-      },
-      "seats": null,
-      "notices": []
     },
     {
       "source": "LinkedIn",

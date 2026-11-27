@@ -35,17 +35,6 @@
     "notices": [],
     "lastDate": null
   },
-  "ac015db2b9cc": {
-    "checkedAt": "2026-11-21T18:56:58.731Z",
-    "seats": null,
-    "notices": [
-      {
-        "url": "https://niftem.ac.in/storage/careers/openings/NUDzF9gUYTpsDtfoB1uAx4uigRvuotsBEg5dCN8v.pdf",
-        "inApp": true
-      }
-    ],
-    "lastDate": "2026-11-12"
-  },
   "0bda2505b75b": {
     "checkedAt": "2026-11-21T18:57:01.667Z",
     "seats": null,
@@ -462,6 +451,40 @@
     "checkedAt": "2026-11-27T02:37:37.108Z",
     "seats": null,
     "notices": [],
+    "lastDate": null
+  },
+  "0e3a6cbf365a": {
+    "checkedAt": "2026-11-27T13:26:35.806Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "ba05c1fbbe5e": {
+    "checkedAt": "2026-11-27T13:26:36.355Z",
+    "seats": null,
+    "notices": [],
+    "lastDate": null
+  },
+  "85303753ba0e": {
+    "checkedAt": "2026-11-27T13:26:36.356Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/scce_result.pdf",
+        "inApp": true
+      }
+    ],
+    "lastDate": null
+  },
+  "9e8abbfcf16d": {
+    "checkedAt": "2026-11-27T13:26:48.616Z",
+    "seats": null,
+    "notices": [
+      {
+        "url": "https://srcc.edu/sites/default/files/AbridgedStrategicPlan_DeploymentDocument.pdf",
+        "inApp": true
+      }
+    ],
     "lastDate": null
   }
 }

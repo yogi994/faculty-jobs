@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:37:38.479Z",
+  "updatedAt": "2026-11-27T13:26:50.802Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -7,11 +7,11 @@
     },
     "watchlist": {
       "ok": true,
-      "count": 0
+      "count": 37
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 54
+      "count": 58
     },
     "facultyFeeds": {
       "ok": true,
@@ -19,14 +19,92 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 19
+      "count": 18
     },
     "googleNews": {
       "ok": true,
-      "count": 432
+      "count": 413
     }
   },
   "jobs": [
+    {
+      "source": "FacultyPlus",
+      "title": "Faculty Recruitment 2026 at Somany Institute of Technology and Management, Rewari",
+      "org": "Faculty Recruitment 2026 at Somany Institute of Technology and Management, Rewari",
+      "url": "https://www.facultyplus.com/faculty-recruitment-2027-at-somany-institute-of-technology-and-management-rewari/",
+      "region": "Haryana",
+      "postedAt": "2026-11-27",
+      "lastDate": null,
+      "summary": "Somany Institute of Technology and Management, Rewari, Haryana has announced Faculty Recruitment 2026 for the posts of Assistant Professor in the Management Department (MBA/BBA), Librarian, Lab Technician in the CSE Department and Computer Operator. Interested candidates can apply by email or attend",
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 71,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "0e3a6cbf365a",
+      "firstSeen": "2026-11-27",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor – Healthcare Management",
+      "org": "Asia Pacific Institute Of Management",
+      "url": "https://www.linkedin.com/jobs/view/4495073347",
+      "region": "Delhi",
+      "location": "Delhi, India",
+      "postedAt": "2026-11-27",
+      "lastDate": null,
+      "summary": "Delhi, India",
+      "details": "Role Description We are seeking dynamic and motivated professionals for the position of Assistant Professor in Healthcare Management. The ideal candidate should have a strong academic background, a passion for teaching and research, and the ability to engage with industry-driven academic initiatives. The role involves delivering engaging lectures, mentoring students, contributing to research projects, developing curriculum, and fostering industry-academic collaborations. Educational Qualification: Master’s degree in the relevant field with a minimum of 60% marks. Ph.D. in the respective discipline is preferred. Experience: Minimum 2–3 years of experience in teaching, research, academia, or reputed industry. Key Responsibilities: Conduct research and publish in reputed Scopus-indexed, ABDC, WoS, PubMed, UGC CARE-listed, and peer-reviewed journals. Deliver engaging lectures, seminars, and interactive discussions. Guide and mentor students in their academic and career growth. Conduct research and contribute to industry projects. Assist in curriculum development and assessment strategies. Actively participate in MDPs, consultancy projects, research initiatives, seminars, webinars, and conferences. Build strong industry-academic collaborations to enhance learning experiences. Additional Note: Candidates with academic experience may also be considered for leadership roles within the institution. Candidates residing in Delhi NCR will be preferred. We are looking for dynamic professionals with a passion for academics, research, and industry engagement. If you have demonstrated leadership in academia or industry, we invite you to be a part of our institution!",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 79,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management / business: close to your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "ba05c1fbbe5e",
+      "firstSeen": "2026-11-27",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "LinkedIn",
       "title": "Assistant/Associate Professor (IT & Business Analytics)",
@@ -71,6 +149,110 @@
       "institution": null,
       "seats": null,
       "notices": []
+    },
+    {
+      "source": "Official site",
+      "title": "Notice Regarding Notice-Post of Assistant Professor (Performing Arts/ Performance Studies) in the School of Culture and Creative Expressions (SCCE)",
+      "org": "Ambedkar University Delhi",
+      "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/scce_result.pdf",
+      "region": "Delhi",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 72,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "85303753ba0e",
+      "firstSeen": "2026-11-27",
+      "openings": null,
+      "institution": {
+        "name": "Ambedkar University Delhi",
+        "website": "https://aud.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": null
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://aud.delhi.gov.in/sites/default/files/2026-11/scce_result.pdf",
+          "inApp": true
+        }
+      ]
+    },
+    {
+      "source": "Official site",
+      "title": "Notice-Screening of Applications for the post of Assistant Professor in the Department of Commerce",
+      "org": "SRCC",
+      "url": "https://www.srcc.edu/notice-screening-applications-post-assistant-professor-department-commerce-2",
+      "region": "Delhi",
+      "postedAt": null,
+      "lastDate": null,
+      "official": true,
+      "subjectMatch": true,
+      "preferred": true,
+      "matchScore": 94,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Commerce / finance / accounting: your teaching area"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": true,
+          "text": "Well-regarded institution"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "9e8abbfcf16d",
+      "firstSeen": "2026-11-27",
+      "openings": null,
+      "institution": {
+        "name": "Shri Ram College of Commerce",
+        "website": "https://www.srcc.edu",
+        "type": "Government",
+        "note": null,
+        "reviews": null
+      },
+      "seats": null,
+      "notices": [
+        {
+          "url": "https://srcc.edu/sites/default/files/AbridgedStrategicPlan_DeploymentDocument.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "FacultyPlus",
@@ -404,7 +586,7 @@
       "region": "Delhi",
       "postedAt": "2026-11-19",
       "lastDate": null,
-      "query": "\"assistant professor\" recruitment Gurugram OR Gurgaon OR Faridabad",
+      "query": "\"assistant professor\" recruitment Rajasthan",
       "subjectMatch": false,
       "preferred": false,
       "matchScore": 63,
@@ -1186,47 +1368,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Consultant – Assistant Professor",
-      "org": "Public Health Career",
-      "url": "https://www.linkedin.com/jobs/view/4491159243",
-      "region": "Delhi",
-      "location": "Delhi, Delhi, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Delhi, Delhi, India",
-      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
-      "applyUrl": "https://www.phfi.org",
-      "applyEmail": "recruit@phfi.org",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 65,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Adjacent subject (operations)"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Delhi NCR"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "3fe51b104105",
-      "firstSeen": "2026-11-17",
-      "openings": null,
-      "institution": null,
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -1293,6 +1434,47 @@
           ]
         }
       },
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Consultant – Assistant Professor",
+      "org": "Public Health Career",
+      "url": "https://www.linkedin.com/jobs/view/4491159243",
+      "region": "Delhi",
+      "location": "Delhi, Delhi, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Delhi, Delhi, India",
+      "details": "Position Code : PHFI-CNST-2692 Position Title : Consultant – Assistant Professor No. of Positions : 1 Location : Delhi/NCR Duration of Position : 1 year initially Brief On The Organization The Public Health Foundation of India (PHFI) is working towards building a healthier India. It is helping to address the limited institutional and systems capacity in India by strengthening education and training, advancing research and technology and facilitating policy and practice in the area of Public Health. PHFI is headquartered in New Delhi with national presence through its constituent units of regional Indian Institutes of Public Health (IIPHs) and Centers of Applied Research in core public health themes. The Foundation, established in 2006 as a public private initiative, is governed by an independent board comprising of senior government officials, eminent Indian and International academic and leaders, civil society representatives and corporate leaders. For more information, please visit the website www.phfi.org . About Institute The Indian Institute of Public Health-Delhi (IIPH-Delhi) is a joint initiative of Government of NCT of Delhi and Public Health Foundation of India. IIPH-Delhi commenced its operations in November 2008 with the launch of the Post Graduate Diploma in Health Economics, Health Care Financing and Health Policy Program targeted at mid-career health professionals. Since then, IIPH-Delhi has expanded its activities and offers on campus programs, eLearning programs and short-term training programs; conducts policy relevant public health research; and undertakes advocacy in public health. IIPH-Delhi is a vibrant hub of public health education, training, research, practice and advocacy in Delhi-NCR. It is currently housed within PHFI headquarters in Gurugram. PHFI is expanding pool faculty to join the Indian Institute of Public Health Delhi. Therefore, inviting applications from candidates who are exceptionally bright, motivated and committed towards a dedicated teaching career in public health. Responsibilities Some of the key area of responsibilities would be teaching, training, research, mentoring postgraduate and PhD students and contribute in institutional development and will include mainly, the following: Academics Lead and undertake teaching for on-campus and eLearning programs. Assess and monitor student performance across modules for on-campus and eLearning programs. Mentor students and guide student dissertations and internship activi",
+      "applyUrl": "https://www.phfi.org",
+      "applyEmail": "recruit@phfi.org",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 65,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Adjacent subject (operations)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "3fe51b104105",
+      "firstSeen": "2026-11-17",
+      "openings": null,
+      "institution": null,
       "seats": null,
       "notices": []
     },

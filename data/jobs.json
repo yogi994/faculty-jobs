@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:03:55.656Z",
+  "updatedAt": "2026-11-27T02:37:38.479Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -11,7 +11,7 @@
     },
     "freeJobAlert": {
       "ok": true,
-      "count": 57
+      "count": 54
     },
     "facultyFeeds": {
       "ok": true,
@@ -23,10 +23,55 @@
     },
     "googleNews": {
       "ok": true,
-      "count": 364
+      "count": 432
     }
   },
   "jobs": [
+    {
+      "source": "LinkedIn",
+      "title": "Assistant/Associate Professor (IT & Business Analytics)",
+      "org": "I.T.S School of Management, Mohan Nagar, Ghaziabad",
+      "url": "https://www.linkedin.com/jobs/view/4495066275",
+      "region": "UP-NCR",
+      "location": "Ghaziabad, Uttar Pradesh, India",
+      "postedAt": "2026-11-27",
+      "lastDate": null,
+      "summary": "Ghaziabad, Uttar Pradesh, India",
+      "details": "",
+      "applyUrl": null,
+      "applyEmail": null,
+      "subjectMatch": true,
+      "preferred": false,
+      "matchScore": 69,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Management area (business analytics): partly your field"
+        },
+        {
+          "ok": true,
+          "text": "Assistant or Associate: you fit the Assistant level"
+        },
+        {
+          "ok": true,
+          "text": "Delhi NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        },
+        {
+          "ok": null,
+          "text": "Scored from the title only"
+        }
+      ],
+      "id": "e42f7db1caf1",
+      "firstSeen": "2026-11-27",
+      "openings": null,
+      "institution": null,
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "FacultyPlus",
       "title": "Faculty Jobs 2026 at Fairfield Institute of Management &#038; Technology, Bijwasan, New Delhi",
@@ -74,9 +119,9 @@
       "postedAt": "2026-11-26",
       "lastDate": null,
       "summary": "Gurugram, Haryana, India",
-      "details": "",
+      "details": "Desired Candidate Profile: Job Title: Assistant Professor - HR Department: Management Position Overview: The Assistant Professor will be integral in teaching, research, and service within the department. The role encompasses delivering educational content, conducting pertinent research, and providing service to the department. Specialization: IR and Labour law Leadership Influence and Power Organization design & workforce planning Strategic Management Key Responsibilities: Teaching: Instruct in the areas of Management at various academic levels. Create and maintain course materials and curricula. Evaluate students’ assignments and performance. Research: Perform research in Management, targeting publication in acclaimed journals. Seek external funding to facilitate research activities. Mentorship: Provide academic and career mentorship to students. Oversee student projects and research efforts. Service: Engage in departmental and university service, including committee participation. Community and Industry Engagement. Partner with industry and community stakeholders to foster collaborative initiatives. Minimum Qualifications: Ph.D. in Management or a related field. Demonstrable ability or potential for research and teaching excellence. Effective communication and interpersonal skills. Preferred Qualifications: A track record of publications in academic journals. Experience in securing research funding. Relevant industry experience. Interested Candidates can visit our website and they can send the resume on this mail id: Website - K. R. Mangalam University Email ID - krmujobs@krmangalam.edu.in",
       "applyUrl": null,
-      "applyEmail": null,
+      "applyEmail": "krmujobs@krmangalam.edu.in",
       "subjectMatch": true,
       "preferred": false,
       "matchScore": 77,
@@ -96,10 +141,6 @@
         {
           "ok": null,
           "text": "Private institution: check the pay beats your current salary"
-        },
-        {
-          "ok": null,
-          "text": "Scored from the title only"
         }
       ],
       "id": "8e64f83565c3",
@@ -1825,72 +1866,12 @@
       "notices": []
     },
     {
-      "source": "FreeJobAlert",
-      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
-      "org": "IIIT Sonepat",
-      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
-      "region": "Haryana",
-      "sourceState": "haryana",
-      "postedAt": "2026-11-21",
-      "lastDate": "2026-12-05",
-      "qualification": "M.Phil/Ph.D",
-      "advtNo": "IIITS/Estt./Rect./2026/04",
-      "subjectMatch": false,
-      "preferred": true,
-      "matchScore": 64,
-      "matchReasons": [
-        {
-          "ok": null,
-          "text": "Subject not stated: check the ad"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": null,
-          "text": "Haryana, outside core NCR"
-        },
-        {
-          "ok": true,
-          "text": "Government institution: UGC pay scale"
-        }
-      ],
-      "id": "18683ae54f79",
-      "firstSeen": "2026-11-15",
-      "openings": 7,
-      "institution": {
-        "name": "IIIT Sonepat",
-        "website": "https://iiitsonepat.ac.in",
-        "type": "Government",
-        "note": null,
-        "reviews": null
-      },
-      "seats": {
-        "subjects": [],
-        "totals": {
-          "UR": 4,
-          "SC": 2,
-          "ST": 1,
-          "OBC": 0,
-          "EWS": 0
-        },
-        "ocr": false
-      },
-      "notices": [
-        {
-          "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
-          "inApp": true
-        }
-      ]
-    },
-    {
       "source": "Google News",
-      "title": "DTU (Delhi) Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
+      "title": "DTU Assistant Professor Recruitment 2026, Notification Out For 219 Posts, Apply Link",
       "org": "Adda247",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2w0Z2FaT0lnTE50Y3VUQTV5TFY4djFMWHlqalRDSDQ4V2REaEx0RzlzWks1RnkxNUlzRURETjJzVnVuN0pHQ3RndVZkSDZLRk52aEs1bVV3aTltUnVaNEU2Mm9OdGVUbzd6RkF1SkRSYnFPeUc0V0szbVBzcUpnMnUzTUYtRmx4c2FkYWVyLWM4MlNk?oc=5",
       "region": "Delhi",
-      "postedAt": "2026-11-20",
+      "postedAt": "2026-11-25",
       "lastDate": null,
       "query": "\"assistant professor\" management recruitment Delhi",
       "subjectMatch": false,
@@ -1949,6 +1930,66 @@
       },
       "seats": null,
       "notices": []
+    },
+    {
+      "source": "FreeJobAlert",
+      "title": "IIIT Sonepat: Associate Professor, Assistant Professor – 7 Posts",
+      "org": "IIIT Sonepat",
+      "url": "https://www.freejobalert.com/articles/iiit-sonepat-recruitment-2026-apply-online-for-7-associate-professor-and-assistant-professor-posts-3075257",
+      "region": "Haryana",
+      "sourceState": "haryana",
+      "postedAt": "2026-11-21",
+      "lastDate": "2026-12-05",
+      "qualification": "M.Phil/Ph.D",
+      "advtNo": "IIITS/Estt./Rect./2026/04",
+      "subjectMatch": false,
+      "preferred": true,
+      "matchScore": 64,
+      "matchReasons": [
+        {
+          "ok": null,
+          "text": "Subject not stated: check the ad"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": null,
+          "text": "Haryana, outside core NCR"
+        },
+        {
+          "ok": true,
+          "text": "Government institution: UGC pay scale"
+        }
+      ],
+      "id": "18683ae54f79",
+      "firstSeen": "2026-11-15",
+      "openings": 7,
+      "institution": {
+        "name": "IIIT Sonepat",
+        "website": "https://iiitsonepat.ac.in",
+        "type": "Government",
+        "note": null,
+        "reviews": null
+      },
+      "seats": {
+        "subjects": [],
+        "totals": {
+          "UR": 4,
+          "SC": 2,
+          "ST": 1,
+          "OBC": 0,
+          "EWS": 0
+        },
+        "ocr": false
+      },
+      "notices": [
+        {
+          "url": "https://iiitsonepat.ac.in/uploads/bfcd1036a2ce66443c61ebd557d9a0ea.pdf",
+          "inApp": true
+        }
+      ]
     },
     {
       "source": "FacultyPlus",

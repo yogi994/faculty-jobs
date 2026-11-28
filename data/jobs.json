@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T05:55:17.263Z",
+  "updatedAt": "2026-11-28T16:35:52.195Z",
   "sourceStatus": {
     "delhiUniversity": {
       "ok": false,
@@ -19,14 +19,85 @@
     },
     "linkedin": {
       "ok": true,
-      "count": 18
+      "count": 20
     },
     "googleNews": {
       "ok": true,
-      "count": 364
+      "count": 317
     }
   },
   "jobs": [
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "Faculty Of Computer Science And Applications VGU Jaipur",
+      "url": "https://www.linkedin.com/jobs/view/4496014985",
+      "region": "Rajasthan",
+      "location": "Jaipur, Rajasthan, India",
+      "postedAt": "2026-11-28",
+      "lastDate": null,
+      "summary": "Jaipur, Rajasthan, India",
+      "details": "Department Design Location Jaipur Experience 3-5 Years Type Full Time Job Description Assistant Professor, AVGC-XR (1 post) Purpose: Teach Animation, Visual Effects, Gaming, Comics and Extended Reality (AVGC-XR) through production-based learning. Key responsibilities Teach courses in 2D/3D animation, VFX, game design, comics and AR/VR/MR, according to specialisation. Guide student productions from pre-production to final output and showreel. Help set up and manage animation, game and XR labs, software and equipment. Bring in studio projects, internships and industry mentors. Contribute to curriculum updates, research and creative output. Prepare lesson plans, learning resources and assessment rubrics. Prepare students for festivals, game jams and competitions. Organise master classes, screenings and studio visits. Take charge of assigned university or department cells. Support admissions, outreach, placements and accreditation evidence. Software knowledge : Maya or Blender; Unity or Unreal Engine; After Effects, Nuke or equivalent; Toon Boom or equivalent; Adobe Creative Cloud; university ERP, LMS and office software. Apply Now Assistant Professor Design Apply for This Position → 🔍 Check Application Status 📍 Jaipur, Rajasthan ✉ careers@vgu.ac.in 📞 1800 3131 415 ← All Openings",
+      "applyUrl": null,
+      "applyEmail": "careers@vgu.ac.in",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 30,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (design)"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": false,
+          "text": "Rajasthan: you want to move to NCR"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "025757124094",
+      "firstSeen": "2026-11-28",
+      "openings": 1,
+      "institution": {
+        "name": "Vivekananda Global University",
+        "website": "https://www.vgu.ac.in",
+        "type": "Private",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/vivekananda-global-university-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 25,
+          "overall": 2.9,
+          "culture": 2.5,
+          "workLife": 3.1,
+          "jobSecurity": 2.6,
+          "salary": 3.2,
+          "careerGrowth": 2.8,
+          "skillDevelopment": 2.8,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "Students from all cultural and religious background",
+            "I like in VGU stuff are very supportive",
+            "I learn many things to do work such as university."
+          ],
+          "dislikes": [
+            "Because of the poor leadership",
+            "Work environment is bad, very poor infrastructure, poor management, to much of work load (personally i did 26 hrs a weak, which is way above ugc norms).",
+            "Their management behaviour some time is not good."
+          ]
+        }
+      },
+      "seats": null,
+      "notices": []
+    },
     {
       "source": "FacultyPlus",
       "title": "Faculty Recruitment 2026 at Somany Institute of Technology and Management, Rewari",
@@ -1297,77 +1368,6 @@
     },
     {
       "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "The NorthCap University",
-      "url": "https://www.linkedin.com/jobs/view/4490994775",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
-      "postedAt": "2026-11-17",
-      "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 26, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
-      "applyUrl": null,
-      "applyEmail": "career@ncuindia.edu",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 87,
-      "matchReasons": [
-        {
-          "ok": true,
-          "text": "Ad asks for commerce / finance / accounting"
-        },
-        {
-          "ok": true,
-          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "13789a99a98e",
-      "firstSeen": "2026-11-17",
-      "openings": null,
-      "institution": {
-        "name": "The NorthCap University",
-        "website": "https://www.ncuindia.edu",
-        "type": "Private",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/the-northcap-university-reviews/assistant-professor",
-          "scope": "Assistant Professors",
-          "count": 9,
-          "overall": 2.4,
-          "culture": 2.4,
-          "workLife": 3.2,
-          "jobSecurity": 3.1,
-          "salary": 2.9,
-          "careerGrowth": 2.2,
-          "skillDevelopment": 3.2,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Flexible timings are really relaxing",
-            "You will always busy with a lot of urgent basis work. There is no job security if you are serving for last 3 or 4 years too. They are always searching who can ask less money and replace you.",
-            "You can always be replaced."
-          ],
-          "dislikes": [
-            "unsupportive hr department- they literally dont care-keep making useless rules everyday to make employees life hell",
-            "In the past few five years traffic conditions have become horrible so it becomes difficult when commuting during monsoon.",
-            "Work culture is not so good"
-          ]
-        }
-      },
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "LinkedIn",
       "title": "Assistant Professor / Associate Professor – Data Mining & Big Data",
       "org": "Rishihood University",
       "url": "https://www.linkedin.com/jobs/view/4491541828",
@@ -1475,6 +1475,77 @@
       "firstSeen": "2026-11-17",
       "openings": null,
       "institution": null,
+      "seats": null,
+      "notices": []
+    },
+    {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4490994775",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-17",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Assistant Professors at the Department of Management & Commerce (DMAC), The NorthCap University Job Title: Assistant Professor (Specializations: HR & OB, General Management, and Economics) Minimum Eligibility and Qualifications Master’s degree with minimum 55% or equivalent NET / SET in relevant discipline. Desirable Qualifications Academic Qualification: PhD awarded or nearing completion in a relevant discipline, preferably from a premier institution. Relevant Experience: Demonstrated experience in teaching, industry, and/or research. Professional Certifications: Relevant professional certifications that complement academic qualifications and domain expertise. Domain Expertise: Strong subject-matter expertise, with a focus on contemporary practices, emerging trends, and continuous upskilling. Research & Publications: Proven track record of quality research publications in reputed peer-reviewed journals. Additional Information: Candidates eligible for the positions of Associate Professor and Professor, as per applicable UGC Regulations, are also encouraged to apply . How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – DMAC (Specialization) {example: Application for Assistant Professor - DMAC (HR&OB)} Last date to apply: November 26, 2026 . Interviews: Shortlisted candidates will be invited for interviews in November - December 2026 .",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 87,
+      "matchReasons": [
+        {
+          "ok": true,
+          "text": "Ad asks for commerce / finance / accounting"
+        },
+        {
+          "ok": true,
+          "text": "Assistant Professor: matches your level (PhD + NET-JRF)"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "13789a99a98e",
+      "firstSeen": "2026-11-17",
+      "openings": null,
+      "institution": {
+        "name": "The NorthCap University",
+        "website": "https://www.ncuindia.edu",
+        "type": "Private",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/the-northcap-university-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 9,
+          "overall": 2.4,
+          "culture": 2.4,
+          "workLife": 3.2,
+          "jobSecurity": 3.1,
+          "salary": 2.9,
+          "careerGrowth": 2.2,
+          "skillDevelopment": 3.2,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "Flexible timings are really relaxing",
+            "You will always busy with a lot of urgent basis work. There is no job security if you are serving for last 3 or 4 years too. They are always searching who can ask less money and replace you.",
+            "You can always be replaced."
+          ],
+          "dislikes": [
+            "unsupportive hr department- they literally dont care-keep making useless rules everyday to make employees life hell",
+            "In the past few five years traffic conditions have become horrible so it becomes difficult when commuting during monsoon.",
+            "Work culture is not so good"
+          ]
+        }
+      },
       "seats": null,
       "notices": []
     },
@@ -1692,6 +1763,77 @@
       "notices": []
     },
     {
+      "source": "LinkedIn",
+      "title": "Assistant Professor",
+      "org": "The NorthCap University",
+      "url": "https://www.linkedin.com/jobs/view/4491292512",
+      "region": "Haryana",
+      "location": "Gurugram, Haryana, India",
+      "postedAt": "2026-11-16",
+      "lastDate": null,
+      "summary": "Gurugram, Haryana, India",
+      "details": "We’re Hiring for Teaching Posts | Department of Computer Science & Engineering, SOET, The NorthCap University Open Positions: Assistant Professor Specialization Areas: AI and ML, Data Science, Cybersecurity and Quantum Computing Minimum Eligibility, Qualifications and Experience Assistant Professor Bachelors and Masters OR integrated M. Tech. in relevant branch with first class or equivalent OR B. Tech. and PhD in relevant Branch. NET / SET (Exempted for PhD Candidates) Preference will be given to candidates with minimum five years of relevant experience - Teaching, Research, and/or Industry PhD candidates will be preferred. How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – CSE Last date to apply: November 22, 2026 Guest Faculty Opportunities Experienced industry practitioners (minimum 6 years experience) and academic professionals with strong academic credentials who are interested in contributing as Guest Faculty are encouraged to apply. Interested candidates may submit their updated CV to career@ncuindia.edu with the subject line: Application for Guest Faculty – CSE . About Us The NorthCap University (NCU), Gurugram, established under the Haryana Private University Act and recognized by the University Grants Commission and accorded 12 (B) status, is a self-reliant, multi-disciplinary, digital-first university committed to academic excellence and innovation. It is recognised by the Bar Council of India (BCI) and is a Member of the Association of Indian Universities (AIU), and the American Society for Quality (ASQ). Graded ‘A’ by NAAC and conferred the prestigious QS 5-Star Rating (2025), NCU offers undergraduate, postgraduate, and doctoral programmes across Engineering, Management, Applied Sciences, Law, and Liberal Studies. Located in Gurugram, the University supports a vibrant academic ecosystem, strong industry linkages, and a culture that values research, entrepreneurship, and learner-centric education.",
+      "applyUrl": null,
+      "applyEmail": "career@ncuindia.edu",
+      "subjectMatch": false,
+      "preferred": false,
+      "matchScore": 39,
+      "matchReasons": [
+        {
+          "ok": false,
+          "text": "Ad is for another subject (computer)"
+        },
+        {
+          "ok": false,
+          "text": "Asks for 6+ years' experience; you have under 3"
+        },
+        {
+          "ok": true,
+          "text": "Gurugram: your first choice"
+        },
+        {
+          "ok": null,
+          "text": "Private institution: check the pay beats your current salary"
+        }
+      ],
+      "id": "fb827325d8f2",
+      "firstSeen": "2026-11-16",
+      "openings": null,
+      "institution": {
+        "name": "The NorthCap University",
+        "website": "https://www.ncuindia.edu",
+        "type": "Private",
+        "note": null,
+        "reviews": {
+          "source": "AmbitionBox",
+          "url": "https://www.ambitionbox.com/reviews/the-northcap-university-reviews/assistant-professor",
+          "scope": "Assistant Professors",
+          "count": 9,
+          "overall": 2.4,
+          "culture": 2.4,
+          "workLife": 3.2,
+          "jobSecurity": 3.1,
+          "salary": 2.9,
+          "careerGrowth": 2.2,
+          "skillDevelopment": 3.2,
+          "praised": [],
+          "criticised": [],
+          "likes": [
+            "Flexible timings are really relaxing",
+            "You will always busy with a lot of urgent basis work. There is no job security if you are serving for last 3 or 4 years too. They are always searching who can ask less money and replace you.",
+            "You can always be replaced."
+          ],
+          "dislikes": [
+            "unsupportive hr department- they literally dont care-keep making useless rules everyday to make employees life hell",
+            "In the past few five years traffic conditions have become horrible so it becomes difficult when commuting during monsoon.",
+            "Work culture is not so good"
+          ]
+        }
+      },
+      "seats": null,
+      "notices": []
+    },
+    {
       "source": "Google News",
       "title": "IIT Delhi Faculty Recruitment 2026 – Apply Online for 2 Associate Professor, Professor Posts",
       "org": "FreeJobAlert.Com",
@@ -1827,77 +1969,6 @@
             "poorest top management - nano level",
             "I dislike who is doing wrong work, who is doing their work not sincerely. In my work",
             "As an academic I have no dislikes. Yes, we have to take responsibility of student development and that can, at times, eat into your private time."
-          ]
-        }
-      },
-      "seats": null,
-      "notices": []
-    },
-    {
-      "source": "LinkedIn",
-      "title": "Assistant Professor",
-      "org": "The NorthCap University",
-      "url": "https://www.linkedin.com/jobs/view/4491292512",
-      "region": "Haryana",
-      "location": "Gurugram, Haryana, India",
-      "postedAt": "2026-11-16",
-      "lastDate": null,
-      "summary": "Gurugram, Haryana, India",
-      "details": "We’re Hiring for Teaching Posts | Department of Computer Science & Engineering, SOET, The NorthCap University Open Positions: Assistant Professor Specialization Areas: AI and ML, Data Science, Cybersecurity and Quantum Computing Minimum Eligibility, Qualifications and Experience Assistant Professor Bachelors and Masters OR integrated M. Tech. in relevant branch with first class or equivalent OR B. Tech. and PhD in relevant Branch. NET / SET (Exempted for PhD Candidates) Preference will be given to candidates with minimum five years of relevant experience - Teaching, Research, and/or Industry PhD candidates will be preferred. How to Apply & Important Dates Interested candidates may apply by emailing their updated CV to career@ncuindia.edu with the subject line: Application for Assistant Professor – CSE Last date to apply: November 22, 2026 Guest Faculty Opportunities Experienced industry practitioners (minimum 6 years experience) and academic professionals with strong academic credentials who are interested in contributing as Guest Faculty are encouraged to apply. Interested candidates may submit their updated CV to career@ncuindia.edu with the subject line: Application for Guest Faculty – CSE . About Us The NorthCap University (NCU), Gurugram, established under the Haryana Private University Act and recognized by the University Grants Commission and accorded 12 (B) status, is a self-reliant, multi-disciplinary, digital-first university committed to academic excellence and innovation. It is recognised by the Bar Council of India (BCI) and is a Member of the Association of Indian Universities (AIU), and the American Society for Quality (ASQ). Graded ‘A’ by NAAC and conferred the prestigious QS 5-Star Rating (2025), NCU offers undergraduate, postgraduate, and doctoral programmes across Engineering, Management, Applied Sciences, Law, and Liberal Studies. Located in Gurugram, the University supports a vibrant academic ecosystem, strong industry linkages, and a culture that values research, entrepreneurship, and learner-centric education.",
-      "applyUrl": null,
-      "applyEmail": "career@ncuindia.edu",
-      "subjectMatch": false,
-      "preferred": false,
-      "matchScore": 39,
-      "matchReasons": [
-        {
-          "ok": false,
-          "text": "Ad is for another subject (computer)"
-        },
-        {
-          "ok": false,
-          "text": "Asks for 6+ years' experience; you have under 3"
-        },
-        {
-          "ok": true,
-          "text": "Gurugram: your first choice"
-        },
-        {
-          "ok": null,
-          "text": "Private institution: check the pay beats your current salary"
-        }
-      ],
-      "id": "fb827325d8f2",
-      "firstSeen": "2026-11-16",
-      "openings": null,
-      "institution": {
-        "name": "The NorthCap University",
-        "website": "https://www.ncuindia.edu",
-        "type": "Private",
-        "note": null,
-        "reviews": {
-          "source": "AmbitionBox",
-          "url": "https://www.ambitionbox.com/reviews/the-northcap-university-reviews/assistant-professor",
-          "scope": "Assistant Professors",
-          "count": 9,
-          "overall": 2.4,
-          "culture": 2.4,
-          "workLife": 3.2,
-          "jobSecurity": 3.1,
-          "salary": 2.9,
-          "careerGrowth": 2.2,
-          "skillDevelopment": 3.2,
-          "praised": [],
-          "criticised": [],
-          "likes": [
-            "Flexible timings are really relaxing",
-            "You will always busy with a lot of urgent basis work. There is no job security if you are serving for last 3 or 4 years too. They are always searching who can ask less money and replace you.",
-            "You can always be replaced."
-          ],
-          "dislikes": [
-            "unsupportive hr department- they literally dont care-keep making useless rules everyday to make employees life hell",
-            "In the past few five years traffic conditions have become horrible so it becomes difficult when commuting during monsoon.",
-            "Work culture is not so good"
           ]
         }
       },
